@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="../../style.css">
+	<link rel="stylesheet" href="./style/style.css">
+	<link rel="icon" href="../../img/main__img/logo.png">
+	<title>monobank</title>
+</head>
+<body>
+	<div class="cursor outer"></div>
+	<div class="cursor inner"></div>
+	<div class="wrap__card">
+		<div class="card-container">
+			<div class="front">
+				<div class="logo">
+					<p class="logo__text">monobank</p>
+					<div class="line"></div>
+					<p class="logo__universal">Universal Bank</p>
+				</div>
+				<div class="card-number-box" id="card-number-box">################</div>
+				<div class="flexbox">
+					<div class="box">
+						<span>login</span>
+						<div class="card-holder-name" id="cardholder">full name</div>
+					</div>
+					<div class="box">
+						<span>expires</span>
+						<div class="expires">
+							<span id="expMmonth" class="exp-month">mm</span>
+							<span id="expYear" class="exp-year">yy</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="back">
+				<div class="stripe"></div>
+				<div class="box">
+						<span class="cvv__text">cvv</span>
+				</div>
+			</div>
+		</div>
+		<form action="">
+			<div class="inputBox">
+				<span id="card__titel">Login</span>
+				<input type="text" maxlength="35" class="card-number-input" id="login">
+			</div>
+	
+				<div class="inputBox">
+					<span id="login__titel">Password</span>
+					<input type="text" maxlength="35" class="card-holder-input" id="password">
+				</div>
+			
+	
+			<div class="sumbit-btn">Smbit</div>
+		</form>
+	</div>
+
+
+
+
+
+
+<!-- Scripts -->
+
+<script src="../../script.js"></script>
+<script src="./script/script.js"></script>
+</body>
+</html>

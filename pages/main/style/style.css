@@ -1,0 +1,2181 @@
+body {
+  max-width: 100%;
+  max-height: 100vh;
+  overflow: hidden; }
+
+.wrap__main {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(261.27deg, #AC898D 22.7%, #907C95 45.25%, #6E699F 95.56%);
+  overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 1s;
+  z-index: 999;
+  overflow: hidden; }
+  .wrap__main .main__header {
+    width: 100%;
+    height: 40vh; }
+    .wrap__main .main__header .header__top {
+      width: 100%;
+      height: 10%;
+      display: flex;
+      justify-content: center;
+      padding-top: 15px;
+      padding-left: 40px;
+      padding-right: 40px; }
+      .wrap__main .main__header .header__top .header__box {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        cursor: pointer; }
+        .wrap__main .main__header .header__top .header__box .card__center {
+          width: 50px;
+          height: 50px;
+          background: rgba(147, 121, 134, 0.5);
+          border: 1px solid #BFAEB6;
+          backdrop-filter: blur(5.5px);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%; }
+          .wrap__main .main__header .header__top .header__box .card__center .card__bg {
+            width: 30px;
+            height: 30px; }
+        .wrap__main .main__header .header__top .header__box .card__top {
+          width: 40px;
+          height: 12px;
+          margin-top: 10px; }
+    .wrap__main .main__header .header__bottom {
+      width: 100%;
+      height: 90%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 40px;
+      padding-bottom: 2%; }
+      .wrap__main .main__header .header__bottom .text__box {
+        width: auto;
+        height: auto; }
+        .wrap__main .main__header .header__bottom .text__box .text__money {
+          font-family: 'Comfortaa';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 96px;
+          letter-spacing: 0.08em;
+          color: #FFFFFF;
+          -webkit-user-select: none;
+          -ms-user-select: none;
+          user-select: none; }
+        .wrap__main .main__header .header__bottom .text__box .money__description {
+          font-family: 'Comfortaa';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 36px;
+          letter-spacing: 0.21em;
+          color: #CDCDCD;
+          margin-top: 10px;
+          -webkit-user-select: none;
+          -ms-user-select: none;
+          user-select: none; }
+      .wrap__main .main__header .header__bottom .card-container {
+        width: 420px;
+        height: 230px;
+        position: relative;
+        left: 15%; }
+        .wrap__main .main__header .header__bottom .card-container .front {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          top: 0;
+          left: 0;
+          background: linear-gradient(70.62deg, #111111 0%, #1F1F1F 53.12%, #272727 100%);
+          border-radius: 5px;
+          backface-visibility: hidden;
+          padding-left: 20px;
+          padding-bottom: 12px;
+          padding-top: 10px;
+          padding-right: 20px;
+          transform: perspective(1000px) rotateY(0deg);
+          transition: transform .4s ease-out; }
+          .wrap__main .main__header .header__bottom .card-container .front .logo {
+            display: flex;
+            align-items: center;
+            padding-top: 10px; }
+            .wrap__main .main__header .header__bottom .card-container .front .logo .logo__text {
+              font-family: 'Poppins';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 24px;
+              color: #FFFFFF; }
+            .wrap__main .main__header .header__bottom .card-container .front .logo .line {
+              width: 2px;
+              height: 30px;
+              background: #C2C2C2;
+              margin-left: 10px;
+              margin-right: 10px; }
+            .wrap__main .main__header .header__bottom .card-container .front .logo .logo__universal {
+              font-family: "" Poppins "";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 24px;
+              color: #C2C2C2; }
+          .wrap__main .main__header .header__bottom .card-container .front .card-number-box {
+            padding: 30px 0;
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            letter-spacing: 0.08em;
+            color: #FFFFFF; }
+          .wrap__main .main__header .header__bottom .card-container .front .flexbox {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 15px; }
+            .wrap__main .main__header .header__bottom .card-container .front .flexbox .box {
+              font-family: 'Comfortaa';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 22px;
+              color: #FFFFFF; }
+        .wrap__main .main__header .header__bottom .card-container .back {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          top: 0;
+          left: 0;
+          background: linear-gradient(250.23deg, #111111 2.77%, #1F1F1F 53.5%, #272727 98.27%);
+          border-radius: 5px;
+          backface-visibility: hidden;
+          padding-bottom: 12px;
+          padding-top: 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          transform: perspective(1000px) rotateY(180deg);
+          transition: transform .4s ease-out; }
+          .wrap__main .main__header .header__bottom .card-container .back .stripe {
+            width: 100%;
+            margin-top: 30px;
+            height: 46px;
+            background: #292933; }
+          .wrap__main .main__header .header__bottom .card-container .back .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 120px;
+            height: 52px;
+            background: #292933;
+            border-radius: 3px;
+            margin-top: 50px;
+            margin-right: 20px; }
+            .wrap__main .main__header .header__bottom .card-container .back .box .cvv__img {
+              width: 35px;
+              height: 30px;
+              margin-right: 10px; }
+            .wrap__main .main__header .header__bottom .card-container .back .box .cvv__text {
+              font-family: 'Comfortaa';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 22px;
+              letter-spacing: 0.08em;
+              color: #FFFFFF;
+              margin-left: 10px; }
+  .wrap__main .main__info {
+    width: 100%;
+    height: 46vh;
+    background: #272727;
+    border-radius: 35px 35px 0px 0px; }
+    .wrap__main .main__info .info__header {
+      width: 100%;
+      height: 25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 20px;
+      padding-left: 40px;
+      padding-right: 40px; }
+      .wrap__main .main__info .info__header .info__titel {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        letter-spacing: 0.08em;
+        color: #FFFFFF;
+        position: absolute; }
+      .wrap__main .main__info .info__header .search__box {
+        width: 60px;
+        height: 60px;
+        background: #323232;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 90%; }
+        .wrap__main .main__info .info__header .search__box .search__img {
+          width: 30px;
+          height: 30px; }
+    .wrap__main .main__info .info__contant {
+      width: 100%;
+      height: 75%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-left: 40px;
+      padding-right: 40px; }
+      .wrap__main .main__info .info__contant .info__list-container {
+        width: 100%;
+        height: 109px;
+        background: #413D3C;
+        border-radius: 7px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        align-items: center;
+        z-index: 6; }
+        .wrap__main .main__info .info__contant .info__list-container .list__box {
+          width: 60px;
+          height: 60px;
+          background: #5F5856;
+          border: 1px solid #635A55;
+          backdrop-filter: blur(5.5px);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+          .wrap__main .main__info .info__contant .info__list-container .list__box .list__img {
+            width: 35px;
+            height: 35px;
+            position: relative;
+            left: 3px; }
+        .wrap__main .main__info .info__contant .info__list-container .list__text-box {
+          margin-left: 20px;
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 500;
+          letter-spacing: 0.08em;
+          color: #FFFFFF; }
+          .wrap__main .main__info .info__contant .info__list-container .list__text-box .list__titel {
+            font-size: 20px; }
+          .wrap__main .main__info .info__contant .info__list-container .list__text-box .list__description {
+            font-size: 18px;
+            color: #c6c6c6; }
+      .wrap__main .main__info .info__contant .info__list-beffore {
+        width: 95%;
+        height: 15%;
+        background: #313030;
+        border-radius: 9px;
+        z-index: 3;
+        position: relative;
+        bottom: 17px;
+        filter: blur(2px); }
+  .wrap__main .main__line {
+    width: 100%;
+    height: 2vh;
+    background: #2E8ABB; }
+  .wrap__main .main__taskbar {
+    width: 100%;
+    height: 12vh;
+    background: #272727;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px; }
+    .wrap__main .main__taskbar .taskbar__box {
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer; }
+      .wrap__main .main__taskbar .taskbar__box .taskbar__img {
+        width: 35px;
+        height: 35px;
+        background-size: cover; }
+      .wrap__main .main__taskbar .taskbar__box .card__taskbar__img {
+        background-image: url(../../main__img/card__hover.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .card__taskbar__img-hover {
+        background-image: url(../../main__img/card__hover.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .credit__taskbar__img {
+        background-image: url(../../main__img/credit.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .credit__taskbar__img-hover {
+        background-image: url(../../main__img/credit__hover.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .transfers__taskbar__img {
+        background-image: url(../../main__img/transfer.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .transfers__taskbar__img-hover {
+        background-image: url(../../main__img/transfer__hover.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .gift__img {
+        background-image: url(../../main__img/gift.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .gift__img-hover {
+        background-image: url(../../main__img/gift__hover.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .more__img {
+        background-image: url(../../main__img/more.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .more__img-hover {
+        background-image: url(../../main__img/more__hover.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .taskbar__titiel {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 0.08em;
+        color: #A9A9A9;
+        margin-top: 5px;
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .card__taskbar__text {
+        color: #FB5256; }
+
+.wrap__main__card {
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+  position: absolute;
+  left: 100%;
+  top: 0%;
+  transition: .3s;
+  overflow: hidden; }
+
+.wrap__main__card__active {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transition: .3s;
+  animation-name: swipe;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  overflow: hidden;
+  background: linear-gradient(261.27deg, #BD8D69 22.7%, #B0795C 58.37%, #B8765C 95.56%); }
+  .wrap__main__card__active .main__header {
+    width: 100%;
+    height: 40vh; }
+    .wrap__main__card__active .main__header .header__bottom {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .wrap__main__card__active .main__header .header__bottom .header__leave {
+        position: absolute;
+        left: 40px;
+        top: 3%;
+        cursor: pointer; }
+      .wrap__main__card__active .main__header .header__bottom .card-container {
+        width: 420px;
+        height: 230px;
+        position: relative;
+        left: 0%; }
+        .wrap__main__card__active .main__header .header__bottom .card-container .front {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          top: 0;
+          left: 0;
+          background: linear-gradient(70.62deg, #111111 0%, #1F1F1F 53.12%, #272727 100%);
+          border-radius: 5px;
+          backface-visibility: hidden;
+          padding-left: 20px;
+          padding-bottom: 12px;
+          padding-top: 10px;
+          padding-right: 20px;
+          transform: perspective(1000px) rotateY(0deg);
+          transition: transform .4s ease-out; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .logo {
+            display: flex;
+            align-items: center;
+            padding-top: 10px; }
+            .wrap__main__card__active .main__header .header__bottom .card-container .front .logo .logo__text {
+              font-family: 'Poppins';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 24px;
+              color: #FFFFFF; }
+            .wrap__main__card__active .main__header .header__bottom .card-container .front .logo .line {
+              width: 2px;
+              height: 30px;
+              background: #C2C2C2;
+              margin-left: 10px;
+              margin-right: 10px; }
+            .wrap__main__card__active .main__header .header__bottom .card-container .front .logo .logo__universal {
+              font-family: "" Poppins "";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 24px;
+              color: #C2C2C2; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .card-number-box {
+            padding: 30px 0;
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            letter-spacing: 0.08em;
+            color: #FFFFFF; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .flexbox {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 15px; }
+            .wrap__main__card__active .main__header .header__bottom .card-container .front .flexbox .box {
+              font-family: 'Comfortaa';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 22px;
+              color: #FFFFFF; }
+        .wrap__main__card__active .main__header .header__bottom .card-container .back {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          top: 0;
+          left: 0;
+          background: linear-gradient(250.23deg, #111111 2.77%, #1F1F1F 53.5%, #272727 98.27%);
+          border-radius: 5px;
+          backface-visibility: hidden;
+          padding-bottom: 12px;
+          padding-top: 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          transform: perspective(1000px) rotateY(180deg);
+          transition: transform .4s ease-out; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .back .stripe {
+            width: 100%;
+            margin-top: 30px;
+            height: 46px;
+            background: #292933; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .back .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 120px;
+            height: 52px;
+            background: #292933;
+            border-radius: 3px;
+            margin-top: 50px;
+            margin-right: 20px; }
+            .wrap__main__card__active .main__header .header__bottom .card-container .back .box .cvv__img {
+              width: 35px;
+              height: 30px;
+              margin-right: 10px; }
+            .wrap__main__card__active .main__header .header__bottom .card-container .back .box .cvv__text {
+              font-family: 'Comfortaa';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 22px;
+              letter-spacing: 0.08em;
+              color: #FFFFFF;
+              margin-left: 10px; }
+  .wrap__main__card__active .main__info {
+    width: 100%;
+    height: 46vh;
+    background: #272727;
+    border-radius: 35px 35px 0px 0px; }
+    .wrap__main__card__active .main__info .info__header {
+      width: 100%;
+      height: 25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 20px;
+      padding-left: 40px;
+      padding-right: 40px; }
+      .wrap__main__card__active .main__info .info__header .info__titel {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        letter-spacing: 0.08em;
+        color: #FFFFFF;
+        position: absolute; }
+      .wrap__main__card__active .main__info .info__header .search__box {
+        width: 60px;
+        height: 60px;
+        background: #323232;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 90%; }
+        .wrap__main__card__active .main__info .info__header .search__box .search__img {
+          width: 30px;
+          height: 30px; }
+    .wrap__main__card__active .main__info .info__contant {
+      width: 100%;
+      height: 75%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-left: 40px;
+      padding-right: 40px; }
+      .wrap__main__card__active .main__info .info__contant .info__list-container {
+        width: 100%;
+        height: 109px;
+        background: #413D3C;
+        border-radius: 7px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        align-items: center;
+        z-index: 6; }
+        .wrap__main__card__active .main__info .info__contant .info__list-container .list__box {
+          width: 60px;
+          height: 60px;
+          background: #5F5856;
+          border: 1px solid #635A55;
+          backdrop-filter: blur(5.5px);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+          .wrap__main__card__active .main__info .info__contant .info__list-container .list__box .list__img {
+            width: 35px;
+            height: 35px; }
+        .wrap__main__card__active .main__info .info__contant .info__list-container .list__text-box {
+          margin-left: 20px;
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 500;
+          letter-spacing: 0.08em;
+          color: #FFFFFF; }
+          .wrap__main__card__active .main__info .info__contant .info__list-container .list__text-box .list__titel {
+            font-size: 20px; }
+          .wrap__main__card__active .main__info .info__contant .info__list-container .list__text-box .list__description {
+            font-size: 18px;
+            color: #c6c6c6; }
+      .wrap__main__card__active .main__info .info__contant .info__list-beffore {
+        width: 95%;
+        height: 15%;
+        background: #313030;
+        border-radius: 9px;
+        z-index: 3;
+        position: relative;
+        bottom: 17px;
+        filter: blur(2px); }
+  .wrap__main__card__active .main__line {
+    width: 100%;
+    height: 2vh;
+    background: #2E8ABB; }
+  .wrap__main__card__active .main__taskbar {
+    width: 100%;
+    height: 12vh;
+    background: #272727;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px; }
+    .wrap__main__card__active .main__taskbar .taskbar__box {
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer; }
+      .wrap__main__card__active .main__taskbar .taskbar__box .taskbar__img {
+        width: 35px;
+        height: 35px;
+        background-size: cover; }
+      .wrap__main__card__active .main__taskbar .taskbar__box .card__taskbar__img {
+        background-image: url(../../main__img/card__hover.svg);
+        transition: 0.4s; }
+      .wrap__main__card__active .main__taskbar .taskbar__box .card__taskbar__img-hover {
+        background-image: url(../../main__img/card__hover.svg);
+        transition: 0.4s; }
+      .wrap__main__card__active .main__taskbar .taskbar__box .credit__taskbar__img {
+        background-image: url(../../main__img/credit.svg);
+        transition: 0.4s; }
+      .wrap__main__card__active .main__taskbar .taskbar__box .credit__taskbar__img-hover {
+        background-image: url(../../main__img/credit__hover.svg);
+        transition: 0.4s; }
+      .wrap__main__card__active .main__taskbar .taskbar__box .transfers__taskbar__img {
+        background-image: url(../../main__img/transfer.svg);
+        transition: 0.4s; }
+      .wrap__main__card__active .main__taskbar .taskbar__box .transfers__taskbar__img-hover {
+        background-image: url(../../main__img/transfer__hover.svg);
+        transition: 0.4s; }
+      .wrap__main__card__active .main__taskbar .taskbar__box .gift__img {
+        background-image: url(../../main__img/gift.svg);
+        transition: 0.4s; }
+      .wrap__main__card__active .main__taskbar .taskbar__box .gift__img-hover {
+        background-image: url(../../main__img/gift__hover.svg);
+        transition: 0.4s; }
+      .wrap__main__card__active .main__taskbar .taskbar__box .more__img {
+        background-image: url(../../main__img/more.svg);
+        transition: 0.4s; }
+      .wrap__main__card__active .main__taskbar .taskbar__box .more__img-hover {
+        background-image: url(../../main__img/more__hover.svg);
+        transition: 0.4s; }
+      .wrap__main__card__active .main__taskbar .taskbar__box .taskbar__titiel {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 0.08em;
+        color: #A9A9A9;
+        margin-top: 5px;
+        transition: 0.4s; }
+      .wrap__main__card__active .main__taskbar .taskbar__box .card__taskbar__text {
+        color: #FB5256; }
+
+@keyframes swipe {
+  0% {
+    position: absolute;
+    left: 100%; }
+  100% {
+    position: absolute;
+    left: 0%; } }
+.wrap__main__card__active__none {
+  position: absolute;
+  left: 100%;
+  animation-name: swipe2;
+  animation-duration: 1s;
+  animation-iteration-count: 1; }
+
+@keyframes swipe2 {
+  0% {
+    position: absolute;
+    left: 0%; }
+  100% {
+    position: absolute;
+    left: 100%; } }
+@media screen and (max-width: 1100px) {
+  .wrap__main .main__header {
+    height: 40vh; }
+    .wrap__main .main__header .header__top {
+      height: 10%;
+      padding-top: 15px;
+      padding-left: 40px;
+      padding-right: 40px; }
+      .wrap__main .main__header .header__top .header__box .card__center {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #BFAEB6;
+        border-radius: 50%; }
+        .wrap__main .main__header .header__top .header__box .card__center .card__bg {
+          width: 25px;
+          height: 25px; }
+      .wrap__main .main__header .header__top .header__box .card__top {
+        width: 35px;
+        height: 10px;
+        margin-top: 5px; }
+    .wrap__main .main__header .header__bottom {
+      height: 90%;
+      padding-left: 40px;
+      padding-bottom: 2%; }
+      .wrap__main .main__header .header__bottom .text__box {
+        width: auto;
+        height: auto; }
+        .wrap__main .main__header .header__bottom .text__box .text__money {
+          font-size: 64px; }
+        .wrap__main .main__header .header__bottom .text__box .money__description {
+          font-size: 32px;
+          margin-top: 10px; }
+      .wrap__main .main__header .header__bottom .card-container {
+        width: 400px;
+        height: 215px;
+        position: relative;
+        left: 15%; }
+        .wrap__main .main__header .header__bottom .card-container .front {
+          border-radius: 5px;
+          padding-left: 20px;
+          padding-bottom: 10px;
+          padding-top: 10px;
+          padding-right: 20px; }
+          .wrap__main .main__header .header__bottom .card-container .front .logo {
+            padding-top: 10px; }
+            .wrap__main .main__header .header__bottom .card-container .front .logo .logo__text {
+              font-size: 18px; }
+            .wrap__main .main__header .header__bottom .card-container .front .logo .line {
+              width: 2px;
+              height: 30px;
+              margin-left: 10px;
+              margin-right: 10px; }
+            .wrap__main .main__header .header__bottom .card-container .front .logo .logo__universal {
+              font-family: 'Poppins';
+              font-size: 18px;
+              line-height: 24px; }
+          .wrap__main .main__header .header__bottom .card-container .front .card-number-box {
+            padding: 30px 0;
+            font-size: 24px;
+            line-height: 29px; }
+          .wrap__main .main__header .header__bottom .card-container .front .flexbox {
+            padding-top: 15px; }
+            .wrap__main .main__header .header__bottom .card-container .front .flexbox .box {
+              font-size: 18px;
+              line-height: 22px; }
+        .wrap__main .main__header .header__bottom .card-container .back {
+          padding-bottom: 12px;
+          padding-top: 10px; }
+          .wrap__main .main__header .header__bottom .card-container .back .stripe {
+            width: 100%;
+            margin-top: 30px;
+            height: 46px; }
+          .wrap__main .main__header .header__bottom .card-container .back .box {
+            width: 120px;
+            height: 52px;
+            border-radius: 3px;
+            margin-top: 50px;
+            margin-right: 20px; }
+            .wrap__main .main__header .header__bottom .card-container .back .box .cvv__img {
+              width: 35px;
+              height: 30px;
+              margin-right: 10px; }
+            .wrap__main .main__header .header__bottom .card-container .back .box .cvv__text {
+              font-size: 20px;
+              line-height: 22px;
+              margin-left: 10px; }
+  .wrap__main .main__info {
+    width: 100%;
+    height: 46vh;
+    border-radius: 25px 25px 0px 0px; }
+    .wrap__main .main__info .info__header {
+      height: 25%;
+      padding-top: 15px;
+      padding-left: 40px;
+      padding-right: 40px; }
+      .wrap__main .main__info .info__header .info__titel {
+        font-size: 26px; }
+      .wrap__main .main__info .info__header .search__box {
+        width: 50px;
+        height: 50px;
+        margin-left: 90%; }
+        .wrap__main .main__info .info__header .search__box .search__img {
+          width: 25px;
+          height: 25px; }
+    .wrap__main .main__info .info__contant {
+      width: 100%;
+      height: 75%;
+      padding-left: 40px;
+      padding-right: 40px; }
+      .wrap__main .main__info .info__contant .info__list-container {
+        width: 100%;
+        height: 100px;
+        background: #413D3C;
+        border-radius: 7px;
+        padding-left: 20px;
+        padding-right: 20px; }
+        .wrap__main .main__info .info__contant .info__list-container .list__box {
+          width: 50px;
+          height: 50px; }
+          .wrap__main .main__info .info__contant .info__list-container .list__box .list__img {
+            width: 30px;
+            height: 30px;
+            position: relative;
+            left: 3px; }
+        .wrap__main .main__info .info__contant .info__list-container .list__text-box {
+          margin-left: 20px; }
+          .wrap__main .main__info .info__contant .info__list-container .list__text-box .list__titel {
+            font-size: 18px; }
+          .wrap__main .main__info .info__contant .info__list-container .list__text-box .list__description {
+            font-size: 16px;
+            color: #c6c6c6; }
+      .wrap__main .main__info .info__contant .info__list-beffore {
+        width: 95%;
+        height: 15%;
+        border-radius: 9px;
+        position: relative;
+        bottom: 17px; }
+  .wrap__main .main__line {
+    width: 100%;
+    height: 2vh;
+    background: #2E8ABB; }
+  .wrap__main .main__taskbar {
+    width: 100%;
+    height: 12vh;
+    padding-left: 40px;
+    padding-right: 40px; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__img {
+      width: 30px;
+      height: 30px;
+      background-size: cover; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__titiel {
+      font-weight: 500;
+      font-size: 14px;
+      margin-top: 5px; }
+
+  .wrap__main__card__active .main__header {
+    width: 100%;
+    height: 40vh; }
+    .wrap__main__card__active .main__header .header__bottom {
+      width: 100%;
+      height: 100%; }
+      .wrap__main__card__active .main__header .header__bottom .header__leave {
+        position: absolute;
+        left: 40px;
+        top: 3%; }
+      .wrap__main__card__active .main__header .header__bottom .card-container {
+        width: 400px;
+        height: 220px;
+        position: relative;
+        left: 0%; }
+        .wrap__main__card__active .main__header .header__bottom .card-container .front {
+          border-radius: 5px;
+          padding-left: 20px;
+          padding-bottom: 12px;
+          padding-top: 10px;
+          padding-right: 20px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .logo .logo__text {
+            font-size: 18px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .logo .line {
+            width: 2px;
+            height: 30px;
+            margin-left: 10px;
+            margin-right: 10px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .logo .logo__universal {
+            font-size: 18px;
+            line-height: 24px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .card-number-box {
+            padding: 30px 0;
+            font-size: 24px;
+            line-height: 29px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .flexbox {
+            padding-top: 15px; }
+            .wrap__main__card__active .main__header .header__bottom .card-container .front .flexbox .box {
+              font-size: 18px;
+              line-height: 22px; }
+        .wrap__main__card__active .main__header .header__bottom .card-container .back {
+          border-radius: 5px;
+          padding-bottom: 12px;
+          padding-top: 10px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .back .stripe {
+            margin-top: 30px;
+            height: 46px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .back .box {
+            width: 120px;
+            height: 52px;
+            background: #292933;
+            border-radius: 3px;
+            margin-top: 50px;
+            margin-right: 20px; }
+            .wrap__main__card__active .main__header .header__bottom .card-container .back .box .cvv__img {
+              width: 35px;
+              height: 30px;
+              margin-right: 10px; }
+            .wrap__main__card__active .main__header .header__bottom .card-container .back .box .cvv__text {
+              font-size: 20px;
+              line-height: 22px;
+              margin-left: 10px; }
+  .wrap__main__card__active .main__info {
+    width: 100%;
+    height: 46vh;
+    background: #272727;
+    border-radius: 25px 25px 0px 0px; }
+    .wrap__main__card__active .main__info .info__header {
+      padding-top: 20px;
+      padding-left: 40px;
+      padding-right: 40px; }
+      .wrap__main__card__active .main__info .info__header .info__titel {
+        font-size: 26px; }
+      .wrap__main__card__active .main__info .info__header .search__box {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-left: 90%; }
+        .wrap__main__card__active .main__info .info__header .search__box .search__img {
+          width: 25px;
+          height: 25px; }
+    .wrap__main__card__active .main__info .info__contant {
+      padding-left: 40px;
+      padding-right: 40px; }
+      .wrap__main__card__active .main__info .info__contant .info__list-container {
+        width: 100%;
+        height: 100px;
+        border-radius: 7px;
+        padding-left: 20px;
+        padding-right: 20px; }
+        .wrap__main__card__active .main__info .info__contant .info__list-container .list__box {
+          width: 50px;
+          height: 50px; }
+          .wrap__main__card__active .main__info .info__contant .info__list-container .list__box .list__img {
+            width: 30px;
+            height: 30px; }
+        .wrap__main__card__active .main__info .info__contant .info__list-container .list__text-box {
+          margin-left: 20px; }
+          .wrap__main__card__active .main__info .info__contant .info__list-container .list__text-box .list__titel {
+            font-size: 18px; }
+          .wrap__main__card__active .main__info .info__contant .info__list-container .list__text-box .list__description {
+            font-size: 16px;
+            color: #c6c6c6; }
+      .wrap__main__card__active .main__info .info__contant .info__list-beffore {
+        width: 95%;
+        height: 15%;
+        border-radius: 9px;
+        position: relative;
+        bottom: 17px; }
+  .wrap__main__card__active .main__line {
+    width: 100%;
+    height: 2vh;
+    background: #2E8ABB; }
+  .wrap__main__card__active .main__taskbar {
+    padding-left: 40px;
+    padding-right: 40px; }
+    .wrap__main__card__active .main__taskbar .taskbar__box .taskbar__img {
+      width: 30px;
+      height: 30px; }
+    .wrap__main__card__active .main__taskbar .taskbar__box .taskbar__titiel {
+      font-size: 14px;
+      margin-top: 5px; } }
+@media screen and (max-width: 850px) {
+  .wrap__main .main__header {
+    height: 40vh; }
+    .wrap__main .main__header .header__top {
+      height: 10%;
+      padding-top: 15px;
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main .main__header .header__top .header__box .card__center {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #BFAEB6;
+        border-radius: 50%; }
+        .wrap__main .main__header .header__top .header__box .card__center .card__bg {
+          width: 25px;
+          height: 25px; }
+      .wrap__main .main__header .header__top .header__box .card__top {
+        width: 35px;
+        height: 10px;
+        margin-top: 5px; }
+    .wrap__main .main__header .header__bottom {
+      height: 90%;
+      padding-left: 20px;
+      padding-bottom: 2%; }
+      .wrap__main .main__header .header__bottom .text__box {
+        width: 80%;
+        height: auto; }
+        .wrap__main .main__header .header__bottom .text__box .text__money {
+          font-size: 42px; }
+        .wrap__main .main__header .header__bottom .text__box .money__description {
+          font-size: 32px;
+          margin-top: 10px; }
+      .wrap__main .main__header .header__bottom .card-container {
+        width: 400px;
+        height: 200px;
+        position: relative;
+        left: 25%; }
+        .wrap__main .main__header .header__bottom .card-container .front {
+          border-radius: 5px;
+          padding-left: 20px;
+          padding-bottom: 10px;
+          padding-top: 10px;
+          padding-right: 20px; }
+          .wrap__main .main__header .header__bottom .card-container .front .logo {
+            padding-top: 5px; }
+            .wrap__main .main__header .header__bottom .card-container .front .logo .logo__text {
+              font-size: 16px; }
+            .wrap__main .main__header .header__bottom .card-container .front .logo .line {
+              width: 2px;
+              height: 30px;
+              margin-left: 10px;
+              margin-right: 10px; }
+            .wrap__main .main__header .header__bottom .card-container .front .logo .logo__universal {
+              font-family: 'Poppins';
+              font-size: 16px;
+              line-height: 24px; }
+          .wrap__main .main__header .header__bottom .card-container .front .card-number-box {
+            padding: 30px 0;
+            font-size: 22px;
+            line-height: 20px; }
+          .wrap__main .main__header .header__bottom .card-container .front .flexbox {
+            padding-top: 15px; }
+            .wrap__main .main__header .header__bottom .card-container .front .flexbox .box {
+              font-size: 18px;
+              line-height: 22px; }
+        .wrap__main .main__header .header__bottom .card-container .back {
+          padding-bottom: 12px;
+          padding-top: 10px; }
+          .wrap__main .main__header .header__bottom .card-container .back .stripe {
+            width: 100%;
+            margin-top: 30px;
+            height: 46px; }
+          .wrap__main .main__header .header__bottom .card-container .back .box {
+            width: 120px;
+            height: 52px;
+            border-radius: 3px;
+            margin-top: 50px;
+            margin-right: 20px; }
+            .wrap__main .main__header .header__bottom .card-container .back .box .cvv__img {
+              width: 35px;
+              height: 30px;
+              margin-right: 10px; }
+            .wrap__main .main__header .header__bottom .card-container .back .box .cvv__text {
+              font-size: 20px;
+              line-height: 22px;
+              margin-left: 10px; }
+  .wrap__main .main__info {
+    width: 100%;
+    height: 46vh;
+    border-radius: 25px 25px 0px 0px; }
+    .wrap__main .main__info .info__header {
+      height: 25%;
+      padding-top: 15px;
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main .main__info .info__header .info__titel {
+        font-size: 24px; }
+      .wrap__main .main__info .info__header .search__box {
+        width: 50px;
+        height: 50px;
+        margin-left: 85%; }
+        .wrap__main .main__info .info__header .search__box .search__img {
+          width: 25px;
+          height: 25px; }
+    .wrap__main .main__info .info__contant {
+      width: 100%;
+      height: 75%;
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main .main__info .info__contant .info__list-container {
+        width: 100%;
+        height: 100px;
+        background: #413D3C;
+        border-radius: 7px;
+        padding-left: 20px;
+        padding-right: 20px; }
+        .wrap__main .main__info .info__contant .info__list-container .list__box {
+          width: 50px;
+          height: 50px; }
+          .wrap__main .main__info .info__contant .info__list-container .list__box .list__img {
+            width: 30px;
+            height: 30px;
+            position: relative;
+            left: 3px; }
+        .wrap__main .main__info .info__contant .info__list-container .list__text-box {
+          margin-left: 20px; }
+          .wrap__main .main__info .info__contant .info__list-container .list__text-box .list__titel {
+            font-size: 18px; }
+          .wrap__main .main__info .info__contant .info__list-container .list__text-box .list__description {
+            font-size: 16px;
+            color: #c6c6c6; }
+      .wrap__main .main__info .info__contant .info__list-beffore {
+        width: 95%;
+        height: 15%;
+        border-radius: 9px;
+        position: relative;
+        bottom: 17px; }
+  .wrap__main .main__line {
+    width: 100%;
+    height: 2vh;
+    background: #2E8ABB; }
+  .wrap__main .main__taskbar {
+    width: 100%;
+    height: 12vh;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__img {
+      width: 30px;
+      height: 30px;
+      background-size: cover; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__titiel {
+      font-weight: 500;
+      font-size: 14px;
+      margin-top: 5px; }
+
+  .wrap__main__card__active .main__header {
+    width: 100%;
+    height: 40vh; }
+    .wrap__main__card__active .main__header .header__bottom {
+      width: 100%;
+      height: 100%; }
+      .wrap__main__card__active .main__header .header__bottom .header__leave {
+        position: absolute;
+        left: 40px;
+        top: 3%; }
+      .wrap__main__card__active .main__header .header__bottom .card-container {
+        width: 370px;
+        height: 200px;
+        position: relative;
+        left: 0%; }
+        .wrap__main__card__active .main__header .header__bottom .card-container .front {
+          border-radius: 5px;
+          padding-left: 20px;
+          padding-bottom: 12px;
+          padding-top: 10px;
+          padding-right: 20px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .logo .logo__text {
+            font-size: 18px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .logo .line {
+            width: 2px;
+            height: 30px;
+            margin-left: 10px;
+            margin-right: 10px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .logo .logo__universal {
+            font-size: 18px;
+            line-height: 24px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .card-number-box {
+            padding: 20px 0;
+            font-size: 24px;
+            line-height: 29px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .flexbox {
+            padding-top: 15px; }
+            .wrap__main__card__active .main__header .header__bottom .card-container .front .flexbox .box {
+              font-size: 18px;
+              line-height: 22px; }
+        .wrap__main__card__active .main__header .header__bottom .card-container .back {
+          border-radius: 5px;
+          padding-bottom: 12px;
+          padding-top: 10px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .back .stripe {
+            margin-top: 20px;
+            height: 46px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .back .box {
+            width: 120px;
+            height: 52px;
+            background: #292933;
+            border-radius: 3px;
+            margin-top: 40px;
+            margin-right: 20px; }
+            .wrap__main__card__active .main__header .header__bottom .card-container .back .box .cvv__img {
+              width: 35px;
+              height: 30px;
+              margin-right: 10px; }
+            .wrap__main__card__active .main__header .header__bottom .card-container .back .box .cvv__text {
+              font-size: 20px;
+              line-height: 22px;
+              margin-left: 10px; }
+  .wrap__main__card__active .main__info {
+    width: 100%;
+    height: 46vh;
+    background: #272727;
+    border-radius: 25px 25px 0px 0px; }
+    .wrap__main__card__active .main__info .info__header {
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main__card__active .main__info .info__header .info__titel {
+        font-size: 24px; }
+      .wrap__main__card__active .main__info .info__header .search__box {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-left: 85%; }
+        .wrap__main__card__active .main__info .info__header .search__box .search__img {
+          width: 25px;
+          height: 25px; }
+    .wrap__main__card__active .main__info .info__contant {
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main__card__active .main__info .info__contant .info__list-container {
+        width: 100%;
+        height: 100px;
+        border-radius: 7px;
+        padding-left: 20px;
+        padding-right: 20px; }
+        .wrap__main__card__active .main__info .info__contant .info__list-container .list__box {
+          width: 50px;
+          height: 50px; }
+          .wrap__main__card__active .main__info .info__contant .info__list-container .list__box .list__img {
+            width: 30px;
+            height: 30px; }
+        .wrap__main__card__active .main__info .info__contant .info__list-container .list__text-box {
+          margin-left: 20px; }
+          .wrap__main__card__active .main__info .info__contant .info__list-container .list__text-box .list__titel {
+            font-size: 18px; }
+          .wrap__main__card__active .main__info .info__contant .info__list-container .list__text-box .list__description {
+            font-size: 16px;
+            color: #c6c6c6; }
+      .wrap__main__card__active .main__info .info__contant .info__list-beffore {
+        width: 95%;
+        height: 15%;
+        border-radius: 9px;
+        position: relative;
+        bottom: 17px; }
+  .wrap__main__card__active .main__line {
+    width: 100%;
+    height: 2vh;
+    background: #2E8ABB; }
+  .wrap__main__card__active .main__taskbar {
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main__card__active .main__taskbar .taskbar__box .taskbar__img {
+      width: 30px;
+      height: 30px; }
+    .wrap__main__card__active .main__taskbar .taskbar__box .taskbar__titiel {
+      font-size: 14px;
+      margin-top: 5px; } }
+@media screen and (max-width: 660px) {
+  .wrap__main .main__header {
+    height: 40vh; }
+    .wrap__main .main__header .header__top {
+      height: 10%;
+      padding-top: 15px;
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main .main__header .header__top .header__box .card__center {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #BFAEB6;
+        border-radius: 50%; }
+        .wrap__main .main__header .header__top .header__box .card__center .card__bg {
+          width: 25px;
+          height: 25px; }
+      .wrap__main .main__header .header__top .header__box .card__top {
+        width: 35px;
+        height: 10px;
+        margin-top: 5px; }
+    .wrap__main .main__header .header__bottom {
+      height: 90%;
+      padding-left: 20px;
+      padding-bottom: 2%; }
+      .wrap__main .main__header .header__bottom .text__box {
+        width: 80%;
+        height: auto; }
+        .wrap__main .main__header .header__bottom .text__box .text__money {
+          font-size: 42px; }
+        .wrap__main .main__header .header__bottom .text__box .money__description {
+          font-size: 26px;
+          margin-top: 10px; }
+      .wrap__main .main__header .header__bottom .card-container {
+        width: 400px;
+        height: 200px;
+        position: relative;
+        left: 25%; }
+        .wrap__main .main__header .header__bottom .card-container .front {
+          border-radius: 5px;
+          padding-left: 20px;
+          padding-bottom: 10px;
+          padding-top: 10px;
+          padding-right: 20px; }
+          .wrap__main .main__header .header__bottom .card-container .front .logo {
+            padding-top: 5px; }
+            .wrap__main .main__header .header__bottom .card-container .front .logo .logo__text {
+              font-size: 16px; }
+            .wrap__main .main__header .header__bottom .card-container .front .logo .line {
+              width: 2px;
+              height: 30px;
+              margin-left: 10px;
+              margin-right: 10px; }
+            .wrap__main .main__header .header__bottom .card-container .front .logo .logo__universal {
+              font-family: 'Poppins';
+              font-size: 16px;
+              line-height: 24px; }
+          .wrap__main .main__header .header__bottom .card-container .front .card-number-box {
+            padding: 30px 0;
+            font-size: 22px;
+            line-height: 0px; }
+          .wrap__main .main__header .header__bottom .card-container .front .flexbox {
+            padding-top: 15px; }
+            .wrap__main .main__header .header__bottom .card-container .front .flexbox .box {
+              font-size: 18px;
+              line-height: 22px; }
+        .wrap__main .main__header .header__bottom .card-container .back {
+          padding-bottom: 12px;
+          padding-top: 10px; }
+          .wrap__main .main__header .header__bottom .card-container .back .stripe {
+            width: 100%;
+            margin-top: 30px;
+            height: 46px; }
+          .wrap__main .main__header .header__bottom .card-container .back .box {
+            width: 120px;
+            height: 52px;
+            border-radius: 3px;
+            margin-top: 50px;
+            margin-right: 20px; }
+            .wrap__main .main__header .header__bottom .card-container .back .box .cvv__img {
+              width: 35px;
+              height: 30px;
+              margin-right: 10px; }
+            .wrap__main .main__header .header__bottom .card-container .back .box .cvv__text {
+              font-size: 20px;
+              line-height: 22px;
+              margin-left: 10px; }
+  .wrap__main .main__info {
+    width: 100%;
+    height: 46vh;
+    border-radius: 25px 25px 0px 0px; }
+    .wrap__main .main__info .info__header {
+      height: 25%;
+      padding-top: 15px;
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main .main__info .info__header .info__titel {
+        font-size: 24px; }
+      .wrap__main .main__info .info__header .search__box {
+        width: 50px;
+        height: 50px;
+        margin-left: 85%; }
+        .wrap__main .main__info .info__header .search__box .search__img {
+          width: 25px;
+          height: 25px; }
+    .wrap__main .main__info .info__contant {
+      width: 100%;
+      height: 75%;
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main .main__info .info__contant .info__list-container {
+        width: 100%;
+        height: 100px;
+        background: #413D3C;
+        border-radius: 7px;
+        padding-left: 20px;
+        padding-right: 20px; }
+        .wrap__main .main__info .info__contant .info__list-container .list__box {
+          width: 50px;
+          height: 50px; }
+          .wrap__main .main__info .info__contant .info__list-container .list__box .list__img {
+            width: 30px;
+            height: 30px;
+            position: relative;
+            left: 3px; }
+        .wrap__main .main__info .info__contant .info__list-container .list__text-box {
+          margin-left: 20px; }
+          .wrap__main .main__info .info__contant .info__list-container .list__text-box .list__titel {
+            font-size: 18px; }
+          .wrap__main .main__info .info__contant .info__list-container .list__text-box .list__description {
+            font-size: 16px;
+            color: #c6c6c6; }
+      .wrap__main .main__info .info__contant .info__list-beffore {
+        width: 95%;
+        height: 15%;
+        border-radius: 9px;
+        position: relative;
+        bottom: 17px; }
+  .wrap__main .main__line {
+    width: 100%;
+    height: 2vh;
+    background: #2E8ABB; }
+  .wrap__main .main__taskbar {
+    width: 100%;
+    height: 12vh;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__img {
+      width: 25px;
+      height: 25px;
+      background-size: cover; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__titiel {
+      font-weight: 500;
+      font-size: 14px;
+      margin-top: 5px; }
+
+  .wrap__main__card__active .main__header {
+    width: 100%;
+    height: 40vh; }
+    .wrap__main__card__active .main__header .header__bottom {
+      width: 100%;
+      height: 100%; }
+      .wrap__main__card__active .main__header .header__bottom .header__leave {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        left: 20px;
+        top: 3%; }
+      .wrap__main__card__active .main__header .header__bottom .card-container {
+        width: 320px;
+        height: 200px;
+        position: relative;
+        left: 0%; }
+        .wrap__main__card__active .main__header .header__bottom .card-container .front {
+          border-radius: 5px;
+          padding-left: 20px;
+          padding-bottom: 12px;
+          padding-top: 10px;
+          padding-right: 20px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .logo .logo__text {
+            font-size: 16px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .logo .line {
+            width: 2px;
+            height: 30px;
+            margin-left: 10px;
+            margin-right: 10px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .logo .logo__universal {
+            font-size: 16px;
+            line-height: 24px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .card-number-box {
+            padding: 20px 0;
+            font-size: 20px;
+            line-height: 29px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .flexbox {
+            padding-top: 15px; }
+            .wrap__main__card__active .main__header .header__bottom .card-container .front .flexbox .box {
+              font-size: 16px;
+              line-height: 22px; }
+        .wrap__main__card__active .main__header .header__bottom .card-container .back {
+          border-radius: 5px;
+          padding-bottom: 12px;
+          padding-top: 10px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .back .stripe {
+            margin-top: 20px;
+            height: 46px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .back .box {
+            width: 120px;
+            height: 52px;
+            background: #292933;
+            border-radius: 3px;
+            margin-top: 40px;
+            margin-right: 20px; }
+            .wrap__main__card__active .main__header .header__bottom .card-container .back .box .cvv__img {
+              width: 35px;
+              height: 30px;
+              margin-right: 10px; }
+            .wrap__main__card__active .main__header .header__bottom .card-container .back .box .cvv__text {
+              font-size: 18px;
+              line-height: 22px;
+              margin-left: 10px; }
+  .wrap__main__card__active .main__info {
+    width: 100%;
+    height: 46vh;
+    background: #272727;
+    border-radius: 25px 25px 0px 0px; }
+    .wrap__main__card__active .main__info .info__header {
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main__card__active .main__info .info__header .info__titel {
+        font-size: 24px; }
+      .wrap__main__card__active .main__info .info__header .search__box {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-left: 85%; }
+        .wrap__main__card__active .main__info .info__header .search__box .search__img {
+          width: 25px;
+          height: 25px; }
+    .wrap__main__card__active .main__info .info__contant {
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main__card__active .main__info .info__contant .info__list-container {
+        width: 100%;
+        height: 100px;
+        border-radius: 7px;
+        padding-left: 20px;
+        padding-right: 20px; }
+        .wrap__main__card__active .main__info .info__contant .info__list-container .list__box {
+          width: 50px;
+          height: 50px; }
+          .wrap__main__card__active .main__info .info__contant .info__list-container .list__box .list__img {
+            width: 30px;
+            height: 30px; }
+        .wrap__main__card__active .main__info .info__contant .info__list-container .list__text-box {
+          margin-left: 20px; }
+          .wrap__main__card__active .main__info .info__contant .info__list-container .list__text-box .list__titel {
+            font-size: 18px; }
+          .wrap__main__card__active .main__info .info__contant .info__list-container .list__text-box .list__description {
+            font-size: 16px;
+            color: #c6c6c6; }
+      .wrap__main__card__active .main__info .info__contant .info__list-beffore {
+        width: 95%;
+        height: 15%;
+        border-radius: 9px;
+        position: relative;
+        bottom: 17px; }
+  .wrap__main__card__active .main__line {
+    width: 100%;
+    height: 2vh;
+    background: #2E8ABB; }
+  .wrap__main__card__active .main__taskbar {
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main__card__active .main__taskbar .taskbar__box .taskbar__img {
+      width: 25px;
+      height: 25px; }
+    .wrap__main__card__active .main__taskbar .taskbar__box .taskbar__titiel {
+      font-size: 14px;
+      margin-top: 5px; } }
+@media screen and (max-width: 570px) {
+  .wrap__main .main__header {
+    height: 40vh; }
+    .wrap__main .main__header .header__top {
+      height: 10%;
+      padding-top: 15px;
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main .main__header .header__top .header__box .card__center {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #BFAEB6;
+        border-radius: 50%; }
+        .wrap__main .main__header .header__top .header__box .card__center .card__bg {
+          width: 25px;
+          height: 25px; }
+      .wrap__main .main__header .header__top .header__box .card__top {
+        width: 35px;
+        height: 10px;
+        margin-top: 5px; }
+    .wrap__main .main__header .header__bottom {
+      height: 90%;
+      padding-left: 20px;
+      padding-bottom: 2%; }
+      .wrap__main .main__header .header__bottom .text__box {
+        width: 80%;
+        height: auto; }
+        .wrap__main .main__header .header__bottom .text__box .text__money {
+          font-size: 42px; }
+        .wrap__main .main__header .header__bottom .text__box .money__description {
+          font-size: 26px;
+          margin-top: 10px; }
+      .wrap__main .main__header .header__bottom .card-container {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        left: 20%; }
+        .wrap__main .main__header .header__bottom .card-container .front {
+          border-radius: 5px;
+          padding-left: 20px;
+          padding-bottom: 10px;
+          padding-top: 10px;
+          padding-right: 20px; }
+          .wrap__main .main__header .header__bottom .card-container .front .logo {
+            padding-top: 5px; }
+            .wrap__main .main__header .header__bottom .card-container .front .logo .logo__text {
+              font-size: 16px; }
+            .wrap__main .main__header .header__bottom .card-container .front .logo .line {
+              width: 2px;
+              height: 30px;
+              margin-left: 10px;
+              margin-right: 10px; }
+            .wrap__main .main__header .header__bottom .card-container .front .logo .logo__universal {
+              font-family: 'Poppins';
+              font-size: 16px;
+              line-height: 24px; }
+          .wrap__main .main__header .header__bottom .card-container .front .card-number-box {
+            padding: 30px 0;
+            font-size: 22px;
+            line-height: 0px; }
+          .wrap__main .main__header .header__bottom .card-container .front .flexbox {
+            padding-top: 15px; }
+            .wrap__main .main__header .header__bottom .card-container .front .flexbox .box {
+              font-size: 18px;
+              line-height: 22px; }
+        .wrap__main .main__header .header__bottom .card-container .back {
+          padding-bottom: 12px;
+          padding-top: 10px; }
+          .wrap__main .main__header .header__bottom .card-container .back .stripe {
+            width: 100%;
+            margin-top: 30px;
+            height: 46px; }
+          .wrap__main .main__header .header__bottom .card-container .back .box {
+            width: 120px;
+            height: 52px;
+            border-radius: 3px;
+            margin-top: 50px;
+            margin-right: 20px; }
+            .wrap__main .main__header .header__bottom .card-container .back .box .cvv__img {
+              width: 35px;
+              height: 30px;
+              margin-right: 10px; }
+            .wrap__main .main__header .header__bottom .card-container .back .box .cvv__text {
+              font-size: 20px;
+              line-height: 22px;
+              margin-left: 10px; }
+  .wrap__main .main__info {
+    width: 100%;
+    height: 46vh;
+    border-radius: 25px 25px 0px 0px; }
+    .wrap__main .main__info .info__header {
+      height: 25%;
+      padding-top: 15px;
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main .main__info .info__header .info__titel {
+        font-size: 24px; }
+      .wrap__main .main__info .info__header .search__box {
+        width: 50px;
+        height: 50px;
+        margin-left: 85%; }
+        .wrap__main .main__info .info__header .search__box .search__img {
+          width: 25px;
+          height: 25px; }
+    .wrap__main .main__info .info__contant {
+      width: 100%;
+      height: 75%;
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main .main__info .info__contant .info__list-container {
+        width: 100%;
+        height: 100px;
+        background: #413D3C;
+        border-radius: 7px;
+        padding-left: 20px;
+        padding-right: 20px; }
+        .wrap__main .main__info .info__contant .info__list-container .list__box {
+          width: 50px;
+          height: 50px; }
+          .wrap__main .main__info .info__contant .info__list-container .list__box .list__img {
+            width: 30px;
+            height: 30px;
+            position: relative;
+            left: 3px; }
+        .wrap__main .main__info .info__contant .info__list-container .list__text-box {
+          margin-left: 20px; }
+          .wrap__main .main__info .info__contant .info__list-container .list__text-box .list__titel {
+            font-size: 18px; }
+          .wrap__main .main__info .info__contant .info__list-container .list__text-box .list__description {
+            font-size: 16px;
+            color: #c6c6c6; }
+      .wrap__main .main__info .info__contant .info__list-beffore {
+        width: 95%;
+        height: 15%;
+        border-radius: 9px;
+        position: relative;
+        bottom: 17px; }
+  .wrap__main .main__line {
+    width: 100%;
+    height: 2vh;
+    background: #2E8ABB; }
+  .wrap__main .main__taskbar {
+    width: 100%;
+    height: 12vh;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__img {
+      width: 25px;
+      height: 25px;
+      background-size: cover; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__titiel {
+      font-weight: 500;
+      font-size: 14px;
+      margin-top: 5px; }
+
+  .wrap__main__card__active .main__header {
+    width: 100%;
+    height: 40vh; }
+    .wrap__main__card__active .main__header .header__bottom {
+      width: 100%;
+      height: 100%; }
+      .wrap__main__card__active .main__header .header__bottom .header__leave {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 20px;
+        top: 3%; }
+      .wrap__main__card__active .main__header .header__bottom .card-container {
+        width: 300px;
+        height: 170px;
+        position: relative;
+        left: 0%; }
+        .wrap__main__card__active .main__header .header__bottom .card-container .front {
+          border-radius: 2px;
+          padding-left: 10px;
+          padding-bottom: 12px;
+          padding-top: 10px;
+          padding-right: 10px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .logo .logo__text {
+            font-size: 16px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .logo .line {
+            width: 2px;
+            height: 30px;
+            margin-left: 10px;
+            margin-right: 10px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .logo .logo__universal {
+            font-size: 16px;
+            line-height: 24px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .card-number-box {
+            padding: 10px 0;
+            font-size: 20px;
+            line-height: 20px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .flexbox {
+            padding-top: 15px; }
+            .wrap__main__card__active .main__header .header__bottom .card-container .front .flexbox .box {
+              font-size: 16px;
+              line-height: 22px; }
+        .wrap__main__card__active .main__header .header__bottom .card-container .back {
+          border-radius: 2px;
+          padding-bottom: 12px;
+          padding-top: 10px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .back .stripe {
+            margin-top: 20px;
+            height: 40px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .back .box {
+            width: 100px;
+            height: 45px;
+            background: #292933;
+            border-radius: 3px;
+            margin-top: 30px;
+            margin-right: 20px; }
+            .wrap__main__card__active .main__header .header__bottom .card-container .back .box .cvv__img {
+              width: 35px;
+              height: 30px;
+              margin-right: 10px; }
+            .wrap__main__card__active .main__header .header__bottom .card-container .back .box .cvv__text {
+              font-size: 18px;
+              line-height: 22px;
+              margin-left: 10px; }
+  .wrap__main__card__active .main__info {
+    width: 100%;
+    height: 46vh;
+    background: #272727;
+    border-radius: 25px 25px 0px 0px; }
+    .wrap__main__card__active .main__info .info__header {
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main__card__active .main__info .info__header .info__titel {
+        font-size: 24px; }
+      .wrap__main__card__active .main__info .info__header .search__box {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-left: 85%; }
+        .wrap__main__card__active .main__info .info__header .search__box .search__img {
+          width: 25px;
+          height: 25px; }
+    .wrap__main__card__active .main__info .info__contant {
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main__card__active .main__info .info__contant .info__list-container {
+        width: 100%;
+        height: 100px;
+        border-radius: 7px;
+        padding-left: 20px;
+        padding-right: 20px; }
+        .wrap__main__card__active .main__info .info__contant .info__list-container .list__box {
+          width: 50px;
+          height: 50px; }
+          .wrap__main__card__active .main__info .info__contant .info__list-container .list__box .list__img {
+            width: 30px;
+            height: 30px; }
+        .wrap__main__card__active .main__info .info__contant .info__list-container .list__text-box {
+          margin-left: 20px; }
+          .wrap__main__card__active .main__info .info__contant .info__list-container .list__text-box .list__titel {
+            font-size: 16px; }
+          .wrap__main__card__active .main__info .info__contant .info__list-container .list__text-box .list__description {
+            font-size: 14px;
+            color: #c6c6c6; }
+      .wrap__main__card__active .main__info .info__contant .info__list-beffore {
+        width: 95%;
+        height: 15%;
+        border-radius: 9px;
+        position: relative;
+        bottom: 17px; }
+  .wrap__main__card__active .main__line {
+    width: 100%;
+    height: 2vh;
+    background: #2E8ABB; }
+  .wrap__main__card__active .main__taskbar {
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main__card__active .main__taskbar .taskbar__box .taskbar__img {
+      width: 25px;
+      height: 25px; }
+    .wrap__main__card__active .main__taskbar .taskbar__box .taskbar__titiel {
+      font-size: 14px;
+      margin-top: 5px; } }
+@media screen and (max-width: 470px) {
+  .wrap__main .main__header {
+    height: 40vh; }
+    .wrap__main .main__header .header__top {
+      height: 10%;
+      padding-top: 15px;
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main .main__header .header__top .header__box .card__center {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #BFAEB6;
+        border-radius: 50%; }
+        .wrap__main .main__header .header__top .header__box .card__center .card__bg {
+          width: 25px;
+          height: 25px; }
+      .wrap__main .main__header .header__top .header__box .card__top {
+        width: 35px;
+        height: 10px;
+        margin-top: 5px; }
+    .wrap__main .main__header .header__bottom {
+      height: 100%;
+      padding-left: 20px;
+      padding-bottom: 10%; }
+      .wrap__main .main__header .header__bottom .text__box {
+        width: 80%;
+        height: auto;
+        margin-top: 5%; }
+        .wrap__main .main__header .header__bottom .text__box .text__money {
+          font-size: 36px; }
+        .wrap__main .main__header .header__bottom .text__box .money__description {
+          font-size: 24px;
+          margin-top: 10px;
+          position: absolute; }
+      .wrap__main .main__header .header__bottom .card-container {
+        width: 200px;
+        height: 180px;
+        position: relative;
+        left: 30%; }
+        .wrap__main .main__header .header__bottom .card-container .front {
+          border-radius: 5px;
+          padding-left: 20px;
+          padding-bottom: 10px;
+          padding-top: 10px;
+          padding-right: 20px; }
+          .wrap__main .main__header .header__bottom .card-container .front .logo {
+            padding-top: 5px; }
+            .wrap__main .main__header .header__bottom .card-container .front .logo .logo__text {
+              font-size: 16px; }
+            .wrap__main .main__header .header__bottom .card-container .front .logo .line {
+              width: 2px;
+              height: 30px;
+              margin-left: 10px;
+              margin-right: 10px; }
+            .wrap__main .main__header .header__bottom .card-container .front .logo .logo__universal {
+              font-family: 'Poppins';
+              font-size: 16px;
+              line-height: 24px; }
+          .wrap__main .main__header .header__bottom .card-container .front .card-number-box {
+            padding: 20px 0;
+            font-size: 22px;
+            line-height: 0px; }
+          .wrap__main .main__header .header__bottom .card-container .front .flexbox {
+            padding-top: 15px; }
+            .wrap__main .main__header .header__bottom .card-container .front .flexbox .box {
+              font-size: 18px;
+              line-height: 22px; }
+        .wrap__main .main__header .header__bottom .card-container .back {
+          padding-bottom: 12px;
+          padding-top: 10px; }
+          .wrap__main .main__header .header__bottom .card-container .back .stripe {
+            width: 100%;
+            margin-top: 30px;
+            height: 46px; }
+          .wrap__main .main__header .header__bottom .card-container .back .box {
+            width: 120px;
+            height: 52px;
+            border-radius: 3px;
+            margin-top: 50px;
+            margin-right: 20px; }
+            .wrap__main .main__header .header__bottom .card-container .back .box .cvv__img {
+              width: 35px;
+              height: 30px;
+              margin-right: 10px; }
+            .wrap__main .main__header .header__bottom .card-container .back .box .cvv__text {
+              font-size: 20px;
+              line-height: 22px;
+              margin-left: 10px; }
+  .wrap__main .main__info {
+    width: 100%;
+    height: 46vh;
+    border-radius: 20px 20px 0px 0px; }
+    .wrap__main .main__info .info__header {
+      height: 25%;
+      padding-top: 0px;
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main .main__info .info__header .info__titel {
+        font-size: 20px; }
+      .wrap__main .main__info .info__header .search__box {
+        width: 40px;
+        height: 40px;
+        margin-left: 80%; }
+        .wrap__main .main__info .info__header .search__box .search__img {
+          width: 20px;
+          height: 20px; }
+    .wrap__main .main__info .info__contant {
+      width: 100%;
+      height: 75%;
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main .main__info .info__contant .info__list-container {
+        width: 100%;
+        height: 80px;
+        background: #413D3C;
+        border-radius: 7px;
+        padding-left: 10px;
+        padding-right: 0px; }
+        .wrap__main .main__info .info__contant .info__list-container .list__box {
+          width: 50px;
+          height: 50px; }
+          .wrap__main .main__info .info__contant .info__list-container .list__box .list__img {
+            width: 30px;
+            height: 30px;
+            position: relative;
+            left: 3px; }
+        .wrap__main .main__info .info__contant .info__list-container .list__text-box {
+          margin-left: 15px; }
+          .wrap__main .main__info .info__contant .info__list-container .list__text-box .list__titel {
+            font-size: 15px; }
+          .wrap__main .main__info .info__contant .info__list-container .list__text-box .list__description {
+            font-size: 13px;
+            color: #c6c6c6; }
+      .wrap__main .main__info .info__contant .info__list-beffore {
+        width: 90%;
+        height: 15%;
+        border-radius: 9px;
+        position: relative;
+        bottom: 20px; }
+  .wrap__main .main__line {
+    width: 100%;
+    height: 2vh;
+    background: #2E8ABB; }
+  .wrap__main .main__taskbar {
+    width: 100%;
+    height: 12vh;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__img {
+      width: 25px;
+      height: 25px;
+      background-size: cover; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__titiel {
+      font-weight: 500;
+      font-size: 12px;
+      margin-top: 5px; }
+
+  .wrap__main__card__active .main__header {
+    width: 100%;
+    height: 40vh; }
+    .wrap__main__card__active .main__header .header__bottom {
+      width: 100%;
+      height: 100%; }
+      .wrap__main__card__active .main__header .header__bottom .header__leave {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 20px;
+        top: 3%; }
+      .wrap__main__card__active .main__header .header__bottom .card-container {
+        width: 260px;
+        height: 150px;
+        position: relative;
+        left: 0%;
+        top: 20px; }
+        .wrap__main__card__active .main__header .header__bottom .card-container .front {
+          border-radius: 2px;
+          padding-left: 10px;
+          padding-bottom: 5px;
+          padding-top: 5px;
+          padding-right: 10px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .logo .logo__text {
+            font-size: 14px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .logo .line {
+            width: 2px;
+            height: 30px;
+            margin-left: 10px;
+            margin-right: 10px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .logo .logo__universal {
+            font-size: 14px;
+            line-height: 20px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .card-number-box {
+            padding: 10px 0;
+            font-size: 20px;
+            line-height: 20px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .flexbox {
+            padding-top: 15px; }
+            .wrap__main__card__active .main__header .header__bottom .card-container .front .flexbox .box {
+              font-size: 14px;
+              line-height: 22px; }
+        .wrap__main__card__active .main__header .header__bottom .card-container .back {
+          border-radius: 2px;
+          padding-bottom: 12px;
+          padding-top: 10px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .back .stripe {
+            margin-top: 20px;
+            height: 40px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .back .box {
+            width: 85px;
+            height: 40px;
+            background: #292933;
+            border-radius: 3px;
+            margin-top: 30px;
+            margin-right: 20px; }
+            .wrap__main__card__active .main__header .header__bottom .card-container .back .box .cvv__img {
+              width: 35px;
+              height: 30px;
+              margin-right: 10px; }
+            .wrap__main__card__active .main__header .header__bottom .card-container .back .box .cvv__text {
+              font-size: 16px;
+              line-height: 22px;
+              margin-left: 10px; }
+  .wrap__main__card__active .main__info {
+    width: 100%;
+    height: 46vh;
+    background: #272727;
+    border-radius: 20px 20px 0px 0px; }
+    .wrap__main__card__active .main__info .info__header {
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main__card__active .main__info .info__header .info__titel {
+        font-size: 20px; }
+      .wrap__main__card__active .main__info .info__header .search__box {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        margin-left: 85%; }
+        .wrap__main__card__active .main__info .info__header .search__box .search__img {
+          width: 18px;
+          height: 18px; }
+    .wrap__main__card__active .main__info .info__contant {
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main__card__active .main__info .info__contant .info__list-container {
+        width: 100%;
+        height: 80px;
+        border-radius: 7px;
+        padding-left: 10px;
+        padding-right: 10px; }
+        .wrap__main__card__active .main__info .info__contant .info__list-container .list__box {
+          width: 50px;
+          height: 50px; }
+          .wrap__main__card__active .main__info .info__contant .info__list-container .list__box .list__img {
+            width: 30px;
+            height: 30px; }
+        .wrap__main__card__active .main__info .info__contant .info__list-container .list__text-box {
+          margin-left: 10px; }
+          .wrap__main__card__active .main__info .info__contant .info__list-container .list__text-box .list__titel {
+            font-size: 14px; }
+          .wrap__main__card__active .main__info .info__contant .info__list-container .list__text-box .list__description {
+            font-size: 12px;
+            color: #c6c6c6; }
+      .wrap__main__card__active .main__info .info__contant .info__list-beffore {
+        width: 90%;
+        height: 15%;
+        border-radius: 9px;
+        position: relative;
+        bottom: 20px; }
+  .wrap__main__card__active .main__line {
+    width: 100%;
+    height: 2vh;
+    background: #2E8ABB; }
+  .wrap__main__card__active .main__taskbar {
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main__card__active .main__taskbar .taskbar__box .taskbar__img {
+      width: 25px;
+      height: 25px; }
+    .wrap__main__card__active .main__taskbar .taskbar__box .taskbar__titiel {
+      font-size: 12px;
+      margin-top: 5px; } }
+@media screen and (max-width: 400px) {
+  .wrap__main__card__active .main__header {
+    width: 100%;
+    height: 40vh; }
+    .wrap__main__card__active .main__header .header__bottom {
+      width: 100%;
+      height: 100%; }
+      .wrap__main__card__active .main__header .header__bottom .header__leave {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 20px;
+        top: 3%; }
+      .wrap__main__card__active .main__header .header__bottom .card-container .front {
+        border-radius: 2px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-right: 10px; }
+        .wrap__main__card__active .main__header .header__bottom .card-container .front .logo .logo__text {
+          font-size: 14px; }
+        .wrap__main__card__active .main__header .header__bottom .card-container .front .logo .line {
+          width: 2px;
+          height: 30px;
+          margin-left: 10px;
+          margin-right: 10px; }
+        .wrap__main__card__active .main__header .header__bottom .card-container .front .logo .logo__universal {
+          font-size: 14px;
+          line-height: 20px; }
+        .wrap__main__card__active .main__header .header__bottom .card-container .front .card-number-box {
+          padding: 5px 0;
+          font-size: 18px;
+          line-height: 20px; }
+        .wrap__main__card__active .main__header .header__bottom .card-container .front .flexbox {
+          padding-top: 15px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .front .flexbox .box {
+            font-size: 14px;
+            line-height: 22px; }
+      .wrap__main__card__active .main__header .header__bottom .card-container .back {
+        border-radius: 2px;
+        padding-bottom: 12px;
+        padding-top: 10px; }
+        .wrap__main__card__active .main__header .header__bottom .card-container .back .stripe {
+          margin-top: 20px;
+          height: 40px; }
+        .wrap__main__card__active .main__header .header__bottom .card-container .back .box {
+          width: 85px;
+          height: 40px;
+          background: #292933;
+          border-radius: 3px;
+          margin-top: 30px;
+          margin-right: 20px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .back .box .cvv__img {
+            width: 35px;
+            height: 30px;
+            margin-right: 10px; }
+          .wrap__main__card__active .main__header .header__bottom .card-container .back .box .cvv__text {
+            font-size: 16px;
+            line-height: 22px;
+            margin-left: 10px; }
+  .wrap__main__card__active .main__info {
+    width: 100%;
+    height: 46vh;
+    background: #272727;
+    border-radius: 20px 20px 0px 0px; }
+    .wrap__main__card__active .main__info .info__header {
+      padding-top: 0px;
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main__card__active .main__info .info__header .info__titel {
+        font-size: 20px; }
+      .wrap__main__card__active .main__info .info__header .search__box {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-left: 80%; }
+        .wrap__main__card__active .main__info .info__header .search__box .search__img {
+          width: 20px;
+          height: 20px; }
+    .wrap__main__card__active .main__info .info__contant {
+      padding-left: 20px;
+      padding-right: 20px; }
+      .wrap__main__card__active .main__info .info__contant .info__list-container {
+        width: 100%;
+        height: 80px;
+        border-radius: 7px;
+        padding-left: 10px;
+        padding-right: 10px; }
+        .wrap__main__card__active .main__info .info__contant .info__list-container .list__box {
+          width: 50px;
+          height: 50px; }
+          .wrap__main__card__active .main__info .info__contant .info__list-container .list__box .list__img {
+            width: 30px;
+            height: 30px; }
+        .wrap__main__card__active .main__info .info__contant .info__list-container .list__text-box {
+          margin-left: 10px; }
+          .wrap__main__card__active .main__info .info__contant .info__list-container .list__text-box .list__titel {
+            font-size: 11px; }
+          .wrap__main__card__active .main__info .info__contant .info__list-container .list__text-box .list__description {
+            font-size: 11px;
+            color: #c6c6c6; }
+      .wrap__main__card__active .main__info .info__contant .info__list-beffore {
+        width: 90%;
+        height: 15%;
+        border-radius: 9px;
+        position: relative;
+        bottom: 20px; }
+  .wrap__main__card__active .main__line {
+    width: 100%;
+    height: 2vh;
+    background: #2E8ABB; }
+  .wrap__main__card__active .main__taskbar {
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main__card__active .main__taskbar .taskbar__box .taskbar__img {
+      width: 25px;
+      height: 25px; }
+    .wrap__main__card__active .main__taskbar .taskbar__box .taskbar__titiel {
+      font-size: 12px;
+      margin-top: 5px; } }
+
+/*# sourceMappingURL=style.css.map */

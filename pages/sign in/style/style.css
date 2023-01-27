@@ -1,0 +1,449 @@
+* {
+  outline: none;
+  border: none;
+  text-decoration: none; }
+
+body {
+  overflow: hidden; }
+
+.outer {
+  border: 1px solid #ed1f1f70;
+  z-index: 999; }
+
+.inner {
+  background: #ed1f1f70;
+  transition: 250ms ease-out;
+  z-index: 999; }
+
+.wrap__card {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column; }
+  .wrap__card .card-container {
+    width: 420px;
+    height: 230px;
+    margin-bottom: -150px;
+    position: relative; }
+    .wrap__card .card-container .front {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background: linear-gradient(70.62deg, #9A3FE3 0%, #D638BA 53.12%, #F03094 100%);
+      border-radius: 5px;
+      backface-visibility: hidden;
+      padding-left: 20px;
+      padding-bottom: 12px;
+      padding-top: 10px;
+      padding-right: 20px;
+      transform: perspective(1000px) rotateY(0deg);
+      transition: transform .4s ease-out; }
+      .wrap__card .card-container .front .logo {
+        display: flex;
+        align-items: center;
+        padding-top: 10px; }
+        .wrap__card .card-container .front .logo .logo__text {
+          font-family: 'Verdana';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 24px;
+          color: #FFFFFF; }
+        .wrap__card .card-container .front .logo .line {
+          width: 2px;
+          height: 30px;
+          background: #C2C2C2;
+          margin-left: 10px;
+          margin-right: 10px; }
+        .wrap__card .card-container .front .logo .logo__universal {
+          font-family: 'Verdana';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 24px;
+          color: #C2C2C2; }
+      .wrap__card .card-container .front .card-number-box {
+        padding: 30px 0;
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.08em;
+        color: #FFFFFF; }
+      .wrap__card .card-container .front .flexbox {
+        display: flex;
+        justify-content: space-between; }
+        .wrap__card .card-container .front .flexbox .box {
+          font-family: 'Comfortaa';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 22px;
+          color: #FFFFFF; }
+    .wrap__card .card-container .back {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background: linear-gradient(251.81deg, #9A3FE3 5.19%, #D638BA 53.98%, #F03094 97.02%);
+      border-radius: 5px;
+      backface-visibility: hidden;
+      padding-bottom: 12px;
+      padding-top: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      transform: perspective(1000px) rotateY(180deg);
+      transition: transform .4s ease-out; }
+      .wrap__card .card-container .back .stripe {
+        width: 100%;
+        margin-top: 30px;
+        height: 46px;
+        background: #292933; }
+      .wrap__card .card-container .back .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        height: 52px;
+        background: #292933;
+        border-radius: 3px;
+        margin-top: 50px;
+        margin-right: 20px; }
+        .wrap__card .card-container .back .box .cvv__img {
+          width: 35px;
+          height: 30px;
+          margin-right: 10px; }
+        .wrap__card .card-container .back .box .cvv__text {
+          font-family: 'Comfortaa';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 22px;
+          letter-spacing: 0.08em;
+          color: #FFFFFF;
+          margin-left: 10px; }
+  .wrap__card form {
+    width: 700px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 160px; }
+    .wrap__card form .inputBox {
+      margin-top: 20px; }
+      .wrap__card form .inputBox span {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 36px;
+        color: #A5A3A3;
+        padding-bottom: 5px; }
+      .wrap__card form .inputBox input, .wrap__card form .inputBox select {
+        width: 100%;
+        border: 1px solid #8E22FF;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: transparent;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #000000; }
+    .wrap__card form .flexbox {
+      display: flex;
+      gap: 15px; }
+      .wrap__card form .flexbox .inputBox {
+        flex: 1 1 150px; }
+    .wrap__card form .sumbit-btn {
+      width: 100%;
+      background: linear-gradient(90deg, #8D23FF 0%, #961FFF 48.36%, #AA18FF 96.71%), linear-gradient(90deg, #9537D8 0%, #AD2F9A 48.36%, #C9287A 96.71%);
+      border-radius: 5px;
+      margin-top: 20px;
+      padding: 8px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 39px;
+      letter-spacing: 0.065em;
+      color: #FFFFFF;
+      cursor: pointer;
+      transition: .2s linear;
+      break-before: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .wrap__card form .sumbit-btn:hover {
+        letter-spacing: 4px;
+        opacity: .8; }
+
+@media screen and (max-width: 800px) {
+  .wrap__card .card-container {
+    width: 420px;
+    height: 230px;
+    margin-bottom: -150px;
+    position: relative; }
+    .wrap__card .card-container .front {
+      border-radius: 5px;
+      padding-left: 20px;
+      padding-bottom: 12px;
+      padding-top: 10px;
+      padding-right: 20px; }
+      .wrap__card .card-container .front .logo {
+        padding-top: 10px; }
+        .wrap__card .card-container .front .logo .logo__text {
+          font-size: 18px; }
+        .wrap__card .card-container .front .logo .line {
+          width: 2px;
+          height: 30px;
+          margin-left: 10px;
+          margin-right: 10px; }
+        .wrap__card .card-container .front .logo .logo__universal {
+          font-size: 18px;
+          line-height: 24px; }
+      .wrap__card .card-container .front .card-number-box {
+        padding: 30px 0;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.08em; }
+      .wrap__card .card-container .front .flexbox .box {
+        font-size: 18px;
+        line-height: 22px; }
+    .wrap__card .card-container .back {
+      border-radius: 5px;
+      padding-bottom: 12px;
+      padding-top: 10px; }
+      .wrap__card .card-container .back .stripe {
+        width: 100%;
+        margin-top: 30px;
+        height: 46px; }
+      .wrap__card .card-container .back .box {
+        width: 120px;
+        height: 52px;
+        border-radius: 3px;
+        margin-top: 50px;
+        margin-right: 20px; }
+        .wrap__card .card-container .back .box .cvv__img {
+          width: 35px;
+          height: 30px;
+          margin-right: 10px; }
+        .wrap__card .card-container .back .box .cvv__text {
+          font-size: 20px;
+          line-height: 22px;
+          letter-spacing: 0.08em;
+          margin-left: 10px; }
+  .wrap__card form {
+    width: 90%;
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 160px; }
+    .wrap__card form .inputBox {
+      margin-top: 20px; }
+      .wrap__card form .inputBox span {
+        font-size: 16px;
+        line-height: 36px;
+        padding-bottom: 5px; }
+      .wrap__card form .inputBox input, .wrap__card form .inputBox select {
+        width: 100%;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 16px; }
+    .wrap__card form .flexbox {
+      display: flex;
+      gap: 15px; }
+      .wrap__card form .flexbox .inputBox {
+        flex: 1 1 150px; }
+    .wrap__card form .sumbit-btn {
+      border-radius: 5px;
+      margin-top: 20px;
+      padding: 8px;
+      font-size: 20px;
+      line-height: 39px;
+      letter-spacing: 0.065em; }
+      .wrap__card form .sumbit-btn:hover {
+        letter-spacing: 4px;
+        opacity: .8; } }
+@media screen and (max-width: 620px) {
+  .wrap__card .card-container {
+    width: 380px;
+    height: 230px;
+    margin-bottom: -150px;
+    position: relative; }
+    .wrap__card .card-container .front {
+      border-radius: 5px;
+      padding-left: 20px;
+      padding-bottom: 12px;
+      padding-top: 10px;
+      padding-right: 20px; }
+      .wrap__card .card-container .front .logo {
+        padding-top: 10px; }
+        .wrap__card .card-container .front .logo .logo__text {
+          font-size: 18px; }
+        .wrap__card .card-container .front .logo .line {
+          width: 2px;
+          height: 30px;
+          margin-left: 10px;
+          margin-right: 10px; }
+        .wrap__card .card-container .front .logo .logo__universal {
+          font-size: 18px;
+          line-height: 24px; }
+      .wrap__card .card-container .front .card-number-box {
+        padding: 30px 0;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.08em; }
+      .wrap__card .card-container .front .flexbox .box {
+        font-size: 18px;
+        line-height: 22px; }
+    .wrap__card .card-container .back {
+      border-radius: 5px;
+      padding-bottom: 12px;
+      padding-top: 10px; }
+      .wrap__card .card-container .back .stripe {
+        width: 100%;
+        margin-top: 30px;
+        height: 46px; }
+      .wrap__card .card-container .back .box {
+        width: 120px;
+        height: 52px;
+        border-radius: 3px;
+        margin-top: 50px;
+        margin-right: 20px; }
+        .wrap__card .card-container .back .box .cvv__img {
+          width: 35px;
+          height: 30px;
+          margin-right: 10px; }
+        .wrap__card .card-container .back .box .cvv__text {
+          font-size: 20px;
+          line-height: 22px;
+          letter-spacing: 0.08em;
+          margin-left: 10px; }
+  .wrap__card form {
+    width: 90%;
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 160px; }
+    .wrap__card form .inputBox {
+      margin-top: 20px; }
+      .wrap__card form .inputBox span {
+        font-size: 16px;
+        line-height: 36px;
+        padding-bottom: 5px; }
+      .wrap__card form .inputBox input, .wrap__card form .inputBox select {
+        width: 100%;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 16px; }
+    .wrap__card form .flexbox {
+      display: flex;
+      gap: 15px; }
+      .wrap__card form .flexbox .inputBox {
+        flex: 1 1 150px; }
+    .wrap__card form .sumbit-btn {
+      border-radius: 5px;
+      margin-top: 20px;
+      padding: 8px;
+      font-size: 20px;
+      line-height: 39px;
+      letter-spacing: 0.065em; }
+      .wrap__card form .sumbit-btn:hover {
+        letter-spacing: 4px;
+        opacity: .8; } }
+@media screen and (max-width: 510px) {
+  .wrap__card .card-container {
+    width: 300px;
+    height: 170px;
+    margin-bottom: -150px;
+    position: relative; }
+    .wrap__card .card-container .front {
+      border-radius: 5px;
+      padding-left: 10px;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      padding-right: 10px; }
+      .wrap__card .card-container .front .logo {
+        padding-top: 10px; }
+        .wrap__card .card-container .front .logo .logo__text {
+          font-size: 16px; }
+        .wrap__card .card-container .front .logo .line {
+          width: 2px;
+          height: 30px;
+          margin-left: 10px;
+          margin-right: 10px; }
+        .wrap__card .card-container .front .logo .logo__universal {
+          font-size: 16px;
+          line-height: 24px; }
+      .wrap__card .card-container .front .card-number-box {
+        padding: 20px 0;
+        font-size: 20px;
+        line-height: 29px;
+        letter-spacing: 0.08em; }
+      .wrap__card .card-container .front .flexbox .box {
+        font-size: 16px;
+        line-height: 22px; }
+    .wrap__card .card-container .back {
+      border-radius: 5px;
+      padding-bottom: 12px;
+      padding-top: 10px; }
+      .wrap__card .card-container .back .stripe {
+        width: 100%;
+        margin-top: 30px;
+        height: 46px; }
+      .wrap__card .card-container .back .box {
+        width: 120px;
+        height: 52px;
+        border-radius: 3px;
+        margin-top: 50px;
+        margin-right: 20px; }
+        .wrap__card .card-container .back .box .cvv__img {
+          width: 35px;
+          height: 30px;
+          margin-right: 10px; }
+        .wrap__card .card-container .back .box .cvv__text {
+          font-size: 20px;
+          line-height: 22px;
+          letter-spacing: 0.08em;
+          margin-left: 10px; }
+  .wrap__card form {
+    width: 95%;
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 160px;
+    background: transparent;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25); }
+    .wrap__card form .inputBox {
+      margin-top: 20px; }
+      .wrap__card form .inputBox span {
+        font-size: 16px;
+        line-height: 36px;
+        padding-bottom: 5px; }
+      .wrap__card form .inputBox input, .wrap__card form .inputBox select {
+        width: 100%;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 16px; }
+    .wrap__card form .flexbox {
+      display: flex;
+      gap: 15px; }
+      .wrap__card form .flexbox .inputBox {
+        flex: 1 1 150px; }
+    .wrap__card form .sumbit-btn {
+      border-radius: 5px;
+      margin-top: 20px;
+      padding: 8px;
+      font-size: 20px;
+      line-height: 39px;
+      letter-spacing: 0.065em; }
+      .wrap__card form .sumbit-btn:hover {
+        letter-spacing: 4px;
+        opacity: .8; } }
+
+/*# sourceMappingURL=style.css.map */

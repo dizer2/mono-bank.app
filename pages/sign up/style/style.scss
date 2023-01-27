@@ -1,0 +1,1288 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+*{
+	cursor: auto;
+}
+body{
+	overflow: hidden;
+	cursor: auto;
+}
+.wrap__signup{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	cursor: auto;
+	.container{
+		width: 800px;
+		height: 75%;
+		.container__top{
+			width: 100%;
+			height: 12%;
+			display: flex;
+			justify-content: space-between;
+			.logo{
+				width: auto;
+				height: auto;
+				display: flex;
+				align-items: center;
+				.logo__cat{
+					width: 139px;
+					height: 70px;
+				}
+				.logo__text{
+					font-family: 'Verdana';
+					font-style: normal;
+					font-weight: 700;
+					font-size: 32px;
+					line-height: 44px;
+					color: #0F1428;
+					position: relative;
+					right: 20px;
+
+				}
+			}
+			.hand{
+				width: 250px;
+				height: 230px;
+				z-index: -2;
+				position: relative;
+				bottom: 120%;
+			}
+		}
+		.container__bottom{
+			width: 100%;
+			height: 88%;
+			display: flex;
+			padding-top: 12px;
+			.left__card{
+				width: 50%;
+				height: 450px;
+				background: #FFFFFF;
+				border-left: 1px solid #D7D7D7;
+				border-bottom: 1px solid #D7D7D7;
+				border-top: 1px solid #D7D7D7;
+				border-radius: 10px 50px 50px 10px;
+				z-index: 15;
+				position: relative;
+				left: 4%;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				overflow: hidden;
+				&::before{
+					content: "";
+					width: 300px;
+					height: 300px;
+					background: #F8F8F8;
+					border-radius: 50%;
+					position: absolute;
+					left: 45%;
+					top: 15%;
+					z-index: -1;
+				}
+				.card__titel{
+					font-family: 'Comfortaa';
+					font-style: normal;
+					font-weight: 600;
+					font-size: 30px;
+					line-height: 36px;
+					text-align: center;
+					color: #000000;
+					margin-top: 50px;
+				}
+				.card__title__email{
+					font-family: 'Comfortaa';
+					font-style: normal;
+					font-weight: 600;
+					font-size: 30px;
+					text-align: center;
+					color: #000000;
+				}
+				.phone__container-input{
+					width: 340px;
+					height: 60px;
+					background: #AE17FF;
+					border-radius: 5px;
+					cursor: pointer;
+					margin-top: 70px;
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					padding-left: 15px;
+					padding-right: 15px;
+					.phone__number{
+						font-family: 'Comfortaa';
+						font-style: normal;
+						font-weight: 700;
+						font-size: 18px;
+						line-height: 27px;
+						color: #FFFFFF;
+						width: 80%;
+						height: 100%;
+						background-color: transparent;
+						outline: none;
+						border: none;
+						&::placeholder{
+						font-family: 'Comfortaa';
+						font-style: normal;
+						font-weight: 700;
+						font-size: 20px;
+						line-height: 27px;
+						color: #e3e3e3;
+						}
+					}
+					.phone__img{
+						width: 30px;
+						height: 30px;
+						position: relative;
+						top: 2px;
+					}
+				}
+				.control__user{
+					width: 100%;
+					height: auto;
+					display: flex;
+					justify-content: center;
+					margin-top: 135px;
+					position: relative;
+					right: 15px;
+					.user__block{
+						width: 40px;
+						height: 40px;
+						background: #FA5255;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						border-radius: 50%;
+						cursor: pointer;
+						margin-left: 5px;
+						transition: 0.5s;
+
+						.user__text{
+							font-family: 'Poppins';
+							font-style: normal;
+							font-weight: 300;
+							font-size: 20px;
+							line-height: 36px;
+							color: #FFFFFF;
+							transition: 0.5s;
+
+						}
+					}
+					.user__block2{
+						width: 40px;
+						height: 40px;
+						border: 1px solid #D2D2D2;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						border-radius: 50%;
+						cursor: pointer;
+						margin-left: 5px;
+						transition: 0.5s;
+
+
+						.user__text2{
+							font-family: 'Poppins';
+							font-style: normal;
+							font-weight: 300;
+							font-size: 20px;
+							line-height: 36px;
+							color: #D2D2D2;
+							transition: 0.5s;
+
+						}
+					}
+					.user__block3{
+						width: 40px;
+						height: 40px;
+						border: 1px solid #D2D2D2;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						border-radius: 50%;
+						cursor: pointer;
+						margin-left: 5px;
+						transition: 0.5s;
+						.user__text3{
+							font-family: 'Poppins';
+							font-style: normal;
+							font-weight: 300;
+							font-size: 20px;
+							line-height: 36px;
+							color: #D2D2D2;
+							transition: 0.5s;
+
+						}
+					}
+				}
+				.control__user__active{
+					width: 100%;
+					height: auto;
+					display: flex;
+					justify-content: center;
+					margin-top: 100px;
+				}
+				.verificate__container{
+					width: 100%;
+					height: auto;
+					display: flex;
+					justify-content: center;
+					margin-top: 85px;
+					.input1{
+						width: 70px;
+						height: 80px;
+						margin: 0 5px;
+						background-color: transparent;
+						border:none;
+						border-bottom: 1px solid #8C23FF;
+						outline: none;
+						font-family: 'Comfortaa';
+						font-style: normal;
+						font-weight: 700;
+						font-size: 48px;
+						line-height: 71px;
+						color: #000000;
+						text-align: center;
+
+
+					}
+					#inputNumber1{
+						border-bottom: 1px solid #8C23FF;
+
+					}
+					#inputNumber2{
+						border-bottom: 1px solid #9C7CDA;
+
+					}
+					#inputNumber3{
+						border-bottom: 1px solid #DC95C4;
+
+					}
+					#inputNumber4{
+						border-bottom: 1px solid #AF16FF;
+
+					}
+				}
+				
+			}
+			.right__card{
+				width: 50%;
+				height: 450px;
+				background: linear-gradient(90.63deg, #8128FF -2.15%, #B216FF 99.48%);
+				border-radius: 10px 50px 10px 10px;
+				z-index: -1;
+				position: relative;
+				right: 4%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding-left: 8%;
+				.right__mono{
+					width: 200px;
+					height: 200px;
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and(max-width: 1250px) {
+	.wrap__signup{
+		width: 100%;
+		height: 100vh;
+		padding-bottom: 10%;
+		.container{
+			width: 800px;
+			height: 75%;
+			.container__top{
+				width: 100%;
+				height: 12%;
+				display: flex;
+				justify-content: space-between;
+				.logo{
+					width: auto;
+					height: auto;
+					display: flex;
+					align-items: center;
+					.logo__cat{
+						width: 139px;
+						height: 70px;
+					}
+					.logo__text{
+						font-family: 'Verdana';
+						font-style: normal;
+						font-weight: 700;
+						font-size: 32px;
+						line-height: 44px;
+						color: #0F1428;
+						position: relative;
+						right: 20px;
+	
+					}
+				}
+				.hand{
+					width: 250px;
+					height: 230px;
+					z-index: -2;
+					position: relative;
+					bottom: 200%;
+				}
+			}
+			.container__bottom{
+				width: 100%;
+				height: 88%;
+				display: flex;
+				padding-top: 12px;
+				.left__card{
+					width: 50%;
+					height: 450px;
+					background: #FFFFFF;
+					border-left: 1px solid #D7D7D7;
+					border-bottom: 1px solid #D7D7D7;
+					border-top: 1px solid #D7D7D7;
+					border-radius: 10px 50px 50px 10px;
+					z-index: 15;
+					position: relative;
+					left: 4%;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					overflow: hidden;
+					&::before{
+						content: "";
+						width: 300px;
+						height: 300px;
+						background: #F8F8F8;
+						border-radius: 50%;
+						position: absolute;
+						left: 45%;
+						top: 15%;
+						z-index: -1;
+					}
+					.card__titel{
+						font-family: 'Comfortaa';
+						font-style: normal;
+						font-weight: 600;
+						font-size: 30px;
+						line-height: 36px;
+						text-align: center;
+						color: #000000;
+						margin-top: 50px;
+					}
+					.card__title__email{
+						font-family: 'Comfortaa';
+						font-style: normal;
+						font-weight: 600;
+						font-size: 30px;
+						text-align: center;
+						color: #000000;
+					}
+					.phone__container-input{
+						width: 340px;
+						height: 60px;
+						background: #AE17FF;
+						border-radius: 5px;
+						cursor: pointer;
+						margin-top: 70px;
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+						padding-left: 15px;
+						padding-right: 15px;
+						.phone__number{
+							font-family: 'Comfortaa';
+							font-style: normal;
+							font-weight: 700;
+							font-size: 18px;
+							line-height: 27px;
+							color: #FFFFFF;
+							width: 80%;
+							height: 100%;
+							background-color: transparent;
+							outline: none;
+							border: none;
+							&::placeholder{
+							font-family: 'Comfortaa';
+							font-style: normal;
+							font-weight: 700;
+							font-size: 20px;
+							line-height: 27px;
+							color: #e3e3e3;
+							}
+						}
+						.phone__img{
+							width: 30px;
+							height: 30px;
+							position: relative;
+							top: 2px;
+						}
+					}
+					.control__user{
+						width: 100%;
+						height: auto;
+						display: flex;
+						justify-content: center;
+						margin-top: 135px;
+						position: relative;
+						right: 15px;
+						.user__block{
+							width: 40px;
+							height: 40px;
+							background: #FA5255;
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							border-radius: 50%;
+							cursor: pointer;
+							margin-left: 5px;
+							transition: 0.5s;
+	
+							.user__text{
+								font-family: 'Poppins';
+								font-style: normal;
+								font-weight: 300;
+								font-size: 20px;
+								line-height: 36px;
+								color: #FFFFFF;
+								transition: 0.5s;
+	
+							}
+						}
+						.user__block2{
+							width: 40px;
+							height: 40px;
+							border: 1px solid #D2D2D2;
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							border-radius: 50%;
+							cursor: pointer;
+							margin-left: 5px;
+							transition: 0.5s;
+	
+	
+							.user__text2{
+								font-family: 'Poppins';
+								font-style: normal;
+								font-weight: 300;
+								font-size: 20px;
+								line-height: 36px;
+								color: #D2D2D2;
+								transition: 0.5s;
+	
+							}
+						}
+						.user__block3{
+							width: 40px;
+							height: 40px;
+							border: 1px solid #D2D2D2;
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							border-radius: 50%;
+							cursor: pointer;
+							margin-left: 5px;
+							transition: 0.5s;
+							.user__text3{
+								font-family: 'Poppins';
+								font-style: normal;
+								font-weight: 300;
+								font-size: 20px;
+								line-height: 36px;
+								color: #D2D2D2;
+								transition: 0.5s;
+	
+							}
+						}
+					}
+					.control__user__active{
+						width: 100%;
+						height: auto;
+						display: flex;
+						justify-content: center;
+						margin-top: 100px;
+					}
+					.verificate__container{
+						width: 100%;
+						height: auto;
+						display: flex;
+						justify-content: center;
+						margin-top: 85px;
+						.input1{
+							width: 70px;
+							height: 80px;
+							margin: 0 5px;
+							background-color: transparent;
+							border:none;
+							border-bottom: 1px solid #8C23FF;
+							outline: none;
+							font-family: 'Comfortaa';
+							font-style: normal;
+							font-weight: 700;
+							font-size: 48px;
+							line-height: 71px;
+							color: #000000;
+							text-align: center;
+	
+	
+						}
+						#inputNumber1{
+							border-bottom: 1px solid #8C23FF;
+	
+						}
+						#inputNumber2{
+							border-bottom: 1px solid #9C7CDA;
+	
+						}
+						#inputNumber3{
+							border-bottom: 1px solid #DC95C4;
+	
+						}
+						#inputNumber4{
+							border-bottom: 1px solid #AF16FF;
+	
+						}
+					}
+					
+				}
+				.right__card{
+					width: 50%;
+					height: 450px;
+					background: linear-gradient(90.63deg, #8128FF -2.15%, #B216FF 99.48%);
+					border-radius: 10px 50px 10px 10px;
+					z-index: -1;
+					position: relative;
+					right: 4%;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					padding-left: 8%;
+					.right__mono{
+						width: 200px;
+						height: 200px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and(max-width: 960px) {
+	
+.wrap__signup{
+	padding-bottom: 0%;
+	padding-top: 7%;
+	.container{
+		width: 700px;
+		height: 100%;
+		.container__top{
+			width: 100%;
+			height: 6%;
+			display: flex;
+			justify-content: space-between;
+			.logo{
+				.logo__cat{
+					width: 150px;
+					height: 50px;
+				}
+				.logo__text{
+					font-size: 28px;
+					line-height: 44px;
+					position: relative;
+					right: 30px;
+
+				}
+			}
+			.hand{
+				width: 200px;
+				height: 190px;
+				z-index: -2;
+				position: relative;
+				bottom: 225%;
+			}
+		}
+		.container__bottom{
+			width: 100%;
+			height: 94%;
+			padding-top: 12px;
+			.left__card{
+				width: 50%;
+				height: 450px;
+				background: #FFFFFF;
+				border-radius: 5px 30px 30px 5px;
+				position: relative;
+				left: 4%;
+				&::before{
+					content: "";
+					width: 250px;
+					height: 250px;
+					position: absolute;
+					left: 50%;
+					top: 20%;
+				}
+				.card__titel{
+					font-size: 26px;
+					line-height: 36px;
+					margin-top: 35px;
+				}
+				.card__title__email{
+					font-size: 26px;
+				}
+				.phone__container-input{
+					width: 300px;
+					height: 50px;
+					border-radius: 5px;
+					margin-top: 90px;
+					padding-left: 10px;
+					padding-right: 10px;
+					.phone__number{
+						font-size: 18px;
+						line-height: 27px;
+						width: 80%;
+						height: 100%;
+						&::placeholder{
+						font-size: 20px;
+						line-height: 27px;
+						}
+					}
+					.phone__img{
+						width: 30px;
+						height: 30px;
+						position: relative;
+						top: 2px;
+					}
+				}
+				.control__user{
+					margin-top: 135px;
+					position: relative;
+					right: 0px;
+					.user__block{
+						width: 40px;
+						height: 40px;
+						.user__text{
+							font-size: 20px;
+							line-height: 36px;
+
+						}
+					}
+					.user__block2{
+						width: 40px;
+						height: 40px;
+						border: 1px solid #D2D2D2;
+						margin-left: 5px;
+						transition: 0.5s;
+
+
+						.user__text2{
+							font-size: 20px;
+							line-height: 36px;
+
+						}
+					}
+					.user__block3{
+						width: 40px;
+						height: 40px;
+						border: 1px solid #D2D2D2;
+						margin-left: 5px;
+						.user__text3{
+							font-size: 20px;
+							line-height: 36px;
+
+						}
+					}
+				}
+				.control__user__active{
+					width: 100%;
+					height: auto;
+					display: flex;
+					justify-content: center;
+					margin-top: 100px;
+				}
+				.verificate__container{
+					margin-top: 85px;
+					.input1{
+						width: 60px;
+						height: 70px;
+						margin: 0 5px;
+						background-color: transparent;
+						border:none;
+						border-bottom: 1px solid #8C23FF;
+						outline: none;
+						font-family: 'Comfortaa';
+						font-style: normal;
+						font-weight: 700;
+						font-size: 42px;
+						line-height: 71px;
+						color: #000000;
+						text-align: center;
+
+
+					}
+				}
+				
+			}
+			.right__card{
+				width: 50%;
+				height: 450px;
+				background: linear-gradient(90.63deg, #8128FF -2.15%, #B216FF 99.48%);
+				border-radius: 5px 30px 30px 5px;
+				z-index: -1;
+				position: relative;
+				right: 4%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding-left: 8%;
+				.right__mono{
+					width: 150px;
+					height: 150px;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+}
+
+
+
+
+@media screen and(max-width: 740px) {
+	.wrap__signup{
+		padding-bottom: 0%;
+		padding-top: 10%;
+		.container{
+			width: 60%;
+			height: 100%;
+			.container__top{
+				width: 100%;
+				height: 6%;
+				display: flex;
+				justify-content: center;
+				.logo{
+					.logo__cat{
+						width: 150px;
+						height: 50px;
+					}
+					.logo__text{
+						font-size: 28px;
+						line-height: 44px;
+						position: relative;
+						right: 30px;
+	
+					}
+				}
+				.hand{
+					display: none;
+				}
+			}
+			.container__bottom{
+				width: 100%;
+				height: 94%;
+				padding-top: 12px;
+				.left__card{
+					width: 100%;
+					height: 450px;
+					background: linear-gradient(90.63deg, #8128FF -2.15%, #B216FF 99.48%);
+					border-radius: 5px 5px 5px 5px;
+					border-right: 1px solid #D7D7D7;
+					position: relative;
+					left: 0%;
+					&::before{
+						display: none;
+					}
+					.card__titel{
+						font-size: 26px;
+						line-height: 36px;
+						margin-top: 35px;
+
+					}
+					.card__title__email{
+						font-size: 26px;
+					}
+					.phone__container-input{
+						width: 300px;
+						height: 50px;
+						border-radius: 5px;
+						margin-top: 90px;
+						padding-left: 10px;
+						padding-right: 10px;
+						background-color: #333;
+						.phone__number{
+							font-size: 18px;
+							line-height: 27px;
+							width: 80%;
+							height: 100%;
+							&::placeholder{
+							font-size: 20px;
+							line-height: 27px;
+					     	background-color: #333;
+
+							}
+						}
+						.phone__img{
+							width: 30px;
+							height: 30px;
+							position: relative;
+							top: 2px;
+						}
+					}
+					.control__user{
+						margin-top: 135px;
+						position: relative;
+						right: 0px;
+						.user__block{
+							width: 40px;
+							height: 40px;
+							.user__text{
+								font-size: 20px;
+								line-height: 36px;
+	
+							}
+						}
+						.user__block2{
+							width: 40px;
+							height: 40px;
+							border: 1px solid #D2D2D2;
+							margin-left: 5px;
+							transition: 0.5s;
+	
+	
+							.user__text2{
+								font-size: 20px;
+								line-height: 36px;
+	
+							}
+						}
+						.user__block3{
+							width: 40px;
+							height: 40px;
+							border: 1px solid #D2D2D2;
+							margin-left: 5px;
+							.user__text3{
+								font-size: 20px;
+								line-height: 36px;
+	
+							}
+						}
+					}
+					.control__user__active{
+						width: 100%;
+						height: auto;
+						display: flex;
+						justify-content: center;
+						margin-top: 100px;
+					}
+					.verificate__container{
+						margin-top: 85px;
+						.input1{
+							width: 60px;
+							height: 70px;
+							margin: 0 5px;
+							background-color: transparent;
+							border:none;
+							border-bottom: 1px solid #8C23FF;
+							outline: none;
+							font-family: 'Comfortaa';
+							font-style: normal;
+							font-weight: 700;
+							font-size: 42px;
+							line-height: 71px;
+							color: #fff;
+							text-align: center;
+	
+	
+						}
+						#inputNumber1{
+							border-bottom: 1px solid #fff;
+	
+						}
+						#inputNumber2{
+							border-bottom: 1px solid #fff;
+	
+						}
+						#inputNumber3{
+							border-bottom: 1px solid #fff;
+	
+						}
+						#inputNumber4{
+							border-bottom: 1px solid #fff;
+	
+						}
+					}
+					
+				}
+				.right__card{
+				display: none;
+				}
+			}
+		}
+	}
+	
+	
+
+
+}
+
+@media screen and(max-width: 660px) {
+	.wrap__signup{
+		padding-bottom: 0%;
+		padding-top: 10%;
+		.container{
+			width: 80%;
+			height: 100%;
+			.container__top{
+				width: 100%;
+				height: 6%;
+				display: flex;
+				justify-content: center;
+				.logo{
+					.logo__cat{
+						width: 150px;
+						height: 50px;
+					}
+					.logo__text{
+						font-size: 28px;
+						line-height: 44px;
+						position: relative;
+						right: 30px;
+	
+					}
+				}
+				.hand{
+					display: none;
+				}
+			}
+			.container__bottom{
+				width: 100%;
+				height: 94%;
+				padding-top: 12px;
+				.left__card{
+					width: 100%;
+					height: 450px;
+					background: linear-gradient(90.63deg, #8128FF -2.15%, #B216FF 99.48%);
+					border-radius: 5px 5px 5px 5px;
+					border-right: 1px solid #D7D7D7;
+					position: relative;
+					left: 0%;
+					&::before{
+						display: none;
+					}
+					.card__titel{
+						font-size: 26px;
+						line-height: 36px;
+						margin-top: 35px;
+
+					}
+					.card__title__email{
+						font-size: 26px;
+					}
+					.phone__container-input{
+						width: 300px;
+						height: 50px;
+						border-radius: 5px;
+						margin-top: 90px;
+						padding-left: 10px;
+						padding-right: 10px;
+						background-color: #333;
+						.phone__number{
+							font-size: 18px;
+							line-height: 27px;
+							width: 80%;
+							height: 100%;
+							&::placeholder{
+							font-size: 20px;
+							line-height: 27px;
+					     	background-color: #333;
+
+							}
+						}
+						.phone__img{
+							width: 30px;
+							height: 30px;
+							position: relative;
+							top: 2px;
+						}
+					}
+					.control__user{
+						margin-top: 135px;
+						position: relative;
+						right: 0px;
+						.user__block{
+							width: 40px;
+							height: 40px;
+							.user__text{
+								font-size: 20px;
+								line-height: 36px;
+	
+							}
+						}
+						.user__block2{
+							width: 40px;
+							height: 40px;
+							border: 1px solid #D2D2D2;
+							margin-left: 5px;
+							transition: 0.5s;
+	
+	
+							.user__text2{
+								font-size: 20px;
+								line-height: 36px;
+	
+							}
+						}
+						.user__block3{
+							width: 40px;
+							height: 40px;
+							border: 1px solid #D2D2D2;
+							margin-left: 5px;
+							.user__text3{
+								font-size: 20px;
+								line-height: 36px;
+	
+							}
+						}
+					}
+					.control__user__active{
+						width: 100%;
+						height: auto;
+						display: flex;
+						justify-content: center;
+						margin-top: 100px;
+					}
+					.verificate__container{
+						margin-top: 85px;
+						.input1{
+							width: 60px;
+							height: 70px;
+							margin: 0 5px;
+							background-color: transparent;
+							border:none;
+							border-bottom: 1px solid #8C23FF;
+							outline: none;
+							font-family: 'Comfortaa';
+							font-style: normal;
+							font-weight: 700;
+							font-size: 42px;
+							line-height: 71px;
+							color: #fff;
+							text-align: center;
+	
+	
+						}
+						#inputNumber1{
+							border-bottom: 1px solid #fff;
+	
+						}
+						#inputNumber2{
+							border-bottom: 1px solid #fff;
+	
+						}
+						#inputNumber3{
+							border-bottom: 1px solid #fff;
+	
+						}
+						#inputNumber4{
+							border-bottom: 1px solid #fff;
+	
+						}
+					}
+					
+				}
+				.right__card{
+				display: none;
+				}
+			}
+		}
+	}
+	
+
+
+}
+
+@media screen and(max-width: 500px) {
+	.wrap__signup{
+		padding-bottom: 0%;
+		padding-top: 15%;
+		.container{
+			width: 120%;
+			height: 100%;
+			.container__top{
+				width: 100%;
+				height: 6%;
+				display: flex;
+				justify-content: center;
+				.logo{
+					.logo__cat{
+						width: 150px;
+						height: 50px;
+					}
+					.logo__text{
+						font-size: 28px;
+						line-height: 44px;
+						position: relative;
+						right: 30px;
+	
+					}
+				}
+				.hand{
+					display: none;
+				}
+			}
+			.container__bottom{
+				width: 100%;
+				height: 94%;
+				padding-top: 12px;
+				.left__card{
+					width: 100%;
+					height: 450px;
+					background: linear-gradient(90.63deg, #8128FF -2.15%, #B216FF 99.48%);
+					border-radius: 5px 5px 5px 5px;
+					border-right: 1px solid #D7D7D7;
+					position: relative;
+					left: 0%;
+					&::before{
+						display: none;
+					}
+					.card__titel{
+						font-size: 26px;
+						line-height: 36px;
+						margin-top: 35px;
+
+					}
+					.card__title__email{
+						font-size: 26px;
+					}
+					.phone__container-input{
+						width: 300px;
+						height: 50px;
+						border-radius: 5px;
+						margin-top: 90px;
+						padding-left: 10px;
+						padding-right: 10px;
+						background-color: #333;
+						.phone__number{
+							font-size: 18px;
+							line-height: 27px;
+							width: 80%;
+							height: 100%;
+							&::placeholder{
+							font-size: 20px;
+							line-height: 27px;
+					     	background-color: #333;
+
+							}
+						}
+						.phone__img{
+							width: 30px;
+							height: 30px;
+							position: relative;
+							top: 2px;
+						}
+					}
+					.control__user{
+						margin-top: 135px;
+						position: relative;
+						right: 0px;
+						.user__block{
+							width: 40px;
+							height: 40px;
+							.user__text{
+								font-size: 20px;
+								line-height: 36px;
+	
+							}
+						}
+						.user__block2{
+							width: 40px;
+							height: 40px;
+							border: 1px solid #D2D2D2;
+							margin-left: 5px;
+							transition: 0.5s;
+	
+	
+							.user__text2{
+								font-size: 20px;
+								line-height: 36px;
+	
+							}
+						}
+						.user__block3{
+							width: 40px;
+							height: 40px;
+							border: 1px solid #D2D2D2;
+							margin-left: 5px;
+							.user__text3{
+								font-size: 20px;
+								line-height: 36px;
+	
+							}
+						}
+					}
+					.control__user__active{
+						width: 100%;
+						height: auto;
+						display: flex;
+						justify-content: center;
+						margin-top: 100px;
+					}
+					.verificate__container{
+						margin-top: 85px;
+						.input1{
+							width: 60px;
+							height: 70px;
+							margin: 0 5px;
+							background-color: transparent;
+							border:none;
+							border-bottom: 1px solid #8C23FF;
+							outline: none;
+							font-family: 'Comfortaa';
+							font-style: normal;
+							font-weight: 700;
+							font-size: 42px;
+							line-height: 71px;
+							color: #fff;
+							text-align: center;
+	
+	
+						}
+						#inputNumber1{
+							border-bottom: 1px solid #fff;
+	
+						}
+						#inputNumber2{
+							border-bottom: 1px solid #fff;
+	
+						}
+						#inputNumber3{
+							border-bottom: 1px solid #fff;
+	
+						}
+						#inputNumber4{
+							border-bottom: 1px solid #fff;
+	
+						}
+					}
+					
+				}
+				.right__card{
+				display: none;
+				}
+			}
+		}
+	}
+	
+
+
+}

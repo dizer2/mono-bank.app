@@ -1,0 +1,479 @@
+body {
+  max-width: 100%;
+  max-height: 100vh;
+  overflow: hidden; }
+
+.wrap__main {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(86.77deg, #17649A 1.8%, #107D92 50.56%, #0E908E 99.32%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 1s;
+  z-index: 999;
+  overflow: hidden; }
+  .wrap__main .main__header {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px; }
+    .wrap__main .main__header .header__h1 {
+      font-family: 'Comfortaa';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 36px;
+      letter-spacing: 0.21em;
+      color: #FFFFFF; }
+    .wrap__main .main__header .header__h2 {
+      font-family: 'Comfortaa';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 27px;
+      letter-spacing: 0.21em;
+      color: #FFFFFF;
+      margin-top: 20px; }
+  .wrap__main .main__info {
+    width: 100%;
+    height: 56vh;
+    background: #1E1E1E;
+    border-radius: 35px 35px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 35px;
+    overflow-y: auto; }
+    .wrap__main .main__info::-webkit-scrollbar {
+      display: none;
+      scrollbar-width: none;
+      -ms-overflow-style: none; }
+    .wrap__main .main__info .info__box {
+      margin-top: 60px;
+      position: relative;
+      bottom: 60px; }
+      .wrap__main .main__info .info__box .info__titel {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 45px;
+        letter-spacing: 0.21em;
+        color: #FFFFFF;
+        padding-bottom: 20px; }
+      .wrap__main .main__info .info__box .info__container {
+        display: flex;
+        align-items: center;
+        margin-top: 30px; }
+        .wrap__main .main__info .info__box .info__container .info__img {
+          width: 65px;
+          height: 65px;
+          background: linear-gradient(180deg, #8459BD 0%, #7542AE 100%);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%; }
+          .wrap__main .main__info .info__box .info__container .info__img img {
+            width: 35px;
+            height: 35px; }
+        .wrap__main .main__info .info__box .info__container .info__tax {
+          background-image: url(../img/tax1.svg);
+          background-size: cover; }
+        .wrap__main .main__info .info__box .info__container .info__tax2 {
+          background-image: url(../img/tax2.svg);
+          background-size: cover; }
+        .wrap__main .main__info .info__box .info__container .info__tax3 {
+          background-image: url(../img/tax3.svg);
+          background-size: cover; }
+        .wrap__main .main__info .info__box .info__container .info__tax4 {
+          background-image: url(../img/tax4.svg);
+          background-size: cover; }
+        .wrap__main .main__info .info__box .info__container .info__tax5 {
+          background-image: url(../img/tax5.svg);
+          background-size: cover; }
+        .wrap__main .main__info .info__box .info__container .info__tax6 {
+          background-image: url(../img/tax6.svg);
+          background-size: cover; }
+        .wrap__main .main__info .info__box .info__container .apple__img {
+          background: linear-gradient(180deg, #C66C32 0%, #BB693C 100%); }
+        .wrap__main .main__info .info__box .info__container .container__text-box {
+          margin-left: 20px; }
+          .wrap__main .main__info .info__box .info__container .container__text-box .text__titel {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 36px;
+            letter-spacing: 0.21em;
+            color: #FFFFFF; }
+          .wrap__main .main__info .info__box .info__container .container__text-box .text__description {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: 0.21em;
+            color: #FFFFFF; }
+  .wrap__main .main__line {
+    width: 100%;
+    height: 2vh;
+    background: #2E8ABB; }
+  .wrap__main .main__taskbar {
+    width: 100%;
+    height: 12vh;
+    background: #272727;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px; }
+    .wrap__main .main__taskbar .taskbar__box {
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer; }
+      .wrap__main .main__taskbar .taskbar__box .taskbar__img {
+        width: 35px;
+        height: 35px;
+        background-size: cover; }
+      .wrap__main .main__taskbar .taskbar__box .card__taskbar__img {
+        background-image: url(../../main__img/card.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .card__taskbar__img-hover {
+        background-image: url(../../main__img/card__hover.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .credit__taskbar__img {
+        background-image: url(../../main__img/credit.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .credit__taskbar__img-hover {
+        background-image: url(../../main__img/credit__hover.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .transfers__taskbar__img {
+        background-image: url(../../main__img/transfer.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .transfers__taskbar__img-hover {
+        background-image: url(../../main__img/transfer__hover.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .gift__img {
+        background-image: url(../../main__img/gift.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .gift__img-hover {
+        background-image: url(../../main__img/gift__hover.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .more__img {
+        background-image: url(../../main__img/more.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .more__img-hover {
+        background-image: url(../../main__img/more__hover.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .taskbar__titiel {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 0.08em;
+        color: #A9A9A9;
+        margin-top: 5px;
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .card__taskbar__text {
+        color: #FB5256; }
+
+@media screen and (max-width: 1100px) {
+  .wrap__main .main__header {
+    padding-bottom: 25px; }
+    .wrap__main .main__header .header__h1 {
+      font-size: 26px;
+      line-height: 36px; }
+    .wrap__main .main__header .header__h2 {
+      font-size: 20px;
+      line-height: 27px;
+      margin-top: 20px; }
+  .wrap__main .main__info {
+    border-radius: 25px 25px 0px 0px;
+    padding-left: 40px;
+    padding-top: 35px; }
+    .wrap__main .main__info .info__box {
+      margin-top: 40px;
+      position: relative;
+      bottom: 60px; }
+      .wrap__main .main__info .info__box .info__titel {
+        font-size: 24px;
+        line-height: 45px;
+        padding-bottom: 10px; }
+      .wrap__main .main__info .info__box .info__container {
+        display: flex;
+        align-items: center;
+        margin-top: 30px; }
+        .wrap__main .main__info .info__box .info__container .info__img {
+          width: 60px;
+          height: 60px; }
+          .wrap__main .main__info .info__box .info__container .info__img img {
+            width: 30px;
+            height: 30px; }
+        .wrap__main .main__info .info__box .info__container .container__text-box {
+          margin-left: 20px; }
+          .wrap__main .main__info .info__box .info__container .container__text-box .text__titel {
+            font-size: 20px;
+            line-height: 32px; }
+          .wrap__main .main__info .info__box .info__container .container__text-box .text__description {
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: 0.21em;
+            color: #FFFFFF; }
+  .wrap__main .main__line {
+    width: 100%;
+    height: 2vh;
+    background: #2E8ABB; }
+  .wrap__main .main__taskbar {
+    padding-left: 40px;
+    padding-right: 40px; }
+    .wrap__main .main__taskbar .taskbar__box {
+      cursor: pointer; }
+      .wrap__main .main__taskbar .taskbar__box .taskbar__img {
+        width: 35px;
+        height: 35px;
+        background-size: cover; }
+      .wrap__main .main__taskbar .taskbar__box .taskbar__titiel {
+        font-size: 14px;
+        margin-top: 5px; } }
+@media screen and (max-width: 850px) {
+  .wrap__main .main__header {
+    padding-bottom: 25px; }
+    .wrap__main .main__header .header__h1 {
+      font-size: 24px;
+      line-height: 36px; }
+    .wrap__main .main__header .header__h2 {
+      font-size: 18px;
+      line-height: 27px;
+      margin-top: 20px; }
+  .wrap__main .main__info {
+    border-radius: 25px 25px 0px 0px;
+    padding-left: 20px;
+    padding-top: 25px; }
+    .wrap__main .main__info .info__box {
+      margin-top: 30px;
+      position: relative;
+      bottom: 30px; }
+      .wrap__main .main__info .info__box .info__titel {
+        font-size: 20px;
+        line-height: 45px;
+        padding-bottom: 10px; }
+      .wrap__main .main__info .info__box .info__container {
+        display: flex;
+        align-items: center;
+        margin-top: 30px; }
+        .wrap__main .main__info .info__box .info__container .info__img {
+          width: 50px;
+          height: 50px; }
+          .wrap__main .main__info .info__box .info__container .info__img img {
+            width: 25px;
+            height: 25px; }
+        .wrap__main .main__info .info__box .info__container .container__text-box {
+          margin-left: 15px; }
+          .wrap__main .main__info .info__box .info__container .container__text-box .text__titel {
+            font-size: 20px;
+            line-height: 32px; }
+          .wrap__main .main__info .info__box .info__container .container__text-box .text__description {
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: 0.21em;
+            color: #FFFFFF; }
+  .wrap__main .main__line {
+    width: 100%;
+    height: 2vh;
+    background: #2E8ABB; }
+  .wrap__main .main__taskbar {
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__taskbar .taskbar__box {
+      cursor: pointer; }
+      .wrap__main .main__taskbar .taskbar__box .taskbar__img {
+        width: 30px;
+        height: 30px;
+        background-size: cover; }
+      .wrap__main .main__taskbar .taskbar__box .taskbar__titiel {
+        font-size: 14px;
+        margin-top: 5px; } }
+@media screen and (max-width: 660px) {
+  .wrap__main .main__header {
+    padding-bottom: 25px; }
+    .wrap__main .main__header .header__h1 {
+      font-size: 22px;
+      line-height: 36px; }
+    .wrap__main .main__header .header__h2 {
+      font-size: 16px;
+      line-height: 27px;
+      margin-top: 20px; }
+  .wrap__main .main__info {
+    border-radius: 25px 25px 0px 0px;
+    padding-left: 20px;
+    padding-top: 25px; }
+    .wrap__main .main__info .info__box {
+      margin-top: 30px;
+      position: relative;
+      bottom: 30px; }
+      .wrap__main .main__info .info__box .info__titel {
+        font-size: 18px;
+        line-height: 45px;
+        padding-bottom: 10px; }
+      .wrap__main .main__info .info__box .info__container {
+        display: flex;
+        align-items: center;
+        margin-top: 30px; }
+        .wrap__main .main__info .info__box .info__container .info__img {
+          width: 50px;
+          height: 50px; }
+          .wrap__main .main__info .info__box .info__container .info__img img {
+            width: 25px;
+            height: 25px; }
+        .wrap__main .main__info .info__box .info__container .container__text-box {
+          margin-left: 15px; }
+          .wrap__main .main__info .info__box .info__container .container__text-box .text__titel {
+            font-size: 18px;
+            line-height: 26px; }
+          .wrap__main .main__info .info__box .info__container .container__text-box .text__description {
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: 0.21em;
+            color: #FFFFFF; }
+  .wrap__main .main__line {
+    width: 100%;
+    height: 2vh;
+    background: #2E8ABB; }
+  .wrap__main .main__taskbar {
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__taskbar .taskbar__box {
+      cursor: pointer; }
+      .wrap__main .main__taskbar .taskbar__box .taskbar__img {
+        width: 25px;
+        height: 25px;
+        background-size: cover; }
+      .wrap__main .main__taskbar .taskbar__box .taskbar__titiel {
+        font-size: 14px;
+        margin-top: 5px; } }
+@media screen and (max-width: 470px) {
+  .wrap__main .main__header {
+    padding-bottom: 25px; }
+    .wrap__main .main__header .header__h1 {
+      font-size: 20px;
+      line-height: 30px; }
+    .wrap__main .main__header .header__h2 {
+      font-size: 14px;
+      line-height: 5px;
+      margin-top: 20px; }
+  .wrap__main .main__info {
+    border-radius: 20px 20px 0px 0px;
+    padding-left: 20px;
+    padding-top: 15px; }
+    .wrap__main .main__info .info__box {
+      margin-top: 30px;
+      position: relative;
+      bottom: 30px; }
+      .wrap__main .main__info .info__box .info__titel {
+        font-size: 16px;
+        line-height: 45px;
+        padding-bottom: 10px; }
+      .wrap__main .main__info .info__box .info__container {
+        display: flex;
+        align-items: center;
+        margin-top: 30px; }
+        .wrap__main .main__info .info__box .info__container .info__img {
+          width: 50px;
+          height: 50px; }
+          .wrap__main .main__info .info__box .info__container .info__img img {
+            width: 25px;
+            height: 25px; }
+        .wrap__main .main__info .info__box .info__container .container__text-box {
+          margin-left: 10px; }
+          .wrap__main .main__info .info__box .info__container .container__text-box .text__titel {
+            font-size: 18px;
+            line-height: 26px; }
+          .wrap__main .main__info .info__box .info__container .container__text-box .text__description {
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: 0.21em;
+            color: #FFFFFF; }
+  .wrap__main .main__line {
+    width: 100%;
+    height: 2vh;
+    background: #2E8ABB; }
+  .wrap__main .main__taskbar {
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__taskbar .taskbar__box {
+      cursor: pointer; }
+      .wrap__main .main__taskbar .taskbar__box .taskbar__img {
+        width: 25px;
+        height: 25px;
+        background-size: cover; }
+      .wrap__main .main__taskbar .taskbar__box .taskbar__titiel {
+        font-size: 12px;
+        margin-top: 5px; } }
+@media screen and (max-width: 400px) {
+  .wrap__main .main__header {
+    padding-bottom: 25px; }
+    .wrap__main .main__header .header__h1 {
+      font-size: 20px;
+      line-height: 30px; }
+    .wrap__main .main__header .header__h2 {
+      font-size: 14px;
+      line-height: 5px;
+      margin-top: 20px; }
+  .wrap__main .main__info {
+    border-radius: 20px 20px 0px 0px;
+    padding-left: 20px;
+    padding-top: 15px; }
+    .wrap__main .main__info .info__box {
+      margin-top: 30px;
+      position: relative;
+      bottom: 30px; }
+      .wrap__main .main__info .info__box .info__titel {
+        font-size: 16px;
+        line-height: 45px;
+        padding-bottom: 10px; }
+      .wrap__main .main__info .info__box .info__container {
+        display: flex;
+        align-items: center;
+        margin-top: 30px; }
+        .wrap__main .main__info .info__box .info__container .info__img {
+          width: 50px;
+          height: 50px; }
+          .wrap__main .main__info .info__box .info__container .info__img img {
+            width: 25px;
+            height: 25px; }
+        .wrap__main .main__info .info__box .info__container .container__text-box {
+          margin-left: 10px; }
+          .wrap__main .main__info .info__box .info__container .container__text-box .text__titel {
+            font-size: 18px;
+            line-height: 20px;
+            letter-spacing: 0.1em; }
+          .wrap__main .main__info .info__box .info__container .container__text-box .text__description {
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0.1em;
+            color: #FFFFFF; }
+  .wrap__main .main__line {
+    width: 100%;
+    height: 2vh;
+    background: #2E8ABB; }
+  .wrap__main .main__taskbar {
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__taskbar .taskbar__box {
+      cursor: pointer; }
+      .wrap__main .main__taskbar .taskbar__box .taskbar__img {
+        width: 25px;
+        height: 25px;
+        background-size: cover; }
+      .wrap__main .main__taskbar .taskbar__box .taskbar__titiel {
+        font-size: 12px;
+        margin-top: 5px; } }
+
+/*# sourceMappingURL=style.css.map */

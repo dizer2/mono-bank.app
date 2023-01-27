@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="./style/style.css">
+	<link rel="stylesheet" href="../../style.css">
+	<link rel="icon" href="../../img/main__img/logo.png">
+	<title>monobank</title>
+</head>
+<body >
+	<div class="cursor outer"></div>
+	<div class="cursor inner"></div>
+	<div class="wrap__signup ">
+		<div class="container">
+			<div class="container__top link">
+				<div class="logo">
+					<img class="logo__cat" src="../../img/main__img/cat.svg" alt="mono">
+					<p class="logo__text">monobank</p>
+				</div>
+				<img class="hand" src="./img/hand.svg" alt="hand">
+			</div>
+			<div class="container__bottom link">
+				<div class="left__card">
+					<p class="card__titel">Enter your <br></p>
+					<span class="card__title__email">email</span>
+					<div class="phone__container-input link">
+						<input id="gmail__number" class="phone__number" type="text" placeholder="gmail@.com">
+						<img class="phone__img" src="./img/phone.svg" alt="phone">
+					</div>
+							<!-- Verigicate -->
+						<div class="verificate__container">
+							<input id="inputNumber1" class="input1 link" type="text" maxlength="1">
+							<input id="inputNumber2" class="input1 link" type="text" maxlength="1">
+							<input id="inputNumber3" class="input1 link" type="text" maxlength="1">
+							<input id="inputNumber4" class="input1 link" type="text" maxlength="1">
+
+						</div>
+
+							<!-- Verigicate -->
+
+					<div class="control__user">
+						<div class="user__block">
+							<p class="user__text">1</p>
+						</div>
+						<div class="user__block2 link">
+							<p class="user__text2">2</p>
+						</div>
+						<div class="user__block3 link">
+							<p class="user__text3">3</p>
+						</div>
+					</div>
+				</div>
+				<div class="right__card">
+					<img class="right__mono" src="./img/mono.svg" alt="mono">
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- Scripts -->
+
+<script src="../../script.js"></script>
+<script type="text/javascript"
+	src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init("LZFaGyCoWhL6aeqgV");
+})();
+</script>
+<script src="../../script/main.js"></script>
+</body>
+</html>

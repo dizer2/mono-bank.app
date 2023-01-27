@@ -1,0 +1,1820 @@
+body{
+	max-width: 100%;
+	max-height: 100vh;
+	overflow: hidden;
+}
+
+.wrap__main{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(218.05deg, #33292A 14.46%, #23212F 50.87%, #141A34 83.68%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 1s;
+	z-index: 999;
+	overflow: hidden;
+	.main__container{
+		width: 100%;
+		height: 86vh;
+		.main__header{
+			width: 100%;
+			height: 20%;
+			display: flex;
+			justify-content: space-between;
+			padding-top: 25px;
+			padding-left: 40px;
+			padding-right: 40px;
+			.header__icon-box{
+				width: 65px;
+				height: 65px;
+				background: #FDFDFF;
+				border-radius: 5px;
+				// position: absolute;
+				// left: 3%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				cursor: pointer;
+				.icon__img{
+					width: 35px;
+					height: 35px;
+				}
+			}
+			.header__login{
+				font-family: 'Comfortaa';
+				font-style: normal;
+				font-weight: 500;
+				font-size: 32px;
+				line-height: 36px;
+				letter-spacing: 0.21em;
+				color: #FFFFFF;
+
+			}
+		}
+		.main__main{
+			width: 100%;
+			height: 80%;
+			padding-left: 40px;
+			padding-right: 40px;
+			.main__info-box{
+				width: 100%;
+				height: 150px;
+				margin-top: 54px;
+				position: relative;
+				bottom: 20px;
+				display: flex;
+				align-items: center;
+				cursor: pointer;
+				.info__container{
+					width: 90%;
+					height: 100%;
+					background: #272727;
+					border-radius: 5px;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					padding-left: 20px;
+					.info__titel{
+					font-family: 'Poppins';
+					font-style: normal;
+					font-weight: 500;
+					font-size: 24px;
+					line-height: 36px;
+					letter-spacing: 0.21em;
+					color: #FFFFFF;
+
+					}
+					.info__h2{
+						font-family: 'Poppins';
+						font-style: normal;
+						font-weight: 300;
+						font-size: 16px;
+						line-height: 24px;
+						letter-spacing: 0.21em;
+						color: #FFFFFF;
+					}
+					.info__margin-h2{
+						margin-top: 15px;
+					}
+				}
+				.info__maps{
+					width: 11%;
+					height: 100%;
+					background-image: url(../img/maps.svg);
+					background-size: cover;
+					position: relative;
+					right: 1%;
+					z-index: -1;
+					cursor: pointer;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					.maps__img{
+						position: relative;
+						left: 5%;
+					}
+
+				}
+			}
+
+			// 
+
+			.main__info-box2{
+				width: 100%;
+				height: 150px;
+				margin-top: 54px;
+				position: relative;
+				bottom: 20px;
+				display: flex;
+				align-items: center;
+				background: #272727;
+				.info__container{
+					width: 90%;
+					height: 100%;
+					border-radius: 5px;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					padding-left: 20px;
+					.info__titel{
+						font-family: 'Poppins';
+						font-style: normal;
+						font-weight: 300;
+						font-size: 16px;
+						line-height: 24px;
+						letter-spacing: 0.21em;
+						color: #FFFFFF;
+
+					}
+					.info__h2{
+						font-family: 'Poppins';
+						font-style: normal;
+						font-weight: 300;
+						font-size: 16px;
+						line-height: 24px;
+						letter-spacing: 0.21em;
+						color: #FFFFFF;
+
+					}
+					.info__margin-h2{
+						font-family: 'Poppins';
+						font-style: normal;
+						font-weight: 500;
+						font-size: 24px;
+						line-height: 36px;
+						letter-spacing: 0.21em;
+						color: #FFFFFF;
+						margin-top: 15px;
+					}
+				}
+				.info__maps{
+					width: 11%;
+					height: 100%;
+					position: relative;
+					right: 1%;
+					cursor: pointer;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					.maps__img{
+						position: relative;
+						left: 5%;
+						cursor: pointer;
+					}
+
+				}
+			}
+
+		}
+	}
+	//*
+	//*
+	//*
+	.main__icon-picture{
+		width: 100%;
+		height: 86vh;
+		background-color: #23212F;
+		.main__header{
+			width: 100%;
+			height: 30%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding-top: 25px;
+			padding-left: 40px;
+			padding-right: 40px;
+			.header__icon-box{
+				width: 80px;
+				height: 80px;
+				display: flex;
+				align-items: flex-end;
+				justify-content: flex-end;
+				cursor: pointer;
+				background-size: cover;
+				background-image: url(../img/main__users__more.svg);
+				border-radius: 50%;
+				#file{
+					width: 100px;
+					height: 100px;
+					position: absolute;
+					opacity: 0;
+					top: 15px;
+					cursor: pointer;
+					
+				}
+				.icon__img{
+					width: 35px;
+					height: 35px;
+					position: relative;
+					top: 5px;
+					left: 5px;
+				}
+			}
+			.header__login{
+				font-family: 'Comfortaa';
+				font-style: normal;
+				font-weight: 500;
+				font-size: 32px;
+				line-height: 36px;
+				letter-spacing: 0.21em;
+				color: #FFFFFF;
+				margin-top: 20px;
+
+			}
+		}
+		.main__main{
+			width: 100%;
+			height: 70%;
+			padding-left: 40px;
+			padding-right: 40px;
+			.main__info-box{
+				width: 100%;
+				height: 170px;
+				margin-top: 10px;
+				display: flex;
+				.info__container{
+					width: 100%;
+					height: 100%;
+					background: #272727;
+					border-radius: 5px;
+					display: flex;
+					flex-direction: column;
+					padding-left: 20px;
+					padding-top: 20px;
+					.info__titel{
+					font-family: 'Poppins';
+					font-style: normal;
+					font-weight: 500;
+					font-size: 24px;
+					line-height: 36px;
+					letter-spacing: 0.21em;
+					color: #FFFFFF;
+
+					}
+					.info__email-box{
+						display: flex;
+						margin-top: 20px;
+						.email__bg{
+							width: 65px;
+							height: 65px;
+							background: linear-gradient(180deg, #C66C32 0%, #BB693C 100%);
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							border-radius: 50%;
+							.email__img{
+								width: 35px;
+								height: 35px;
+								position: relative;
+								right: 0.2px;
+							}
+						}
+						.email__text{
+							display: flex;
+							flex-direction: column;
+							justify-content: center;
+							.email__text{
+								font-family: 'Poppins';
+								font-style: normal;
+								font-weight: 300;
+								font-size: 20px;
+								line-height: 30px;
+								letter-spacing: 0.21em;
+								color: #FFFFFF;
+								margin-left: 20px;
+
+							}
+							.info__email{
+								font-family: 'Poppins';
+								font-style: normal;
+								font-weight: 600;
+								font-size: 24px;
+								line-height: 36px;
+								letter-spacing: 0.21em;
+								color: #FFFFFF;
+								margin-left: 20px;
+
+							}
+						}
+					}
+					
+				}
+			}
+			.main__top{
+				width: 100%;
+				height: 90px;
+				background: #272727;
+				border-radius: 5px;
+				margin-top: 15px;
+				padding-left: 20px;
+				display: flex;
+				align-items: center;
+				cursor: pointer;
+				.top__box-img{
+					width: 55px;
+					height: 55px;
+					background: #272727;
+					box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+					border-radius: 4px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					.top__img{
+						width: 28px;
+						height: 28px;
+					}
+				}
+				.top__text{					
+					font-family: 'Poppins';
+					font-style: normal;
+					font-weight: 600;
+					font-size: 24px;
+					line-height: 39px;
+					letter-spacing: 0.21em;
+					color: #FFFFFF;
+					margin-left: 20px;
+
+				}
+			}
+
+
+
+		}
+	}
+
+	.main__line{
+		width: 100%;
+		height: 2vh;
+		background: #2E8ABB;
+	}
+	.main__taskbar{
+		width: 100%;
+		height: 12vh;
+		background: #272727;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-left: 40px;
+		padding-right: 40px;
+		.taskbar__box{
+			width: auto;
+			height: auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			cursor: pointer;
+			.taskbar__img{
+				width: 35px;
+				height: 35px;
+				background-size: cover;
+			}
+			.card__taskbar__img{
+				background-image: url(../../main__img/card.svg);
+				transition: 0.4s;
+
+			}
+			.card__taskbar__img-hover{
+				background-image: url(../../main__img/card__hover.svg);
+				transition: 0.4s;
+
+
+			}
+			.credit__taskbar__img{
+				background-image: url(../../main__img/credit.svg);
+				transition: 0.4s;
+
+			}
+			.credit__taskbar__img-hover{
+				background-image: url(../../main__img/credit__hover.svg);
+				transition: 0.4s;
+
+			}
+			.transfers__taskbar__img{
+				background-image: url(../../main__img/transfer.svg);
+				transition: 0.4s;
+
+			}
+			.transfers__taskbar__img-hover{
+				background-image: url(../../main__img/transfer__hover.svg);
+				transition: 0.4s;
+
+			}
+			.gift__img{
+				background-image: url(../../main__img/gift.svg);
+				transition: 0.4s;
+
+			}
+			.gift__img-hover{
+				background-image: url(../../main__img/gift__hover.svg);
+				transition: 0.4s;
+
+			}
+			.more__img{
+				background-image: url(../../main__img/more.svg);
+				transition: 0.4s;
+
+			}
+			.more__img-hover{
+				background-image: url(../../main__img/more__hover.svg);
+				transition: 0.4s;
+
+			}
+			.taskbar__titiel{
+				font-family: 'Poppins';
+				font-style: normal;
+				font-weight: 500;
+				font-size: 14px;
+				letter-spacing: 0.08em;
+				color: #A9A9A9;
+				margin-top: 5px;
+				transition: 0.4s;
+			}
+			.card__taskbar__text{
+				color: #FB5256;
+			}
+		}
+	}
+}
+
+
+
+
+
+@media screen and(max-width: 1250px) {
+
+	.wrap__main{
+		.main__container{
+			.main__header{
+				padding-top: 25px;
+				padding-left: 40px;
+				padding-right: 40px;
+				.header__icon-box{
+					width: 65px;
+					height: 65px;
+					border-radius: 5px;
+					.icon__img{
+						width: 35px;
+						height: 35px;
+					}
+				}
+				.header__login{
+					font-size: 32px;
+					line-height: 36px;
+	
+				}
+			}
+			.main__main{
+				width: 100%;
+				height: 80%;
+				padding-left: 40px;
+				padding-right: 40px;
+				.main__info-box{
+					width: 100%;
+					height: 150px;
+					margin-top: 54px;
+					position: relative;
+					bottom: 20px;
+					.info__container{
+						width: 90%;
+						height: 100%;
+						border-radius: 5px;
+						padding-left: 20px;
+						.info__titel{
+						font-size: 24px;
+						line-height: 36px;
+	
+						}
+						.info__h2{
+							font-size: 16px;
+							line-height: 24px;
+						}
+						.info__margin-h2{
+							margin-top: 15px;
+						}
+					}
+					.info__maps{
+						width: 17%;
+						height: 100%;
+						background-image: url(../img/maps.svg);
+						.maps__img{
+							position: relative;
+							left: 5%;
+						}
+	
+					}
+				}
+	
+				// 
+	
+				.main__info-box2{
+					width: 100%;
+					height: 150px;
+					margin-top: 54px;
+					position: relative;
+					bottom: 20px;
+					.info__container{
+						width: 90%;
+						height: 100%;
+						border-radius: 5px;
+						padding-left: 20px;
+						.info__titel{
+							font-size: 16px;
+	
+						}
+						.info__h2{
+							font-size: 16px;
+							line-height: 24px;
+	
+						}
+						.info__margin-h2{
+							font-size: 24px;
+							line-height: 36px;
+							margin-top: 15px;
+						}
+					}
+					.info__maps{
+						width: 17%;
+						height: 100%;
+						.maps__img{
+							position: relative;
+							left: 5%;
+							cursor: pointer;
+						}
+	
+					}
+				}
+	
+			}
+		}
+		//*
+		//*
+		//*
+		.main__icon-picture{
+			.main__header{
+				width: 100%;
+				height: 30%;
+				padding-top: 25px;
+				padding-left: 40px;
+				padding-right: 40px;
+				.header__icon-box{
+					width: 80px;
+					height: 80px;
+					border-radius: 50%;
+					#file{
+						width: 100px;
+						height: 100px;
+						position: absolute;
+						top: 15px;
+						
+					}
+					.icon__img{
+						width: 35px;
+						height: 35px;
+						position: relative;
+						top: 5px;
+						left: 5px;
+					}
+				}
+				.header__login{
+					font-size: 32px;
+					line-height: 36px;
+					margin-top: 15px;
+	
+				}
+			}
+			.main__main{
+				padding-left: 40px;
+				padding-right: 40px;
+				.main__info-box{
+					width: 100%;
+					height: 150px;
+					margin-top: 10px;
+					display: flex;
+					.info__container{
+						width: 100%;
+						height: 100%;
+						border-radius: 5px;
+						padding-left: 20px;
+						padding-top: 15px;
+						.info__titel{
+						font-size: 24px;
+						line-height: 36px;
+						letter-spacing: 0.21em;
+						color: #FFFFFF;
+	
+						}
+						.info__email-box{
+							display: flex;
+							margin-top: 10px;
+							.email__bg{
+								width: 65px;
+								height: 65px;
+								.email__img{
+									width: 35px;
+									height: 35px;
+									position: relative;
+									right: 0.2px;
+								}
+							}
+							.email__text{
+								.email__text{
+									font-size: 20px;
+									line-height: 30px;
+									margin-left: 20px;
+	
+								}
+								.info__email{
+									font-size: 24px;
+									line-height: 36px;
+									margin-left: 20px;
+	
+								}
+							}
+						}
+						
+					}
+				}
+				.main__top{
+					width: 100%;
+					height: 80px;
+					border-radius: 5px;
+					margin-top: 15px;
+					padding-left: 20px;
+					.top__box-img{
+						width: 55px;
+						height: 55px;
+						border-radius: 4px;
+						.top__img{
+							width: 28px;
+							height: 28px;
+						}
+					}
+					.top__text{					
+						font-size: 24px;
+						line-height: 39px;
+						margin-left: 20px;
+	
+					}
+				}
+	
+	
+	
+			}
+		}
+	
+		.main__line{
+			width: 100%;
+			height: 2vh;
+		}
+		.main__taskbar{
+			width: 100%;
+			height: 12vh;
+			padding-left: 40px;
+			padding-right: 40px;
+			.taskbar__box{
+				.taskbar__img{
+					width: 35px;
+					height: 35px;
+				}
+				.taskbar__titiel{
+					font-size: 14px;
+					margin-top: 5px;
+				}
+			}
+		}
+	}
+	
+
+
+
+
+
+
+}
+
+
+
+@media screen and(max-width: 1100px) {
+
+	.wrap__main{
+		.main__container{
+			.main__header{
+				padding-top: 25px;
+				padding-left: 40px;
+				padding-right: 40px;
+				.header__icon-box{
+					width: 65px;
+					height: 65px;
+					border-radius: 5px;
+					.icon__img{
+						width: 35px;
+						height: 35px;
+					}
+				}
+				.header__login{
+					font-size: 32px;
+					line-height: 36px;
+	
+				}
+			}
+			.main__main{
+				width: 100%;
+				height: 80%;
+				padding-left: 40px;
+				padding-right: 40px;
+				.main__info-box{
+					width: 100%;
+					height: 150px;
+					margin-top: 54px;
+					position: relative;
+					bottom: 20px;
+					.info__container{
+						width: 90%;
+						height: 100%;
+						border-radius: 5px;
+						padding-left: 20px;
+						.info__titel{
+						font-size: 24px;
+						line-height: 36px;
+	
+						}
+						.info__h2{
+							font-size: 16px;
+							line-height: 24px;
+						}
+						.info__margin-h2{
+							margin-top: 15px;
+						}
+					}
+					.info__maps{
+						width: 20%;
+						height: 100%;
+						background-image: url(../img/maps.svg);
+						.maps__img{
+							position: relative;
+							left: 5%;
+						}
+	
+					}
+				}
+	
+				// 
+	
+				.main__info-box2{
+					width: 100%;
+					height: 150px;
+					margin-top: 54px;
+					position: relative;
+					bottom: 20px;
+					.info__container{
+						width: 90%;
+						height: 100%;
+						border-radius: 5px;
+						padding-left: 20px;
+						.info__titel{
+							font-size: 16px;
+	
+						}
+						.info__h2{
+							font-size: 16px;
+							line-height: 24px;
+	
+						}
+						.info__margin-h2{
+							font-size: 24px;
+							line-height: 36px;
+							margin-top: 15px;
+						}
+					}
+					.info__maps{
+						width: 20%;
+						height: 100%;
+						.maps__img{
+							position: relative;
+							left: 5%;
+							cursor: pointer;
+						}
+	
+					}
+				}
+	
+			}
+		}
+		//*
+		//*
+		//*
+		.main__icon-picture{
+			.main__header{
+				width: 100%;
+				height: 30%;
+				padding-top: 25px;
+				padding-left: 40px;
+				padding-right: 40px;
+				.header__icon-box{
+					width: 75px;
+					height: 75px;
+					border-radius: 50%;
+					#file{
+						width: 100px;
+						height: 100px;
+						position: absolute;
+						top: 15px;
+						
+					}
+					.icon__img{
+						width: 30px;
+						height: 30px;
+						position: relative;
+						top: 5px;
+						left: 5px;
+					}
+				}
+				.header__login{
+					font-size: 30px;
+					line-height: 36px;
+					margin-top: 15px;
+	
+				}
+			}
+			.main__main{
+				padding-left: 40px;
+				padding-right: 40px;
+				.main__info-box{
+					width: 100%;
+					height: 140px;
+					margin-top: 10px;
+					display: flex;
+					.info__container{
+						width: 100%;
+						height: 100%;
+						border-radius: 5px;
+						padding-left: 20px;
+						padding-top: 15px;
+						.info__titel{
+						font-size: 20px;
+						line-height: 36px;
+						letter-spacing: 0.21em;
+						color: #FFFFFF;
+	
+						}
+						.info__email-box{
+							display: flex;
+							margin-top: 10px;
+							.email__bg{
+								width: 60px;
+								height: 60px;
+								.email__img{
+									width: 30px;
+									height: 30px;
+									position: relative;
+									right: 0.2px;
+								}
+							}
+							.email__text{
+								.email__text{
+									font-size: 18px;
+									line-height: 30px;
+									margin-left: 20px;
+	
+								}
+								.info__email{
+									font-size: 20px;
+									line-height: 36px;
+									margin-left: 20px;
+	
+								}
+							}
+						}
+						
+					}
+				}
+				.main__top{
+					width: 100%;
+					height: 80px;
+					border-radius: 5px;
+					margin-top: 15px;
+					padding-left: 20px;
+					.top__box-img{
+						width: 50px;
+						height: 50px;
+						border-radius: 4px;
+						.top__img{
+							width: 25px;
+							height: 25px;
+						}
+					}
+					.top__text{					
+						font-size: 20px;
+						line-height: 39px;
+						margin-left: 20px;
+	
+					}
+				}
+	
+	
+	
+			}
+		}
+	
+
+
+
+		.main__line{
+			width: 100%;
+			height: 2vh;
+		}
+		.main__taskbar{
+			width: 100%;
+			height: 12vh;
+			padding-left: 40px;
+			padding-right: 40px;
+			.taskbar__box{
+				.taskbar__img{
+					width: 30px;
+					height: 30px;
+				}
+				.taskbar__titiel{
+					font-size: 14px;
+					margin-top: 5px;
+				}
+			}
+		}
+	}
+	
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and(max-width: 850px) {
+
+	.wrap__main{
+		.main__container{
+			.main__header{
+				padding-top: 25px;
+				padding-left: 20px;
+				padding-right: 20px;
+				.header__icon-box{
+					width: 60px;
+					height: 60px;
+					border-radius: 5px;
+					.icon__img{
+						width: 30px;
+						height: 30px;
+					}
+				}
+				.header__login{
+					font-size: 26px;
+					line-height: 36px;
+	
+				}
+			}
+			.main__main{
+				width: 100%;
+				height: 80%;
+				padding-left: 20px;
+				padding-right: 20px;
+				.main__info-box{
+					width: 100%;
+					height: 150px;
+					margin-top: 30px;
+					position: relative;
+					bottom: 0px;
+					.info__container{
+						width: 90%;
+						height: 100%;
+						border-radius: 5px;
+						padding-left: 20px;
+						.info__titel{
+						font-size: 20px;
+						line-height: 36px;
+	
+						}
+						.info__h2{
+							font-size: 14px;
+							line-height: 24px;
+						}
+						.info__margin-h2{
+							margin-top: 15px;
+						}
+					}
+					.info__maps{
+						width: 25%;
+						height: 100%;
+						background-image: url(../img/maps.svg);
+						.maps__img{
+							position: relative;
+							left: 5%;
+						}
+	
+					}
+				}
+	
+				// 
+	
+				.main__info-box2{
+					width: 100%;
+					height: 150px;
+					margin-top: 54px;
+					position: relative;
+					bottom: 20px;
+					.info__container{
+						width: 90%;
+						height: 100%;
+						border-radius: 5px;
+						padding-left: 20px;
+						.info__titel{
+							font-size: 14px;
+	
+						}
+						.info__h2{
+							font-size: 14px;
+							line-height: 24px;
+	
+						}
+						.info__margin-h2{
+							font-size: 20px;
+							line-height: 36px;
+							margin-top: 15px;
+						}
+					}
+					.info__maps{
+						width: 25%;
+						height: 100%;
+						.maps__img{
+							position: relative;
+							left: 5%;
+							cursor: pointer;
+						}
+	
+					}
+				}
+	
+			}
+		}
+		//*
+		//*
+		//*
+		.main__line{
+			width: 100%;
+			height: 2vh;
+		}
+		.main__taskbar{
+			width: 100%;
+			height: 12vh;
+			padding-left: 40px;
+			padding-right: 40px;
+			.taskbar__box{
+				.taskbar__img{
+					width: 30px;
+					height: 30px;
+				}
+				.taskbar__titiel{
+					font-size: 14px;
+					margin-top: 5px;
+				}
+			}
+		}
+	}
+	
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and(max-width: 660px) {
+
+	.wrap__main{
+		.main__container{
+			.main__header{
+				padding-top: 25px;
+				padding-left: 20px;
+				padding-right: 20px;
+				.header__icon-box{
+					width: 60px;
+					height: 60px;
+					border-radius: 5px;
+					.icon__img{
+						width: 30px;
+						height: 30px;
+					}
+				}
+				.header__login{
+					font-size: 26px;
+					line-height: 36px;
+	
+				}
+			}
+			.main__main{
+				width: 100%;
+				height: 80%;
+				padding-left: 20px;
+				padding-right: 20px;
+				.main__info-box{
+					width: 100%;
+					height: 130px;
+					margin-top: 30px;
+					position: relative;
+					bottom: 0px;
+					.info__container{
+						width: 90%;
+						height: 100%;
+						border-radius: 5px;
+						padding-left: 20px;
+						.info__titel{
+						font-size: 20px;
+						line-height: 36px;
+	
+						}
+						.info__h2{
+							font-size: 14px;
+							line-height: 24px;
+						}
+						.info__margin-h2{
+							margin-top: 15px;
+						}
+					}
+					.info__maps{
+						width: 35%;
+						height: 100%;
+						background-image: url(../img/maps.svg);
+						.maps__img{
+							position: relative;
+							left: 5%;
+						}
+	
+					}
+				}
+	
+				// 
+	
+				.main__info-box2{
+					width: 100%;
+					height: 130px;
+					margin-top: 54px;
+					position: relative;
+					bottom: 20px;
+					.info__container{
+						width: 90%;
+						height: 100%;
+						border-radius: 5px;
+						padding-left: 20px;
+						.info__titel{
+							font-size: 14px;
+	
+						}
+						.info__h2{
+							font-size: 14px;
+							line-height: 24px;
+	
+						}
+						.info__margin-h2{
+							font-size: 20px;
+							line-height: 36px;
+							margin-top: 15px;
+						}
+					}
+					.info__maps{
+						width: 35%;
+						height: 100%;
+						.maps__img{
+							position: relative;
+							left: 5%;
+							cursor: pointer;
+						}
+	
+					}
+				}
+	
+			}
+		}
+		//*
+		//*
+		//*
+		.main__icon-picture{
+			.main__header{
+				width: 100%;
+				height: 30%;
+				padding-top: 25px;
+				padding-left: 20px;
+				padding-right: 20px;
+				.header__icon-box{
+					width: 75px;
+					height: 75px;
+					border-radius: 50%;
+					#file{
+						width: 100px;
+						height: 100px;
+						position: absolute;
+						top: 15px;
+						
+					}
+					.icon__img{
+						width: 30px;
+						height: 30px;
+						position: relative;
+						top: 5px;
+						left: 5px;
+					}
+				}
+				.header__login{
+					font-size: 30px;
+					line-height: 36px;
+					margin-top: 15px;
+	
+				}
+			}
+			.main__main{
+				padding-left: 20px;
+				padding-right: 20px;
+				.main__info-box{
+					width: 100%;
+					height: 140px;
+					margin-top: 10px;
+					display: flex;
+					.info__container{
+						width: 100%;
+						height: 100%;
+						border-radius: 5px;
+						padding-left: 15px;
+						padding-top: 15px;
+						.info__titel{
+						font-size: 20px;
+						line-height: 36px;
+						letter-spacing: 0.21em;
+						color: #FFFFFF;
+	
+						}
+						.info__email-box{
+							display: flex;
+							margin-top: 10px;
+							.email__bg{
+								width: 60px;
+								height: 60px;
+								.email__img{
+									width: 30px;
+									height: 30px;
+									position: relative;
+									right: 0.2px;
+								}
+							}
+							.email__text{
+								.email__text{
+									font-size: 18px;
+									line-height: 30px;
+									margin-left: 20px;
+	
+								}
+								.info__email{
+									font-size: 20px;
+									line-height: 36px;
+									margin-left: 20px;
+	
+								}
+							}
+						}
+						
+					}
+				}
+				.main__top{
+					width: 100%;
+					height: 80px;
+					border-radius: 5px;
+					margin-top: 15px;
+					padding-left: 15px;
+					.top__box-img{
+						width: 50px;
+						height: 50px;
+						border-radius: 4px;
+						.top__img{
+							width: 25px;
+							height: 25px;
+						}
+					}
+					.top__text{					
+						font-size: 20px;
+						line-height: 39px;
+						margin-left: 20px;
+	
+					}
+				}
+	
+	
+	
+			}
+		}
+	
+
+
+
+
+
+		.main__line{
+			width: 100%;
+			height: 2vh;
+		}
+		.main__taskbar{
+			width: 100%;
+			height: 12vh;
+			padding-left: 20px;
+			padding-right: 20px;
+			.taskbar__box{
+				.taskbar__img{
+					width: 25px;
+					height: 25px;
+				}
+				.taskbar__titiel{
+					font-size: 14px;
+					margin-top: 5px;
+				}
+			}
+		}
+	}
+	
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media screen and(max-width: 540px) {
+
+	.wrap__main{
+		.main__container{
+			.main__header{
+				padding-top: 25px;
+				padding-left: 20px;
+				padding-right: 20px;
+				.header__icon-box{
+					width: 60px;
+					height: 60px;
+					border-radius: 5px;
+					.icon__img{
+						width: 30px;
+						height: 30px;
+					}
+				}
+				.header__login{
+					font-size: 24px;
+					line-height: 36px;
+	
+				}
+			}
+			.main__main{
+				width: 100%;
+				height: 80%;
+				padding-left: 20px;
+				padding-right: 20px;
+				.main__info-box{
+					width: 100%;
+					height: 130px;
+					margin-top: 30px;
+					position: relative;
+					bottom: 0px;
+					.info__container{
+						width: 90%;
+						height: 100%;
+						border-radius: 5px;
+						padding-left: 15px;
+						.info__titel{
+						font-size: 18px;
+						line-height: 36px;
+	
+						}
+						.info__h2{
+							font-size: 14px;
+							line-height: 24px;
+							letter-spacing: 0.15em;
+						}
+						.info__margin-h2{
+							margin-top: 15px;
+						}
+					}
+					.info__maps{
+						width: 35%;
+						height: 100%;
+						background-image: url(../img/maps.svg);
+						.maps__img{
+							width: 50px;
+							height: 50px;
+							position: relative;
+							left: 5%;
+						}
+	
+					}
+				}
+	
+				// 
+	
+				.main__info-box2{
+					width: 100%;
+					height: 130px;
+					margin-top: 54px;
+					position: relative;
+					bottom: 20px;
+					.info__container{
+						width: 90%;
+						height: 100%;
+						border-radius: 5px;
+						padding-left: 15px;
+						.info__titel{
+							font-size: 14px;
+	
+						}
+						.info__h2{
+							font-size: 14px;
+							line-height: 24px;
+							letter-spacing: 0.15em;
+
+	
+						}
+						.info__margin-h2{
+							font-size: 18px;
+							line-height: 36px;
+							margin-top: 15px;
+						}
+					}
+					.info__maps{
+						width: 35%;
+						height: 100%;
+						.maps__img{
+							width: 50px;
+							height: 50px;
+							position: relative;
+							left: 5%;
+							cursor: pointer;
+						}
+	
+					}
+				}
+	
+			}
+		}
+		//*
+		//*
+		//*
+		.main__line{
+			width: 100%;
+			height: 2vh;
+		}
+		.main__taskbar{
+			width: 100%;
+			height: 12vh;
+			padding-left: 20px;
+			padding-right: 20px;
+			.taskbar__box{
+				.taskbar__img{
+					width: 25px;
+					height: 25px;
+				}
+				.taskbar__titiel{
+					font-size: 14px;
+					margin-top: 5px;
+				}
+			}
+		}
+	}
+	
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and(max-width: 470px) {
+
+	.wrap__main{
+		.main__container{
+			.main__header{
+				padding-top: 25px;
+				padding-left: 20px;
+				padding-right: 20px;
+				.header__icon-box{
+					width: 55px;
+					height: 55px;
+					border-radius: 5px;
+					.icon__img{
+						width: 25px;
+						height: 25px;
+					}
+				}
+				.header__login{
+					font-size: 20px;
+					line-height: 36px;
+	
+				}
+			}
+			.main__main{
+				width: 100%;
+				height: 80%;
+				padding-left: 20px;
+				padding-right: 20px;
+				.main__info-box{
+					width: 100%;
+					height: 110px;
+					margin-top: 30px;
+					position: relative;
+					bottom: 0px;
+					.info__container{
+						width: 90%;
+						height: 100%;
+						border-radius: 5px;
+						padding-left: 15px;
+						padding-right: 5px;
+						.info__titel{
+						font-size: 16px;
+						line-height: 20px;
+						letter-spacing: 0.1em;
+	
+						}
+						.info__h2{
+							font-size: 14px;
+							line-height: 20px;
+							letter-spacing: 0em;
+							margin-top: 10px;
+						}
+						.info__margin-h2{
+							margin-top: 10px;
+							display: none;
+						}
+					}
+					.info__maps{
+						width: 45%;
+						height: 100%;
+						background-image: url(../img/maps.svg);
+						.maps__img{
+							width: 40px;
+							height: 40px;
+							position: relative;
+							left: 5%;
+						}
+	
+					}
+				}
+	
+				// 
+	
+				.main__info-box2{
+					width: 100%;
+					height: 110px;
+					margin-top: 54px;
+					position: relative;
+					bottom: 20px;
+					.info__container{
+						width: 90%;
+						height: 100%;
+						border-radius: 5px;
+						padding-left: 15px;
+						.info__titel{
+							font-size: 14px;
+	
+						}
+						.info__h2{
+							font-size: 14px;
+							line-height: 24px;
+							letter-spacing: 0em;
+
+
+	
+						}
+						.info__margin-h2{
+							font-size: 16px;
+							line-height: 30px;
+							margin-top: 15px;
+							letter-spacing: 0.1em;
+
+
+						}
+					}
+					.info__maps{
+						width: 40%;
+						height: 100%;
+						.maps__img{
+							width: 40px;
+							height: 40px;
+							position: relative;
+							left: 5%;
+							cursor: pointer;
+						}
+	
+					}
+				}
+	
+			}
+		}
+		//*
+		//*
+		//*
+		.main__icon-picture{
+			.main__header{
+				width: 100%;
+				height: 30%;
+				padding-top: 25px;
+				padding-left: 20px;
+				padding-right: 20px;
+				.header__icon-box{
+					width: 75px;
+					height: 75px;
+					border-radius: 50%;
+					#file{
+						width: 100px;
+						height: 100px;
+						position: absolute;
+						top: 15px;
+						
+					}
+					.icon__img{
+						width: 30px;
+						height: 30px;
+						position: relative;
+						top: 5px;
+						left: 5px;
+					}
+				}
+				.header__login{
+					font-size: 26px;
+					line-height: 36px;
+					margin-top: 15px;
+	
+				}
+			}
+			.main__main{
+				padding-left: 20px;
+				padding-right: 20px;
+				.main__info-box{
+					width: 100%;
+					height: 140px;
+					margin-top: 10px;
+					display: flex;
+					.info__container{
+						width: 100%;
+						height: 100%;
+						border-radius: 5px;
+						padding-left: 15px;
+						padding-top: 15px;
+						.info__titel{
+						font-size: 18px;
+						line-height: 36px;
+						letter-spacing: 0.21em;
+						color: #FFFFFF;
+	
+						}
+						.info__email-box{
+							display: flex;
+							margin-top: 10px;
+							.email__bg{
+								width: 60px;
+								height: 60px;
+								.email__img{
+									width: 30px;
+									height: 30px;
+									position: relative;
+									right: 0.2px;
+								}
+							}
+							.email__text{
+								.email__text{
+									font-size: 16px;
+									line-height: 25px;
+									margin-left: 20px;
+									letter-spacing: 0.1em;
+	
+								}
+								.info__email{
+									font-size: 18px;
+									line-height: 30px;
+									margin-left: 20px;
+									letter-spacing: 0.1em;
+	
+								}
+							}
+						}
+						
+					}
+				}
+				.main__top{
+					width: 100%;
+					height: 80px;
+					border-radius: 5px;
+					margin-top: 15px;
+					padding-left: 15px;
+					.top__box-img{
+						width: 45px;
+						height: 45px;
+						border-radius: 4px;
+						.top__img{
+							width: 20px;
+							height: 20px;
+						}
+					}
+					.top__text{					
+						font-size: 18px;
+						line-height: 39px;
+						margin-left: 20px;
+	
+					}
+				}
+	
+	
+	
+			}
+		}
+	
+
+
+
+
+
+
+
+
+		.main__line{
+			width: 100%;
+			height: 2vh;
+		}
+		.main__taskbar{
+			width: 100%;
+			height: 12vh;
+			padding-left: 20px;
+			padding-right: 20px;
+			.taskbar__box{
+				.taskbar__img{
+					width: 25px;
+					height: 25px;
+				}
+				.taskbar__titiel{
+					font-size: 12px;
+					margin-top: 5px;
+				}
+			}
+		}
+	}
+	
+
+
+
+
+
+
+}

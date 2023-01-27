@@ -1,0 +1,1227 @@
+body {
+  max-width: 100%;
+  max-height: 100vh;
+  overflow: hidden; }
+
+.wrap__main {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(218.05deg, #33292A 14.46%, #23212F 50.87%, #141A34 83.68%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 1s;
+  z-index: 999;
+  overflow: hidden; }
+  .wrap__main .main__container {
+    width: 100%;
+    height: 86vh; }
+    .wrap__main .main__container .main__header {
+      width: 100%;
+      height: 20%;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 25px;
+      padding-left: 40px;
+      padding-right: 40px; }
+      .wrap__main .main__container .main__header .header__icon-box {
+        width: 65px;
+        height: 65px;
+        background: #FDFDFF;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer; }
+        .wrap__main .main__container .main__header .header__icon-box .icon__img {
+          width: 35px;
+          height: 35px; }
+      .wrap__main .main__container .main__header .header__login {
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: 0.21em;
+        color: #FFFFFF; }
+    .wrap__main .main__container .main__main {
+      width: 100%;
+      height: 80%;
+      padding-left: 40px;
+      padding-right: 40px; }
+      .wrap__main .main__container .main__main .main__info-box {
+        width: 100%;
+        height: 150px;
+        margin-top: 54px;
+        position: relative;
+        bottom: 20px;
+        display: flex;
+        align-items: center;
+        cursor: pointer; }
+        .wrap__main .main__container .main__main .main__info-box .info__container {
+          width: 90%;
+          height: 100%;
+          background: #272727;
+          border-radius: 5px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding-left: 20px; }
+          .wrap__main .main__container .main__main .main__info-box .info__container .info__titel {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 36px;
+            letter-spacing: 0.21em;
+            color: #FFFFFF; }
+          .wrap__main .main__container .main__main .main__info-box .info__container .info__h2 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.21em;
+            color: #FFFFFF; }
+          .wrap__main .main__container .main__main .main__info-box .info__container .info__margin-h2 {
+            margin-top: 15px; }
+        .wrap__main .main__container .main__main .main__info-box .info__maps {
+          width: 11%;
+          height: 100%;
+          background-image: url(../img/maps.svg);
+          background-size: cover;
+          position: relative;
+          right: 1%;
+          z-index: -1;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+          .wrap__main .main__container .main__main .main__info-box .info__maps .maps__img {
+            position: relative;
+            left: 5%; }
+      .wrap__main .main__container .main__main .main__info-box2 {
+        width: 100%;
+        height: 150px;
+        margin-top: 54px;
+        position: relative;
+        bottom: 20px;
+        display: flex;
+        align-items: center;
+        background: #272727; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__container {
+          width: 90%;
+          height: 100%;
+          border-radius: 5px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding-left: 20px; }
+          .wrap__main .main__container .main__main .main__info-box2 .info__container .info__titel {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.21em;
+            color: #FFFFFF; }
+          .wrap__main .main__container .main__main .main__info-box2 .info__container .info__h2 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.21em;
+            color: #FFFFFF; }
+          .wrap__main .main__container .main__main .main__info-box2 .info__container .info__margin-h2 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 36px;
+            letter-spacing: 0.21em;
+            color: #FFFFFF;
+            margin-top: 15px; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__maps {
+          width: 11%;
+          height: 100%;
+          position: relative;
+          right: 1%;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+          .wrap__main .main__container .main__main .main__info-box2 .info__maps .maps__img {
+            position: relative;
+            left: 5%;
+            cursor: pointer; }
+  .wrap__main .main__icon-picture {
+    width: 100%;
+    height: 86vh;
+    background-color: #23212F; }
+    .wrap__main .main__icon-picture .main__header {
+      width: 100%;
+      height: 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 25px;
+      padding-left: 40px;
+      padding-right: 40px; }
+      .wrap__main .main__icon-picture .main__header .header__icon-box {
+        width: 80px;
+        height: 80px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        cursor: pointer;
+        background-size: cover;
+        background-image: url(../img/main__users__more.svg);
+        border-radius: 50%; }
+        .wrap__main .main__icon-picture .main__header .header__icon-box #file {
+          width: 100px;
+          height: 100px;
+          position: absolute;
+          opacity: 0;
+          top: 15px;
+          cursor: pointer; }
+        .wrap__main .main__icon-picture .main__header .header__icon-box .icon__img {
+          width: 35px;
+          height: 35px;
+          position: relative;
+          top: 5px;
+          left: 5px; }
+      .wrap__main .main__icon-picture .main__header .header__login {
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: 0.21em;
+        color: #FFFFFF;
+        margin-top: 20px; }
+    .wrap__main .main__icon-picture .main__main {
+      width: 100%;
+      height: 70%;
+      padding-left: 40px;
+      padding-right: 40px; }
+      .wrap__main .main__icon-picture .main__main .main__info-box {
+        width: 100%;
+        height: 170px;
+        margin-top: 10px;
+        display: flex; }
+        .wrap__main .main__icon-picture .main__main .main__info-box .info__container {
+          width: 100%;
+          height: 100%;
+          background: #272727;
+          border-radius: 5px;
+          display: flex;
+          flex-direction: column;
+          padding-left: 20px;
+          padding-top: 20px; }
+          .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__titel {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 36px;
+            letter-spacing: 0.21em;
+            color: #FFFFFF; }
+          .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box {
+            display: flex;
+            margin-top: 20px; }
+            .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box .email__bg {
+              width: 65px;
+              height: 65px;
+              background: linear-gradient(180deg, #C66C32 0%, #BB693C 100%);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 50%; }
+              .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box .email__bg .email__img {
+                width: 35px;
+                height: 35px;
+                position: relative;
+                right: 0.2px; }
+            .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box .email__text {
+              display: flex;
+              flex-direction: column;
+              justify-content: center; }
+              .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box .email__text .email__text {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 30px;
+                letter-spacing: 0.21em;
+                color: #FFFFFF;
+                margin-left: 20px; }
+              .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box .email__text .info__email {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 36px;
+                letter-spacing: 0.21em;
+                color: #FFFFFF;
+                margin-left: 20px; }
+      .wrap__main .main__icon-picture .main__main .main__top {
+        width: 100%;
+        height: 90px;
+        background: #272727;
+        border-radius: 5px;
+        margin-top: 15px;
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        cursor: pointer; }
+        .wrap__main .main__icon-picture .main__main .main__top .top__box-img {
+          width: 55px;
+          height: 55px;
+          background: #272727;
+          box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+          border-radius: 4px;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+          .wrap__main .main__icon-picture .main__main .main__top .top__box-img .top__img {
+            width: 28px;
+            height: 28px; }
+        .wrap__main .main__icon-picture .main__main .main__top .top__text {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 39px;
+          letter-spacing: 0.21em;
+          color: #FFFFFF;
+          margin-left: 20px; }
+  .wrap__main .main__line {
+    width: 100%;
+    height: 2vh;
+    background: #2E8ABB; }
+  .wrap__main .main__taskbar {
+    width: 100%;
+    height: 12vh;
+    background: #272727;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px; }
+    .wrap__main .main__taskbar .taskbar__box {
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer; }
+      .wrap__main .main__taskbar .taskbar__box .taskbar__img {
+        width: 35px;
+        height: 35px;
+        background-size: cover; }
+      .wrap__main .main__taskbar .taskbar__box .card__taskbar__img {
+        background-image: url(../../main__img/card.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .card__taskbar__img-hover {
+        background-image: url(../../main__img/card__hover.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .credit__taskbar__img {
+        background-image: url(../../main__img/credit.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .credit__taskbar__img-hover {
+        background-image: url(../../main__img/credit__hover.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .transfers__taskbar__img {
+        background-image: url(../../main__img/transfer.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .transfers__taskbar__img-hover {
+        background-image: url(../../main__img/transfer__hover.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .gift__img {
+        background-image: url(../../main__img/gift.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .gift__img-hover {
+        background-image: url(../../main__img/gift__hover.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .more__img {
+        background-image: url(../../main__img/more.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .more__img-hover {
+        background-image: url(../../main__img/more__hover.svg);
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .taskbar__titiel {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 0.08em;
+        color: #A9A9A9;
+        margin-top: 5px;
+        transition: 0.4s; }
+      .wrap__main .main__taskbar .taskbar__box .card__taskbar__text {
+        color: #FB5256; }
+
+@media screen and (max-width: 1250px) {
+  .wrap__main .main__container .main__header {
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-right: 40px; }
+    .wrap__main .main__container .main__header .header__icon-box {
+      width: 65px;
+      height: 65px;
+      border-radius: 5px; }
+      .wrap__main .main__container .main__header .header__icon-box .icon__img {
+        width: 35px;
+        height: 35px; }
+    .wrap__main .main__container .main__header .header__login {
+      font-size: 32px;
+      line-height: 36px; }
+  .wrap__main .main__container .main__main {
+    width: 100%;
+    height: 80%;
+    padding-left: 40px;
+    padding-right: 40px; }
+    .wrap__main .main__container .main__main .main__info-box {
+      width: 100%;
+      height: 150px;
+      margin-top: 54px;
+      position: relative;
+      bottom: 20px; }
+      .wrap__main .main__container .main__main .main__info-box .info__container {
+        width: 90%;
+        height: 100%;
+        border-radius: 5px;
+        padding-left: 20px; }
+        .wrap__main .main__container .main__main .main__info-box .info__container .info__titel {
+          font-size: 24px;
+          line-height: 36px; }
+        .wrap__main .main__container .main__main .main__info-box .info__container .info__h2 {
+          font-size: 16px;
+          line-height: 24px; }
+        .wrap__main .main__container .main__main .main__info-box .info__container .info__margin-h2 {
+          margin-top: 15px; }
+      .wrap__main .main__container .main__main .main__info-box .info__maps {
+        width: 17%;
+        height: 100%;
+        background-image: url(../img/maps.svg); }
+        .wrap__main .main__container .main__main .main__info-box .info__maps .maps__img {
+          position: relative;
+          left: 5%; }
+    .wrap__main .main__container .main__main .main__info-box2 {
+      width: 100%;
+      height: 150px;
+      margin-top: 54px;
+      position: relative;
+      bottom: 20px; }
+      .wrap__main .main__container .main__main .main__info-box2 .info__container {
+        width: 90%;
+        height: 100%;
+        border-radius: 5px;
+        padding-left: 20px; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__container .info__titel {
+          font-size: 16px; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__container .info__h2 {
+          font-size: 16px;
+          line-height: 24px; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__container .info__margin-h2 {
+          font-size: 24px;
+          line-height: 36px;
+          margin-top: 15px; }
+      .wrap__main .main__container .main__main .main__info-box2 .info__maps {
+        width: 17%;
+        height: 100%; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__maps .maps__img {
+          position: relative;
+          left: 5%;
+          cursor: pointer; }
+  .wrap__main .main__icon-picture .main__header {
+    width: 100%;
+    height: 30%;
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-right: 40px; }
+    .wrap__main .main__icon-picture .main__header .header__icon-box {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%; }
+      .wrap__main .main__icon-picture .main__header .header__icon-box #file {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 15px; }
+      .wrap__main .main__icon-picture .main__header .header__icon-box .icon__img {
+        width: 35px;
+        height: 35px;
+        position: relative;
+        top: 5px;
+        left: 5px; }
+    .wrap__main .main__icon-picture .main__header .header__login {
+      font-size: 32px;
+      line-height: 36px;
+      margin-top: 15px; }
+  .wrap__main .main__icon-picture .main__main {
+    padding-left: 40px;
+    padding-right: 40px; }
+    .wrap__main .main__icon-picture .main__main .main__info-box {
+      width: 100%;
+      height: 150px;
+      margin-top: 10px;
+      display: flex; }
+      .wrap__main .main__icon-picture .main__main .main__info-box .info__container {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        padding-left: 20px;
+        padding-top: 15px; }
+        .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__titel {
+          font-size: 24px;
+          line-height: 36px;
+          letter-spacing: 0.21em;
+          color: #FFFFFF; }
+        .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box {
+          display: flex;
+          margin-top: 10px; }
+          .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box .email__bg {
+            width: 65px;
+            height: 65px; }
+            .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box .email__bg .email__img {
+              width: 35px;
+              height: 35px;
+              position: relative;
+              right: 0.2px; }
+          .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box .email__text .email__text {
+            font-size: 20px;
+            line-height: 30px;
+            margin-left: 20px; }
+          .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box .email__text .info__email {
+            font-size: 24px;
+            line-height: 36px;
+            margin-left: 20px; }
+    .wrap__main .main__icon-picture .main__main .main__top {
+      width: 100%;
+      height: 80px;
+      border-radius: 5px;
+      margin-top: 15px;
+      padding-left: 20px; }
+      .wrap__main .main__icon-picture .main__main .main__top .top__box-img {
+        width: 55px;
+        height: 55px;
+        border-radius: 4px; }
+        .wrap__main .main__icon-picture .main__main .main__top .top__box-img .top__img {
+          width: 28px;
+          height: 28px; }
+      .wrap__main .main__icon-picture .main__main .main__top .top__text {
+        font-size: 24px;
+        line-height: 39px;
+        margin-left: 20px; }
+  .wrap__main .main__line {
+    width: 100%;
+    height: 2vh; }
+  .wrap__main .main__taskbar {
+    width: 100%;
+    height: 12vh;
+    padding-left: 40px;
+    padding-right: 40px; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__img {
+      width: 35px;
+      height: 35px; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__titiel {
+      font-size: 14px;
+      margin-top: 5px; } }
+@media screen and (max-width: 1100px) {
+  .wrap__main .main__container .main__header {
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-right: 40px; }
+    .wrap__main .main__container .main__header .header__icon-box {
+      width: 65px;
+      height: 65px;
+      border-radius: 5px; }
+      .wrap__main .main__container .main__header .header__icon-box .icon__img {
+        width: 35px;
+        height: 35px; }
+    .wrap__main .main__container .main__header .header__login {
+      font-size: 32px;
+      line-height: 36px; }
+  .wrap__main .main__container .main__main {
+    width: 100%;
+    height: 80%;
+    padding-left: 40px;
+    padding-right: 40px; }
+    .wrap__main .main__container .main__main .main__info-box {
+      width: 100%;
+      height: 150px;
+      margin-top: 54px;
+      position: relative;
+      bottom: 20px; }
+      .wrap__main .main__container .main__main .main__info-box .info__container {
+        width: 90%;
+        height: 100%;
+        border-radius: 5px;
+        padding-left: 20px; }
+        .wrap__main .main__container .main__main .main__info-box .info__container .info__titel {
+          font-size: 24px;
+          line-height: 36px; }
+        .wrap__main .main__container .main__main .main__info-box .info__container .info__h2 {
+          font-size: 16px;
+          line-height: 24px; }
+        .wrap__main .main__container .main__main .main__info-box .info__container .info__margin-h2 {
+          margin-top: 15px; }
+      .wrap__main .main__container .main__main .main__info-box .info__maps {
+        width: 20%;
+        height: 100%;
+        background-image: url(../img/maps.svg); }
+        .wrap__main .main__container .main__main .main__info-box .info__maps .maps__img {
+          position: relative;
+          left: 5%; }
+    .wrap__main .main__container .main__main .main__info-box2 {
+      width: 100%;
+      height: 150px;
+      margin-top: 54px;
+      position: relative;
+      bottom: 20px; }
+      .wrap__main .main__container .main__main .main__info-box2 .info__container {
+        width: 90%;
+        height: 100%;
+        border-radius: 5px;
+        padding-left: 20px; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__container .info__titel {
+          font-size: 16px; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__container .info__h2 {
+          font-size: 16px;
+          line-height: 24px; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__container .info__margin-h2 {
+          font-size: 24px;
+          line-height: 36px;
+          margin-top: 15px; }
+      .wrap__main .main__container .main__main .main__info-box2 .info__maps {
+        width: 20%;
+        height: 100%; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__maps .maps__img {
+          position: relative;
+          left: 5%;
+          cursor: pointer; }
+  .wrap__main .main__icon-picture .main__header {
+    width: 100%;
+    height: 30%;
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-right: 40px; }
+    .wrap__main .main__icon-picture .main__header .header__icon-box {
+      width: 75px;
+      height: 75px;
+      border-radius: 50%; }
+      .wrap__main .main__icon-picture .main__header .header__icon-box #file {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 15px; }
+      .wrap__main .main__icon-picture .main__header .header__icon-box .icon__img {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 5px;
+        left: 5px; }
+    .wrap__main .main__icon-picture .main__header .header__login {
+      font-size: 30px;
+      line-height: 36px;
+      margin-top: 15px; }
+  .wrap__main .main__icon-picture .main__main {
+    padding-left: 40px;
+    padding-right: 40px; }
+    .wrap__main .main__icon-picture .main__main .main__info-box {
+      width: 100%;
+      height: 140px;
+      margin-top: 10px;
+      display: flex; }
+      .wrap__main .main__icon-picture .main__main .main__info-box .info__container {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        padding-left: 20px;
+        padding-top: 15px; }
+        .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__titel {
+          font-size: 20px;
+          line-height: 36px;
+          letter-spacing: 0.21em;
+          color: #FFFFFF; }
+        .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box {
+          display: flex;
+          margin-top: 10px; }
+          .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box .email__bg {
+            width: 60px;
+            height: 60px; }
+            .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box .email__bg .email__img {
+              width: 30px;
+              height: 30px;
+              position: relative;
+              right: 0.2px; }
+          .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box .email__text .email__text {
+            font-size: 18px;
+            line-height: 30px;
+            margin-left: 20px; }
+          .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box .email__text .info__email {
+            font-size: 20px;
+            line-height: 36px;
+            margin-left: 20px; }
+    .wrap__main .main__icon-picture .main__main .main__top {
+      width: 100%;
+      height: 80px;
+      border-radius: 5px;
+      margin-top: 15px;
+      padding-left: 20px; }
+      .wrap__main .main__icon-picture .main__main .main__top .top__box-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 4px; }
+        .wrap__main .main__icon-picture .main__main .main__top .top__box-img .top__img {
+          width: 25px;
+          height: 25px; }
+      .wrap__main .main__icon-picture .main__main .main__top .top__text {
+        font-size: 20px;
+        line-height: 39px;
+        margin-left: 20px; }
+  .wrap__main .main__line {
+    width: 100%;
+    height: 2vh; }
+  .wrap__main .main__taskbar {
+    width: 100%;
+    height: 12vh;
+    padding-left: 40px;
+    padding-right: 40px; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__img {
+      width: 30px;
+      height: 30px; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__titiel {
+      font-size: 14px;
+      margin-top: 5px; } }
+@media screen and (max-width: 850px) {
+  .wrap__main .main__container .main__header {
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__container .main__header .header__icon-box {
+      width: 60px;
+      height: 60px;
+      border-radius: 5px; }
+      .wrap__main .main__container .main__header .header__icon-box .icon__img {
+        width: 30px;
+        height: 30px; }
+    .wrap__main .main__container .main__header .header__login {
+      font-size: 26px;
+      line-height: 36px; }
+  .wrap__main .main__container .main__main {
+    width: 100%;
+    height: 80%;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__container .main__main .main__info-box {
+      width: 100%;
+      height: 150px;
+      margin-top: 30px;
+      position: relative;
+      bottom: 0px; }
+      .wrap__main .main__container .main__main .main__info-box .info__container {
+        width: 90%;
+        height: 100%;
+        border-radius: 5px;
+        padding-left: 20px; }
+        .wrap__main .main__container .main__main .main__info-box .info__container .info__titel {
+          font-size: 20px;
+          line-height: 36px; }
+        .wrap__main .main__container .main__main .main__info-box .info__container .info__h2 {
+          font-size: 14px;
+          line-height: 24px; }
+        .wrap__main .main__container .main__main .main__info-box .info__container .info__margin-h2 {
+          margin-top: 15px; }
+      .wrap__main .main__container .main__main .main__info-box .info__maps {
+        width: 25%;
+        height: 100%;
+        background-image: url(../img/maps.svg); }
+        .wrap__main .main__container .main__main .main__info-box .info__maps .maps__img {
+          position: relative;
+          left: 5%; }
+    .wrap__main .main__container .main__main .main__info-box2 {
+      width: 100%;
+      height: 150px;
+      margin-top: 54px;
+      position: relative;
+      bottom: 20px; }
+      .wrap__main .main__container .main__main .main__info-box2 .info__container {
+        width: 90%;
+        height: 100%;
+        border-radius: 5px;
+        padding-left: 20px; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__container .info__titel {
+          font-size: 14px; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__container .info__h2 {
+          font-size: 14px;
+          line-height: 24px; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__container .info__margin-h2 {
+          font-size: 20px;
+          line-height: 36px;
+          margin-top: 15px; }
+      .wrap__main .main__container .main__main .main__info-box2 .info__maps {
+        width: 25%;
+        height: 100%; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__maps .maps__img {
+          position: relative;
+          left: 5%;
+          cursor: pointer; }
+  .wrap__main .main__line {
+    width: 100%;
+    height: 2vh; }
+  .wrap__main .main__taskbar {
+    width: 100%;
+    height: 12vh;
+    padding-left: 40px;
+    padding-right: 40px; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__img {
+      width: 30px;
+      height: 30px; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__titiel {
+      font-size: 14px;
+      margin-top: 5px; } }
+@media screen and (max-width: 660px) {
+  .wrap__main .main__container .main__header {
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__container .main__header .header__icon-box {
+      width: 60px;
+      height: 60px;
+      border-radius: 5px; }
+      .wrap__main .main__container .main__header .header__icon-box .icon__img {
+        width: 30px;
+        height: 30px; }
+    .wrap__main .main__container .main__header .header__login {
+      font-size: 26px;
+      line-height: 36px; }
+  .wrap__main .main__container .main__main {
+    width: 100%;
+    height: 80%;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__container .main__main .main__info-box {
+      width: 100%;
+      height: 130px;
+      margin-top: 30px;
+      position: relative;
+      bottom: 0px; }
+      .wrap__main .main__container .main__main .main__info-box .info__container {
+        width: 90%;
+        height: 100%;
+        border-radius: 5px;
+        padding-left: 20px; }
+        .wrap__main .main__container .main__main .main__info-box .info__container .info__titel {
+          font-size: 20px;
+          line-height: 36px; }
+        .wrap__main .main__container .main__main .main__info-box .info__container .info__h2 {
+          font-size: 14px;
+          line-height: 24px; }
+        .wrap__main .main__container .main__main .main__info-box .info__container .info__margin-h2 {
+          margin-top: 15px; }
+      .wrap__main .main__container .main__main .main__info-box .info__maps {
+        width: 35%;
+        height: 100%;
+        background-image: url(../img/maps.svg); }
+        .wrap__main .main__container .main__main .main__info-box .info__maps .maps__img {
+          position: relative;
+          left: 5%; }
+    .wrap__main .main__container .main__main .main__info-box2 {
+      width: 100%;
+      height: 130px;
+      margin-top: 54px;
+      position: relative;
+      bottom: 20px; }
+      .wrap__main .main__container .main__main .main__info-box2 .info__container {
+        width: 90%;
+        height: 100%;
+        border-radius: 5px;
+        padding-left: 20px; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__container .info__titel {
+          font-size: 14px; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__container .info__h2 {
+          font-size: 14px;
+          line-height: 24px; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__container .info__margin-h2 {
+          font-size: 20px;
+          line-height: 36px;
+          margin-top: 15px; }
+      .wrap__main .main__container .main__main .main__info-box2 .info__maps {
+        width: 35%;
+        height: 100%; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__maps .maps__img {
+          position: relative;
+          left: 5%;
+          cursor: pointer; }
+  .wrap__main .main__icon-picture .main__header {
+    width: 100%;
+    height: 30%;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__icon-picture .main__header .header__icon-box {
+      width: 75px;
+      height: 75px;
+      border-radius: 50%; }
+      .wrap__main .main__icon-picture .main__header .header__icon-box #file {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 15px; }
+      .wrap__main .main__icon-picture .main__header .header__icon-box .icon__img {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 5px;
+        left: 5px; }
+    .wrap__main .main__icon-picture .main__header .header__login {
+      font-size: 30px;
+      line-height: 36px;
+      margin-top: 15px; }
+  .wrap__main .main__icon-picture .main__main {
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__icon-picture .main__main .main__info-box {
+      width: 100%;
+      height: 140px;
+      margin-top: 10px;
+      display: flex; }
+      .wrap__main .main__icon-picture .main__main .main__info-box .info__container {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        padding-left: 15px;
+        padding-top: 15px; }
+        .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__titel {
+          font-size: 20px;
+          line-height: 36px;
+          letter-spacing: 0.21em;
+          color: #FFFFFF; }
+        .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box {
+          display: flex;
+          margin-top: 10px; }
+          .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box .email__bg {
+            width: 60px;
+            height: 60px; }
+            .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box .email__bg .email__img {
+              width: 30px;
+              height: 30px;
+              position: relative;
+              right: 0.2px; }
+          .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box .email__text .email__text {
+            font-size: 18px;
+            line-height: 30px;
+            margin-left: 20px; }
+          .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box .email__text .info__email {
+            font-size: 20px;
+            line-height: 36px;
+            margin-left: 20px; }
+    .wrap__main .main__icon-picture .main__main .main__top {
+      width: 100%;
+      height: 80px;
+      border-radius: 5px;
+      margin-top: 15px;
+      padding-left: 15px; }
+      .wrap__main .main__icon-picture .main__main .main__top .top__box-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 4px; }
+        .wrap__main .main__icon-picture .main__main .main__top .top__box-img .top__img {
+          width: 25px;
+          height: 25px; }
+      .wrap__main .main__icon-picture .main__main .main__top .top__text {
+        font-size: 20px;
+        line-height: 39px;
+        margin-left: 20px; }
+  .wrap__main .main__line {
+    width: 100%;
+    height: 2vh; }
+  .wrap__main .main__taskbar {
+    width: 100%;
+    height: 12vh;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__img {
+      width: 25px;
+      height: 25px; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__titiel {
+      font-size: 14px;
+      margin-top: 5px; } }
+@media screen and (max-width: 540px) {
+  .wrap__main .main__container .main__header {
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__container .main__header .header__icon-box {
+      width: 60px;
+      height: 60px;
+      border-radius: 5px; }
+      .wrap__main .main__container .main__header .header__icon-box .icon__img {
+        width: 30px;
+        height: 30px; }
+    .wrap__main .main__container .main__header .header__login {
+      font-size: 24px;
+      line-height: 36px; }
+  .wrap__main .main__container .main__main {
+    width: 100%;
+    height: 80%;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__container .main__main .main__info-box {
+      width: 100%;
+      height: 130px;
+      margin-top: 30px;
+      position: relative;
+      bottom: 0px; }
+      .wrap__main .main__container .main__main .main__info-box .info__container {
+        width: 90%;
+        height: 100%;
+        border-radius: 5px;
+        padding-left: 15px; }
+        .wrap__main .main__container .main__main .main__info-box .info__container .info__titel {
+          font-size: 18px;
+          line-height: 36px; }
+        .wrap__main .main__container .main__main .main__info-box .info__container .info__h2 {
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: 0.15em; }
+        .wrap__main .main__container .main__main .main__info-box .info__container .info__margin-h2 {
+          margin-top: 15px; }
+      .wrap__main .main__container .main__main .main__info-box .info__maps {
+        width: 35%;
+        height: 100%;
+        background-image: url(../img/maps.svg); }
+        .wrap__main .main__container .main__main .main__info-box .info__maps .maps__img {
+          width: 50px;
+          height: 50px;
+          position: relative;
+          left: 5%; }
+    .wrap__main .main__container .main__main .main__info-box2 {
+      width: 100%;
+      height: 130px;
+      margin-top: 54px;
+      position: relative;
+      bottom: 20px; }
+      .wrap__main .main__container .main__main .main__info-box2 .info__container {
+        width: 90%;
+        height: 100%;
+        border-radius: 5px;
+        padding-left: 15px; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__container .info__titel {
+          font-size: 14px; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__container .info__h2 {
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: 0.15em; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__container .info__margin-h2 {
+          font-size: 18px;
+          line-height: 36px;
+          margin-top: 15px; }
+      .wrap__main .main__container .main__main .main__info-box2 .info__maps {
+        width: 35%;
+        height: 100%; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__maps .maps__img {
+          width: 50px;
+          height: 50px;
+          position: relative;
+          left: 5%;
+          cursor: pointer; }
+  .wrap__main .main__line {
+    width: 100%;
+    height: 2vh; }
+  .wrap__main .main__taskbar {
+    width: 100%;
+    height: 12vh;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__img {
+      width: 25px;
+      height: 25px; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__titiel {
+      font-size: 14px;
+      margin-top: 5px; } }
+@media screen and (max-width: 470px) {
+  .wrap__main .main__container .main__header {
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__container .main__header .header__icon-box {
+      width: 55px;
+      height: 55px;
+      border-radius: 5px; }
+      .wrap__main .main__container .main__header .header__icon-box .icon__img {
+        width: 25px;
+        height: 25px; }
+    .wrap__main .main__container .main__header .header__login {
+      font-size: 20px;
+      line-height: 36px; }
+  .wrap__main .main__container .main__main {
+    width: 100%;
+    height: 80%;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__container .main__main .main__info-box {
+      width: 100%;
+      height: 110px;
+      margin-top: 30px;
+      position: relative;
+      bottom: 0px; }
+      .wrap__main .main__container .main__main .main__info-box .info__container {
+        width: 90%;
+        height: 100%;
+        border-radius: 5px;
+        padding-left: 15px;
+        padding-right: 5px; }
+        .wrap__main .main__container .main__main .main__info-box .info__container .info__titel {
+          font-size: 16px;
+          line-height: 20px;
+          letter-spacing: 0.1em; }
+        .wrap__main .main__container .main__main .main__info-box .info__container .info__h2 {
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 0em;
+          margin-top: 10px; }
+        .wrap__main .main__container .main__main .main__info-box .info__container .info__margin-h2 {
+          margin-top: 10px;
+          display: none; }
+      .wrap__main .main__container .main__main .main__info-box .info__maps {
+        width: 45%;
+        height: 100%;
+        background-image: url(../img/maps.svg); }
+        .wrap__main .main__container .main__main .main__info-box .info__maps .maps__img {
+          width: 40px;
+          height: 40px;
+          position: relative;
+          left: 5%; }
+    .wrap__main .main__container .main__main .main__info-box2 {
+      width: 100%;
+      height: 110px;
+      margin-top: 54px;
+      position: relative;
+      bottom: 20px; }
+      .wrap__main .main__container .main__main .main__info-box2 .info__container {
+        width: 90%;
+        height: 100%;
+        border-radius: 5px;
+        padding-left: 15px; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__container .info__titel {
+          font-size: 14px; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__container .info__h2 {
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: 0em; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__container .info__margin-h2 {
+          font-size: 16px;
+          line-height: 30px;
+          margin-top: 15px;
+          letter-spacing: 0.1em; }
+      .wrap__main .main__container .main__main .main__info-box2 .info__maps {
+        width: 40%;
+        height: 100%; }
+        .wrap__main .main__container .main__main .main__info-box2 .info__maps .maps__img {
+          width: 40px;
+          height: 40px;
+          position: relative;
+          left: 5%;
+          cursor: pointer; }
+  .wrap__main .main__icon-picture .main__header {
+    width: 100%;
+    height: 30%;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__icon-picture .main__header .header__icon-box {
+      width: 75px;
+      height: 75px;
+      border-radius: 50%; }
+      .wrap__main .main__icon-picture .main__header .header__icon-box #file {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 15px; }
+      .wrap__main .main__icon-picture .main__header .header__icon-box .icon__img {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 5px;
+        left: 5px; }
+    .wrap__main .main__icon-picture .main__header .header__login {
+      font-size: 26px;
+      line-height: 36px;
+      margin-top: 15px; }
+  .wrap__main .main__icon-picture .main__main {
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__icon-picture .main__main .main__info-box {
+      width: 100%;
+      height: 140px;
+      margin-top: 10px;
+      display: flex; }
+      .wrap__main .main__icon-picture .main__main .main__info-box .info__container {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        padding-left: 15px;
+        padding-top: 15px; }
+        .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__titel {
+          font-size: 18px;
+          line-height: 36px;
+          letter-spacing: 0.21em;
+          color: #FFFFFF; }
+        .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box {
+          display: flex;
+          margin-top: 10px; }
+          .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box .email__bg {
+            width: 60px;
+            height: 60px; }
+            .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box .email__bg .email__img {
+              width: 30px;
+              height: 30px;
+              position: relative;
+              right: 0.2px; }
+          .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box .email__text .email__text {
+            font-size: 16px;
+            line-height: 25px;
+            margin-left: 20px;
+            letter-spacing: 0.1em; }
+          .wrap__main .main__icon-picture .main__main .main__info-box .info__container .info__email-box .email__text .info__email {
+            font-size: 18px;
+            line-height: 30px;
+            margin-left: 20px;
+            letter-spacing: 0.1em; }
+    .wrap__main .main__icon-picture .main__main .main__top {
+      width: 100%;
+      height: 80px;
+      border-radius: 5px;
+      margin-top: 15px;
+      padding-left: 15px; }
+      .wrap__main .main__icon-picture .main__main .main__top .top__box-img {
+        width: 45px;
+        height: 45px;
+        border-radius: 4px; }
+        .wrap__main .main__icon-picture .main__main .main__top .top__box-img .top__img {
+          width: 20px;
+          height: 20px; }
+      .wrap__main .main__icon-picture .main__main .main__top .top__text {
+        font-size: 18px;
+        line-height: 39px;
+        margin-left: 20px; }
+  .wrap__main .main__line {
+    width: 100%;
+    height: 2vh; }
+  .wrap__main .main__taskbar {
+    width: 100%;
+    height: 12vh;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__img {
+      width: 25px;
+      height: 25px; }
+    .wrap__main .main__taskbar .taskbar__box .taskbar__titiel {
+      font-size: 12px;
+      margin-top: 5px; } }
+
+/*# sourceMappingURL=style.css.map */
