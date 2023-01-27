@@ -14,4 +14,4 @@
 
 ---
 
-https://dizer2.github.io/Meta/
+https://monobank-app.netlify.app/
