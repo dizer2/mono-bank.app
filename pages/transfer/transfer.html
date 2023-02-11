@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="../../style.css">
+	<link rel="stylesheet" href="./style/style.css">
+	<link rel="icon" href="../../img/main__img/logo.png">
+	<title>monobank</title>
+</head>
+<body>
+	<div class="wrap__main">
+		<div class="cursor outer"></div>
+		<div class="cursor inner"></div>
+		<div class="main__header-users">
+		<div class="users__container link">
+			<div class="users__icon"></div>
+			<div class="users__text">
+				<p class="users__login">Yurii Tovarnytskiy</p>
+				<div class="users__mono">
+					<p>mono</p>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="main__header">
+			<p class="header__titel">Transfer to the card</p>
+			<p class="header__description">Enter the number of the card to which you want to transfer money</p>
+			<div class="header__display">
+			<input id="cardInput" class="header__input" type="text" placeholder="..." maxlength="16">
+			<img class="main__next link" src="./img/next.svg" alt="svg">
+			</div>
+		</div>
+		<div class="main__info">
+			<img class="info__cat" src="./img/cat.svg" alt="cat">
+			<div class="info__users-info">
+				<p class="users__found">Found</p>
+				<div class="users__container link">
+					<div class="users__icon"></div>
+					<div class="users__text">
+						<p class="users__login">Yurii Tovarnytskiy</p>
+						<div class="users__mono">
+							<p>mono</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="info__card-box">
+				<div class="info__text-box">
+				<p class="info__titel">Balance </p><span id="yourMoneytext">100</span><p class="dollar">$</p>
+				</div>
+				<div class="info__container">
+					<img class="info__card" src="./img/card.svg" alt="card">
+					<input id="info__input" class="info__input" type="text" placeholder="0">
+				</div>
+				<button class="info__button">transfer funds</button>
+			</div>
+
+		</div>
+		<div class="main__line"></div>
+		<div class="main__taskbar">
+			<div class="taskbar__box card__taskbar">
+				<div class="taskbar__img card__taskbar__img"></div>
+				<p class="taskbar__titiel">Card</p>
+			</div>
+			<div class="taskbar__box credit__taskbar">
+				<div class="taskbar__img credit__taskbar__img"></div>
+				<p class="taskbar__titiel">Credit</p>
+			</div>
+			<div class="taskbar__box transfers__taskbar">
+				<div class="taskbar__img transfers__taskbar__img-hover"></div>
+				<p class="taskbar__titiel card__taskbar__text">Credit transfers</p>
+			</div>
+			<div class="taskbar__box gift__taskbar">
+				<div class="taskbar__img gift__img"></div>
+
+				<p class="taskbar__titiel">Gift</p>
+			</div>
+			<div class="taskbar__box more__taskbar">
+				<div class="taskbar__img more__img"></div>
+
+				<p class="taskbar__titiel">More</p>
+			</div>
+		</div>
+	</div>
+
+	
+
+
+
+
+<!-- Scripts -->
+
+<script src="../../script.js"></script>
+<script src="./script/script.js"></script>
+</body>
+</html>

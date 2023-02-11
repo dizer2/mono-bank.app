@@ -1,0 +1,1588 @@
+body{
+	max-width: 100%;
+	max-height: 100vh;
+	overflow: hidden;
+}
+
+.wrap__main{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(261.27deg, #5D5CB9 22.7%, #5352B0 59.13%, #4D4BAC 95.56%);
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 1s;
+	z-index: 999;
+	.main__header-users{
+		width: 100%;
+		height: 30vh;
+		display: flex;
+		flex-direction: column;
+		padding-top: 25px;
+		padding-left: 40px;
+		padding-right: 40px;
+		position: relative;
+		top: 20px;
+		.users__container{
+			width: 100%;
+			height: auto;
+			border-radius: 12px;
+			display: flex;
+			align-items: center;
+			padding-left: 20px;
+			margin-top: 10px;
+			.users__icon{
+				width: 80px;
+				height: 80px;
+				background-size: cover;
+				border-radius: 50%;
+				background-image: url(../../../img/main__img/icon__users.svg);
+			}
+			.users__text{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				margin-left: 15px;
+				.users__login{
+				font-family: 'Poppins';
+				font-style: normal;
+				font-weight: 600;
+				font-size: 32px;
+				line-height: 30px;
+				letter-spacing: 0.08em;
+				color: #FFFFFF;
+				margin-bottom: 2px;
+
+				}
+				.users__mono{
+					width: 120px;
+					height: 35px;
+					background: #F55458;
+					border-radius: 30px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					font-family: 'Poppins';
+					font-style: normal;
+					font-weight: 800;
+					font-size: 16px;
+					line-height: 21px;
+					letter-spacing: 0.08em;
+					color: #FFFFFF;
+					margin-top: 5px;
+					
+				}
+			}
+		}
+
+	}
+	.main__header{
+		width: 100%;
+		height: 30vh;
+		display: flex;
+		flex-direction: column;
+		padding-top: 25px;
+		padding-left: 40px;
+		.header__titel{
+			font-family: 'Comfortaa';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 32px;
+			line-height: 36px;
+			letter-spacing: 0.08em;
+			color: #FFFFFF;
+
+		}
+		.header__description{
+			font-family: 'Comfortaa';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 22px;
+			letter-spacing: 0.08em;
+			color: #E6E6E6;
+			margin-top: 5px;
+		}
+		.header__display{
+			display: flex;
+			align-items: center;
+			.header__input{
+				width: 626px;
+				height: 50px;
+				background-color: transparent;
+				outline: none;
+				border: none;
+				border-bottom: 3px solid #fff;
+				margin-top: 40px;
+				font-family: 'Comfortaa';
+				font-style: normal;
+				font-weight: 700;
+				font-size: 36px;
+				line-height: 40px;
+				letter-spacing: 0.345em;
+				color: #FFFFFF;
+	
+			}
+			.main__next{
+				width: 100px;
+				height: 100px;
+				margin-left: 5%;
+				position: relative;
+				top: 10px;
+			}
+		}
+		
+	}
+	.main__info{
+		width: 100%;
+		height: 56vh;
+		background: #1E1E1E;
+		border-radius: 35px 35px 0px 0px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+
+		.info__cat{
+			width: 180px;
+			height: 180px;
+		}
+		.info__users-info{
+			width: 100%;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			padding-left: 40px;
+			padding-right: 40px;
+			padding-top: 25px;
+			.users__found{
+				font-family: 'Poppins';
+				font-style: normal;
+				font-weight: 500;
+				font-size: 24px;
+				line-height: 36px;
+				letter-spacing: 0.08em;
+				color: #A9A9A9;
+
+			}
+			.users__container{
+				width: 100%;
+				height: 100px;
+				background: #2F2F2F;
+				border-radius: 12px;
+				display: flex;
+				align-items: center;
+				padding-left: 20px;
+				margin-top: 10px;
+				.users__icon{
+					width: 65px;
+					height: 65px;
+					background-size: cover;
+					border-radius: 50%;
+					background-image: url(../../../img/main__img/icon__users.svg);
+				}
+				.users__text{
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					margin-left: 15px;
+					.users__login{
+					font-family: 'Poppins';
+					font-style: normal;
+					font-weight: 600;
+					font-size: 20px;
+					line-height: 30px;
+					letter-spacing: 0.08em;
+					color: #FFFFFF;
+					margin-bottom: 2px;
+
+					}
+					.users__mono{
+						width: 95px;
+						height: 25px;
+						background: #F55458;
+						border-radius: 30px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						font-family: 'Poppins';
+						font-style: normal;
+						font-weight: 800;
+						font-size: 14px;
+						line-height: 21px;
+						letter-spacing: 0.08em;
+						color: #FFFFFF;
+						margin-top: 2px;
+						
+					}
+				}
+			}
+		}
+		.info__card-box{
+			width: 100%;
+			font-family: 'Poppins';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 24px;
+			line-height: 36px;
+			letter-spacing: 0.08em;
+			color: #FFFFFF;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			.info__text-box{
+				display: flex;
+			.info__titel{
+				width: 120px;
+			}
+		    }
+			.info__container{
+				display: flex;
+				margin-top: 25px;
+				align-items: center;
+				position: relative;
+				left: 50px;
+				.info__card{
+					width: 130px;
+					height: 100px;
+					margin-right: 15px;
+				}
+				.info__input{
+					font-family: 'Comfortaa';
+					font-style: normal;
+					font-weight: 700;
+					font-size: 64px;
+					line-height: 107px;
+					letter-spacing: 0.08em;
+					color: #FFFFFF;
+					width: 200px;
+					height: 70px;
+					background-color: transparent;
+					border: none;
+					outline: none;
+					margin-left: 15px;
+					&::placeholder{
+						color: #fff;
+					}
+
+
+
+				}
+				.info__input__eror{
+					&::placeholder{
+						color: red;
+					}
+
+					
+
+				}
+			}
+			.info__button{
+				width: 251px;
+				height: 75px;
+				background: #5A59B6;
+				border-radius: 7px;
+				border: none;
+				cursor: pointer;
+				font-family: 'Poppins';
+				font-style: normal;
+				font-weight: 500;
+				font-size: 20px;
+				line-height: 36px;
+				letter-spacing: 0.08em;
+				color: #FFFFFF;
+				margin-top: 40px;
+			}
+
+		}
+	
+	}
+	.main__line{
+		width: 100%;
+		height: 2vh;
+		background: #2E8ABB;
+	}
+	.main__taskbar{
+		width: 100%;
+		height: 12vh;
+		background: #272727;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-left: 40px;
+		padding-right: 40px;
+		.taskbar__box{
+			width: auto;
+			height: auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			cursor: pointer;
+			.taskbar__img{
+				width: 35px;
+				height: 35px;
+				background-size: cover;
+			}
+			.card__taskbar__img{
+				background-image: url(../../main__img/card.svg);
+				transition: 0.4s;
+
+			}
+			.card__taskbar__img-hover{
+				background-image: url(../../main__img/card__hover.svg);
+				transition: 0.4s;
+
+
+			}
+			.credit__taskbar__img{
+				background-image: url(../../main__img/credit.svg);
+				transition: 0.4s;
+
+			}
+			.credit__taskbar__img-hover{
+				background-image: url(../../main__img/credit__hover.svg);
+				transition: 0.4s;
+
+			}
+			.transfers__taskbar__img{
+				background-image: url(../../main__img/transfer.svg);
+				transition: 0.4s;
+
+			}
+			.transfers__taskbar__img-hover{
+				background-image: url(../../main__img/transfer__hover.svg);
+				transition: 0.4s;
+
+			}
+			.gift__img{
+				background-image: url(../../main__img/gift.svg);
+				transition: 0.4s;
+
+			}
+			.gift__img-hover{
+				background-image: url(../../main__img/gift__hover.svg);
+				transition: 0.4s;
+
+			}
+			.more__img{
+				background-image: url(../../main__img/more.svg);
+				transition: 0.4s;
+
+			}
+			.more__img-hover{
+				background-image: url(../../main__img/more__hover.svg);
+				transition: 0.4s;
+
+			}
+			.taskbar__titiel{
+				font-family: 'Poppins';
+				font-style: normal;
+				font-weight: 500;
+				font-size: 14px;
+				letter-spacing: 0.08em;
+				color: #A9A9A9;
+				margin-top: 5px;
+				transition: 0.4s;
+			}
+			.card__taskbar__text{
+				color: #FB5256;
+			}
+		}
+	}
+}
+
+
+
+
+
+@media screen and(max-width: 1250px) {
+	
+
+
+	.wrap__main{
+		.main__header-users{
+			padding-top: 25px;
+			padding-left: 40px;
+			padding-right: 40px;
+			position: relative;
+			top: 20px;
+			.users__container{
+				border-radius: 12px;
+				padding-left: 20px;
+				margin-top: 10px;
+				.users__icon{
+					width: 80px;
+					height: 80px;
+					background-image: url(../../../img/main__img/icon__users.svg);
+				}
+				.users__text{
+					margin-left: 15px;
+					.users__login{
+					font-size: 32px;
+					margin-bottom: 2px;
+	
+					}
+					.users__mono{
+						width: 120px;
+						height: 35px;
+						border-radius: 30px;
+						font-size: 16px;
+						line-height: 21px;
+						margin-top: 5px;
+						
+					}
+				}
+			}
+	
+		}
+		.main__header{
+			padding-top: 25px;
+			padding-left: 40px;
+			.header__titel{
+				font-size: 28px;
+				line-height: 36px;
+	
+			}
+			.header__description{
+				font-size: 18px;
+				line-height: 22px;
+				margin-top: 5px;
+			}
+			.header__display{
+				.header__input{
+					width: 626px;
+					height: 50px;
+					margin-top: 10px;
+					font-size: 32px;
+					line-height: 40px;
+		
+				}
+				.main__next{
+					width: 80px;
+					height: 80px;
+					margin-left: 3%;
+					position: relative;
+					top: 10px;
+				}
+			}
+			
+		}
+		.main__info{
+			width: 100%;
+			height: 56vh;
+			border-radius: 35px 35px 0px 0px;
+	
+	
+			.info__cat{
+				width: 160px;
+				height: 160px;
+			}
+			.info__users-info{
+				padding-left: 40px;
+				padding-right: 40px;
+				padding-top: 25px;
+				.users__found{
+					font-size: 24px;
+					line-height: 36px;
+	
+				}
+				.users__container{
+					border-radius: 12px;
+					padding-left: 20px;
+					margin-top: 10px;
+					.users__icon{
+						width: 65px;
+						height: 65px;
+						background-image: url(../../../img/main__img/icon__users.svg);
+					}
+					.users__text{
+						margin-left: 15px;
+						.users__login{
+						font-size: 20px;
+						line-height: 30px;
+						margin-bottom: 2px;
+	
+						}
+						.users__mono{
+							width: 95px;
+							height: 25px;
+							border-radius: 30px;
+							font-size: 14px;
+							margin-top: 2px;
+							
+						}
+					}
+				}
+			}
+			.info__card-box{
+				font-size: 24px;
+				line-height: 36px;
+				.info__text-box{
+					display: flex;
+				.info__titel{
+					width: 120px;
+				}
+				}
+				.info__container{
+					display: flex;
+					margin-top: 25px;
+					align-items: center;
+					position: relative;
+					left: 50px;
+					.info__card{
+						width: 130px;
+						height: 100px;
+						margin-right: 15px;
+					}
+					.info__input{
+						font-size: 64px;
+						line-height: 107px;
+						width: 200px;
+						height: 70px;
+						margin-left: 15px;
+	
+	
+	
+					}
+				}
+				.info__button{
+					width: 230px;
+					height: 65px;
+					font-size: 18px;
+					margin-top: 30px;
+				}
+	
+			}
+		
+		}
+		.main__line{
+			width: 100%;
+			height: 2vh;
+			background: #2E8ABB;
+		}
+		.main__taskbar{
+			padding-left: 40px;
+			padding-right: 40px;
+			.taskbar__box{
+				.taskbar__img{
+					width: 35px;
+					height: 35px;
+					background-size: cover;
+				}
+				.taskbar__titiel{
+					font-size: 14px;
+					margin-top: 5px;
+					transition: 0.4s;
+				}
+			}
+		}
+	}
+	
+
+
+
+
+
+
+
+
+
+
+	
+}
+
+
+
+
+@media screen and(max-width: 1100px) {
+	
+
+
+	.wrap__main{
+		.main__header-users{
+			padding-top: 25px;
+			padding-left: 40px;
+			padding-right: 40px;
+			position: relative;
+			top: 20px;
+			.users__container{
+				border-radius: 12px;
+				padding-left: 20px;
+				margin-top: 10px;
+				.users__icon{
+					width: 80px;
+					height: 80px;
+				}
+				.users__text{
+					margin-left: 15px;
+					.users__login{
+					font-size: 32px;
+					margin-bottom: 2px;
+	
+					}
+					.users__mono{
+						width: 120px;
+						height: 35px;
+						border-radius: 30px;
+						font-size: 16px;
+						line-height: 21px;
+						margin-top: 5px;
+						
+					}
+				}
+			}
+	
+		}
+		.main__header{
+			padding-top: 25px;
+			padding-left: 40px;
+			.header__titel{
+				font-size: 28px;
+				line-height: 36px;
+	
+			}
+			.header__description{
+				font-size: 18px;
+				line-height: 22px;
+				margin-top: 5px;
+			}
+			.header__display{
+				.header__input{
+					width: 590px;
+					height: 52px;
+					margin-top: 10px;
+					font-size: 30px;
+					line-height: 40px;
+		
+				}
+				.main__next{
+					width: 80px;
+					height: 80px;
+					margin-left: 3%;
+					position: relative;
+					top: 10px;
+				}
+			}
+			
+		}
+		.main__info{
+			width: 100%;
+			height: 56vh;
+			border-radius: 25px 25px 0px 0px;
+	
+	
+			.info__cat{
+				width: 160px;
+				height: 160px;
+			}
+			.info__users-info{
+				padding-left: 40px;
+				padding-right: 40px;
+				padding-top: 25px;
+				.users__found{
+					font-size: 24px;
+					line-height: 36px;
+	
+				}
+				.users__container{
+					border-radius: 12px;
+					padding-left: 20px;
+					margin-top: 10px;
+					.users__icon{
+						width: 65px;
+						height: 65px;
+						background-image: url(../../../img/main__img/icon__users.svg);
+					}
+					.users__text{
+						margin-left: 15px;
+						.users__login{
+						font-size: 20px;
+						line-height: 30px;
+						margin-bottom: 2px;
+	
+						}
+						.users__mono{
+							width: 95px;
+							height: 25px;
+							border-radius: 30px;
+							font-size: 14px;
+							margin-top: 2px;
+							
+						}
+					}
+				}
+			}
+			.info__card-box{
+				font-size: 24px;
+				line-height: 36px;
+				.info__text-box{
+					display: flex;
+				.info__titel{
+					width: 120px;
+				}
+				}
+				.info__container{
+					display: flex;
+					margin-top: 25px;
+					align-items: center;
+					position: relative;
+					left: 50px;
+					.info__card{
+						width: 130px;
+						height: 100px;
+						margin-right: 15px;
+					}
+					.info__input{
+						font-size: 64px;
+						line-height: 107px;
+						width: 200px;
+						height: 70px;
+						margin-left: 15px;
+	
+	
+	
+					}
+				}
+				.info__button{
+					width: 230px;
+					height: 65px;
+					font-size: 18px;
+					margin-top: 30px;
+				}
+	
+			}
+		
+		}
+		.main__line{
+			width: 100%;
+			height: 2vh;
+			background: #2E8ABB;
+		}
+		.main__taskbar{
+			padding-left: 40px;
+			padding-right: 40px;
+			.taskbar__box{
+				.taskbar__img{
+					width: 30px;
+					height: 30px;
+					background-size: cover;
+				}
+				.taskbar__titiel{
+					font-size: 14px;
+					margin-top: 5px;
+					transition: 0.4s;
+				}
+			}
+		}
+	}
+	
+
+
+
+
+
+
+
+
+
+
+	
+}
+
+
+
+
+@media screen and(max-width: 850px) {
+	
+
+
+	.wrap__main{
+		.main__header-users{
+			padding-top: 25px;
+			padding-left: 20px;
+			padding-right: 20px;
+			position: relative;
+			top: 20px;
+			.users__container{
+				border-radius: 12px;
+				padding-left: 20px;
+				margin-top: 10px;
+				.users__icon{
+					width: 70px;
+					height: 70px;
+				}
+				.users__text{
+					margin-left: 15px;
+					.users__login{
+					font-size: 28px;
+					margin-bottom: 2px;
+	
+					}
+					.users__mono{
+						width: 100px;
+						height: 30px;
+						border-radius: 20px;
+						font-size: 15px;
+						line-height: 21px;
+						margin-top: 5px;
+						
+					}
+				}
+			}
+	
+		}
+		.main__header{
+			padding-top: 25px;
+			padding-left: 20px;
+			.header__titel{
+				font-size: 24px;
+				line-height: 36px;
+	
+			}
+			.header__description{
+				font-size: 16px;
+				line-height: 22px;
+				margin-top: 5px;
+			}
+			.header__display{
+				.header__input{
+					width: 500px;
+					height: 52px;
+					margin-top: 10px;
+					font-size: 30px;
+					line-height: 40px;
+		
+				}
+				.main__next{
+					width: 70px;
+					height: 70px;
+					margin-left: 3%;
+					position: relative;
+					top: 10px;
+				}
+			}
+			
+		}
+		.main__info{
+			width: 100%;
+			height: 56vh;
+			border-radius: 25px 25px 0px 0px;
+	
+	
+			.info__cat{
+				width: 120px;
+				height: 120px;
+			}
+			.info__users-info{
+				padding-left: 20px;
+				padding-right: 20px;
+				padding-top: 25px;
+				.users__found{
+					font-size: 24px;
+					line-height: 36px;
+	
+				}
+				.users__container{
+					border-radius: 12px;
+					padding-left: 20px;
+					margin-top: 10px;
+					.users__icon{
+						width: 65px;
+						height: 65px;
+						background-image: url(../../../img/main__img/icon__users.svg);
+					}
+					.users__text{
+						margin-left: 15px;
+						.users__login{
+						font-size: 20px;
+						line-height: 30px;
+						margin-bottom: 2px;
+	
+						}
+						.users__mono{
+							width: 95px;
+							height: 25px;
+							border-radius: 30px;
+							font-size: 14px;
+							margin-top: 2px;
+							
+						}
+					}
+				}
+			}
+			.info__card-box{
+				font-size: 20px;
+				line-height: 36px;
+				.info__text-box{
+					display: flex;
+				.info__titel{
+					width: 100px;
+				}
+				}
+				.info__container{
+					display: flex;
+					margin-top: 25px;
+					align-items: center;
+					position: relative;
+					left: 50px;
+					.info__card{
+						width: 80px;
+						height: 80px;
+						margin-right: 15px;
+					}
+					.info__input{
+						font-size: 36px;
+						line-height: 107px;
+						width: 170px;
+						height: 60px;
+						margin-left: 15px;
+	
+	
+					}
+				}
+				.info__button{
+					width: 180px;
+					height: 50px;
+					font-size: 18px;
+					margin-top: 30px;
+				}
+	
+			}
+		
+		}
+		.main__line{
+			width: 100%;
+			height: 2vh;
+			background: #2E8ABB;
+		}
+		.main__taskbar{
+			padding-left: 20px;
+			padding-right: 20px;
+			.taskbar__box{
+				.taskbar__img{
+					width: 30px;
+					height: 30px;
+					background-size: cover;
+				}
+				.taskbar__titiel{
+					font-size: 14px;
+					margin-top: 5px;
+					transition: 0.4s;
+				}
+			}
+		}
+	}
+	
+
+
+
+
+
+
+
+
+
+
+	
+}
+
+
+
+@media screen and(max-width: 700px) {
+	
+
+
+	.wrap__main{
+		.main__header-users{
+			padding-top: 25px;
+			padding-left: 20px;
+			padding-right: 20px;
+			position: relative;
+			top: 20px;
+			.users__container{
+				border-radius: 12px;
+				padding-left: 10px;
+				margin-top: 10px;
+				.users__icon{
+					width: 70px;
+					height: 70px;
+				}
+				.users__text{
+					margin-left: 15px;
+					.users__login{
+					font-size: 26px;
+					margin-bottom: 2px;
+	
+					}
+					.users__mono{
+						width: 100px;
+						height: 30px;
+						border-radius: 20px;
+						font-size: 15px;
+						line-height: 21px;
+						margin-top: 5px;
+						
+					}
+				}
+			}
+	
+		}
+		.main__header{
+			padding-top: 25px;
+			padding-left: 20px;
+			padding-right: 40px;
+			.header__titel{
+				font-size: 24px;
+				line-height: 36px;
+	
+			}
+			.header__description{
+				font-size: 16px;
+				line-height: 22px;
+				margin-top: 5px;
+			}
+			.header__display{
+				.header__input{
+					width: 400px;
+					height: 50px;
+					margin-top: 0px;
+					font-size: 26px;
+					line-height: 30px;
+		
+				}
+				.main__next{
+					width: 70px;
+					height: 70px;
+					margin-left: 3%;
+					position: relative;
+					top: 5px;
+				}
+			}
+			
+		}
+		.main__info{
+			width: 100%;
+			height: 56vh;
+			border-radius: 25px 25px 0px 0px;
+	
+	
+			.info__cat{
+				width: 120px;
+				height: 120px;
+			}
+			.info__users-info{
+				padding-left: 20px;
+				padding-right: 20px;
+				padding-top: 25px;
+				.users__found{
+					font-size: 22px;
+					line-height: 36px;
+	
+				}
+				.users__container{
+					border-radius: 12px;
+					padding-left: 10px;
+					margin-top: 10px;
+					.users__icon{
+						width: 65px;
+						height: 65px;
+						background-image: url(../../../img/main__img/icon__users.svg);
+					}
+					.users__text{
+						margin-left: 15px;
+						.users__login{
+						font-size: 20px;
+						line-height: 30px;
+						margin-bottom: 2px;
+	
+						}
+						.users__mono{
+							width: 95px;
+							height: 25px;
+							border-radius: 30px;
+							font-size: 14px;
+							margin-top: 2px;
+							
+						}
+					}
+				}
+			}
+			.info__card-box{
+				font-size: 20px;
+				line-height: 36px;
+				.info__text-box{
+					display: flex;
+				.info__titel{
+					width: 100px;
+				}
+				}
+				.info__container{
+					display: flex;
+					margin-top: 25px;
+					align-items: center;
+					position: relative;
+					left: 50px;
+					.info__card{
+						width: 80px;
+						height: 80px;
+						margin-right: 15px;
+					}
+					.info__input{
+						font-size: 36px;
+						line-height: 107px;
+						width: 170px;
+						height: 60px;
+						margin-left: 15px;
+	
+	
+					}
+				}
+				.info__button{
+					width: 180px;
+					height: 50px;
+					font-size: 18px;
+					margin-top: 30px;
+				}
+	
+			}
+		
+		}
+		.main__line{
+			width: 100%;
+			height: 2vh;
+			background: #2E8ABB;
+		}
+		.main__taskbar{
+			padding-left: 20px;
+			padding-right: 20px;
+			.taskbar__box{
+				.taskbar__img{
+					width: 30px;
+					height: 30px;
+					background-size: cover;
+				}
+				.taskbar__titiel{
+					font-size: 14px;
+					margin-top: 5px;
+					transition: 0.4s;
+				}
+			}
+		}
+	}
+	
+
+
+
+
+
+
+
+
+
+
+	
+}
+
+
+
+
+
+
+@media screen and(max-width: 660px) {
+	
+
+
+	.wrap__main{
+		.main__header-users{
+			padding-top: 25px;
+			padding-left: 20px;
+			padding-right: 20px;
+			position: relative;
+			top: 20px;
+			.users__container{
+				border-radius: 12px;
+				padding-left: 10px;
+				margin-top: 10px;
+				.users__icon{
+					width: 70px;
+					height: 70px;
+				}
+				.users__text{
+					margin-left: 15px;
+					.users__login{
+					font-size: 26px;
+					margin-bottom: 2px;
+	
+					}
+					.users__mono{
+						width: 100px;
+						height: 30px;
+						border-radius: 20px;
+						font-size: 15px;
+						line-height: 21px;
+						margin-top: 5px;
+						
+					}
+				}
+			}
+	
+		}
+		.main__header{
+			padding-top: 25px;
+			padding-left: 20px;
+			padding-right: 40px;
+			.header__titel{
+				font-size: 24px;
+				line-height: 36px;
+	
+			}
+			.header__description{
+				font-size: 16px;
+				line-height: 22px;
+				margin-top: 5px;
+			}
+			.header__display{
+				.header__input{
+					width: 400px;
+					height: 50px;
+					margin-top: 0px;
+					font-size: 26px;
+					line-height: 30px;
+		
+				}
+				.main__next{
+					width: 70px;
+					height: 70px;
+					margin-left: 3%;
+					position: relative;
+					top: 5px;
+				}
+			}
+			
+		}
+		.main__info{
+			width: 100%;
+			height: 56vh;
+			border-radius: 25px 25px 0px 0px;
+	
+	
+			.info__cat{
+				width: 120px;
+				height: 120px;
+			}
+			.info__users-info{
+				padding-left: 20px;
+				padding-right: 20px;
+				padding-top: 25px;
+				.users__found{
+					font-size: 22px;
+					line-height: 36px;
+	
+				}
+				.users__container{
+					border-radius: 12px;
+					padding-left: 10px;
+					margin-top: 10px;
+					.users__icon{
+						width: 65px;
+						height: 65px;
+						background-image: url(../../../img/main__img/icon__users.svg);
+					}
+					.users__text{
+						margin-left: 15px;
+						.users__login{
+						font-size: 20px;
+						line-height: 30px;
+						margin-bottom: 2px;
+	
+						}
+						.users__mono{
+							width: 95px;
+							height: 25px;
+							border-radius: 30px;
+							font-size: 14px;
+							margin-top: 2px;
+							
+						}
+					}
+				}
+			}
+			.info__card-box{
+				font-size: 20px;
+				line-height: 36px;
+				.info__text-box{
+					display: flex;
+				.info__titel{
+					width: 100px;
+				}
+				}
+				.info__container{
+					display: flex;
+					margin-top: 25px;
+					align-items: center;
+					position: relative;
+					left: 50px;
+					.info__card{
+						width: 80px;
+						height: 80px;
+						margin-right: 15px;
+					}
+					.info__input{
+						font-size: 36px;
+						line-height: 107px;
+						width: 170px;
+						height: 60px;
+						margin-left: 15px;
+	
+	
+					}
+				}
+				.info__button{
+					width: 180px;
+					height: 50px;
+					font-size: 18px;
+					margin-top: 30px;
+				}
+	
+			}
+		
+		}
+		.main__line{
+			width: 100%;
+			height: 2vh;
+			background: #2E8ABB;
+		}
+		.main__taskbar{
+			padding-left: 20px;
+			padding-right: 20px;
+			.taskbar__box{
+				.taskbar__img{
+					width: 25px;
+					height: 25px;
+					background-size: cover;
+				}
+				.taskbar__titiel{
+					font-size: 14px;
+					margin-top: 5px;
+					transition: 0.4s;
+				}
+			}
+		}
+	}
+	
+
+
+
+
+
+
+
+
+
+
+	
+}
+
+
+
+
+
+
+
+@media screen and(max-width: 470px) {
+	
+
+
+	.wrap__main{
+		.main__header-users{
+			padding-top: 25px;
+			padding-left: 20px;
+			padding-right: 20px;
+			position: relative;
+			top: 20px;
+			.users__container{
+				border-radius: 12px;
+				padding-left: 10px;
+				margin-top: 10px;
+				overflow-x: auto;
+				.users__icon{
+					width: 60px;
+					height: 60px;
+				}
+				.users__text{
+					margin-left: 15px;
+					.users__login{
+					font-size: 22px;
+					margin-bottom: 2px;
+	
+					}
+					.users__mono{
+						width: 80px;
+						height: 25px;
+						border-radius: 5px;
+						font-size: 14px;
+						line-height: 21px;
+						margin-top: 5px;
+						
+					}
+				}
+			}
+	
+		}
+		.main__header{
+			padding-top: 20px;
+			padding-left: 20px;
+			padding-right: 20px;
+			.header__titel{
+				font-size: 20px;
+				line-height: 30px;
+	
+			}
+			.header__description{
+				font-size: 14px;
+				line-height: 22px;
+				margin-top: 5px;
+			}
+			.header__display{
+				.header__input{
+					width: 100%;
+					height: 45px;
+					margin-top: 0px;
+					font-size: 22px;
+					line-height: 30px;
+		
+				}
+				.main__next{
+					width: 70px;
+					height: 70px;
+					margin-left: 2%;
+					position: relative;
+					top: 5px;
+				}
+			}
+			
+		}
+		.main__info{
+			width: 100%;
+			height: 56vh;
+			border-radius: 25px 25px 0px 0px;
+	
+	
+			.info__cat{
+				width: 100px;
+				height: 100px;
+			}
+			.info__users-info{
+				padding-left: 20px;
+				padding-right: 20px;
+				padding-top: 25px;
+				.users__found{
+					font-size: 22px;
+					line-height: 36px;
+	
+				}
+				.users__container{
+					border-radius: 12px;
+					padding-left: 10px;
+					margin-top: 10px;
+					.users__icon{
+						width: 60px;
+						height: 60px;
+						background-image: url(../../../img/main__img/icon__users.svg);
+					}
+					.users__text{
+						margin-left: 15px;
+						.users__login{
+						font-size: 20px;
+						line-height: 30px;
+						margin-bottom: 2px;
+	
+						}
+						.users__mono{
+							width: 95px;
+							height: 25px;
+							border-radius: 30px;
+							font-size: 14px;
+							margin-top: 2px;
+							
+						}
+					}
+				}
+			}
+			.info__card-box{
+				font-size: 20px;
+				line-height: 36px;
+				.info__text-box{
+					display: flex;
+				.info__titel{
+					width: 100px;
+				}
+				}
+				.info__container{
+					display: flex;
+					margin-top: 25px;
+					align-items: center;
+					position: relative;
+					left: 50px;
+					.info__card{
+						width: 80px;
+						height: 80px;
+						margin-right: 15px;
+					}
+					.info__input{
+						font-size: 36px;
+						line-height: 107px;
+						width: 170px;
+						height: 60px;
+						margin-left: 15px;
+	
+	
+					}
+				}
+				.info__button{
+					width: 180px;
+					height: 50px;
+					font-size: 18px;
+					margin-top: 30px;
+				}
+	
+			}
+		
+		}
+		.main__line{
+			width: 100%;
+			height: 2vh;
+			background: #2E8ABB;
+		}
+		.main__taskbar{
+			padding-left: 20px;
+			padding-right: 20px;
+			.taskbar__box{
+				.taskbar__img{
+					width: 25px;
+					height: 25px;
+					background-size: cover;
+				}
+				.taskbar__titiel{
+					font-size: 12px;
+					margin-top: 5px;
+					transition: 0.4s;
+				}
+			}
+		}
+	}
+	
+
+
+
+
+
+
+
+
+
+
+	
+}
